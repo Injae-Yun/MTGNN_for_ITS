@@ -1,0 +1,132 @@
+2025-08-08 09:28:52 - INFO - app - 📆 date_range 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-08 09:28:52 - INFO - app - 📊 확장된 범위: 2025-03-24 ~ 2025-05-26 (총 64개 파일)
+2025-08-08 09:28:52 - INFO - app - 🔍 최대 lookback: 8일 (10135분)
+2025-08-08 09:28:52 - INFO - app - ✅ Data load skip: 총 64개 파일 저장됨
+2025-08-08 09:28:52 - INFO - app - 🔹 pivot 방법: Raw → 클러스터 텐서 (고속·저메모리)
+2025-08-08 09:29:01 - INFO - app - 🎯 pivot 방식: 전체 타임스탬프 15840 (interval=5분)
+2025-08-08 09:29:01 - INFO - app - 🔹 train 세트 처리: 9504 ts
+2025-08-08 09:29:32 - INFO - app -   ▶ train 20250325 반영 완료
+2025-08-08 09:29:59 - INFO - app -   ▶ train 20250326 반영 완료
+2025-08-08 09:30:29 - INFO - app -   ▶ train 20250327 반영 완료
+2025-08-08 09:30:57 - INFO - app -   ▶ train 20250328 반영 완료
+2025-08-08 09:31:27 - INFO - app -   ▶ train 20250329 반영 완료
+2025-08-08 09:31:54 - INFO - app -   ▶ train 20250330 반영 완료
+2025-08-08 09:32:32 - INFO - app -   ▶ train 20250331 반영 완료
+2025-08-08 09:33:22 - INFO - app -   ▶ train 20250401 반영 완료
+2025-08-08 09:34:10 - INFO - app -   ▶ train 20250402 반영 완료
+2025-08-08 09:35:01 - INFO - app -   ▶ train 20250403 반영 완료
+2025-08-08 09:35:50 - INFO - app -   ▶ train 20250404 반영 완료
+2025-08-08 09:36:41 - INFO - app -   ▶ train 20250405 반영 완료
+2025-08-08 09:37:30 - INFO - app -   ▶ train 20250406 반영 완료
+2025-08-08 09:38:18 - INFO - app -   ▶ train 20250407 반영 완료
+2025-08-08 09:39:08 - INFO - app -   ▶ train 20250408 반영 완료
+2025-08-08 09:39:58 - INFO - app -   ▶ train 20250409 반영 완료
+2025-08-08 09:40:50 - INFO - app -   ▶ train 20250410 반영 완료
+2025-08-08 09:41:40 - INFO - app -   ▶ train 20250411 반영 완료
+2025-08-08 09:42:32 - INFO - app -   ▶ train 20250412 반영 완료
+2025-08-08 09:43:18 - INFO - app -   ▶ train 20250413 반영 완료
+2025-08-08 09:44:10 - INFO - app -   ▶ train 20250414 반영 완료
+2025-08-08 09:45:01 - INFO - app -   ▶ train 20250415 반영 완료
+2025-08-08 09:45:51 - INFO - app -   ▶ train 20250416 반영 완료
+2025-08-08 09:46:43 - INFO - app -   ▶ train 20250417 반영 완료
+2025-08-08 09:47:32 - INFO - app -   ▶ train 20250418 반영 완료
+2025-08-08 09:48:23 - INFO - app -   ▶ train 20250419 반영 완료
+2025-08-08 09:48:50 - INFO - app -   ▶ train 20250420 반영 완료
+2025-08-08 09:49:34 - INFO - app -   ▶ train 20250421 반영 완료
+2025-08-08 09:50:24 - INFO - app -   ▶ train 20250422 반영 완료
+2025-08-08 09:51:14 - INFO - app -   ▶ train 20250423 반영 완료
+2025-08-08 09:52:04 - INFO - app -   ▶ train 20250424 반영 완료
+2025-08-08 09:52:52 - INFO - app -   ▶ train 20250425 반영 완료
+2025-08-08 09:53:41 - INFO - app -   ▶ train 20250426 반영 완료
+2025-08-08 09:54:21 - INFO - app -   ▶ train 20250427 반영 완료
+2025-08-08 09:55:06 - INFO - app -   ▶ train 20250428 반영 완료
+2025-08-08 09:55:46 - INFO - app -   ▶ train 20250429 반영 완료
+2025-08-08 09:56:29 - INFO - app -   ▶ train 20250430 반영 완료
+2025-08-08 09:57:09 - INFO - app -   ▶ train 20250501 반영 완료
+2025-08-08 09:57:53 - INFO - app -   ▶ train 20250502 반영 완료
+2025-08-08 09:58:27 - INFO - app -   ▶ train 20250503 반영 완료
+2025-08-08 09:58:48 - INFO - app -   ▶ train 20250504 반영 완료
+2025-08-08 09:58:48 - INFO - app - ✅ train 세트 완료
+2025-08-08 09:58:48 - INFO - app - 🔹 val 세트 처리: 3168 ts
+2025-08-08 09:59:14 - INFO - app -   ▶ val 20250427 반영 완료
+2025-08-08 09:59:43 - INFO - app -   ▶ val 20250428 반영 완료
+2025-08-08 10:00:10 - INFO - app -   ▶ val 20250429 반영 완료
+2025-08-08 10:00:40 - INFO - app -   ▶ val 20250430 반영 완료
+2025-08-08 10:01:06 - INFO - app -   ▶ val 20250501 반영 완료
+2025-08-08 10:01:36 - INFO - app -   ▶ val 20250502 반영 완료
+2025-08-08 10:02:11 - INFO - app -   ▶ val 20250503 반영 완료
+2025-08-08 10:03:01 - INFO - app -   ▶ val 20250504 반영 완료
+2025-08-08 10:03:51 - INFO - app -   ▶ val 20250505 반영 완료
+2025-08-08 10:04:40 - INFO - app -   ▶ val 20250506 반영 완료
+2025-08-08 10:05:16 - INFO - app -   ▶ val 20250507 반영 완료
+2025-08-08 10:05:39 - INFO - app -   ▶ val 20250508 반영 완료
+2025-08-08 10:06:22 - INFO - app -   ▶ val 20250509 반영 완료
+2025-08-08 10:07:07 - INFO - app -   ▶ val 20250510 반영 완료
+2025-08-08 10:07:50 - INFO - app -   ▶ val 20250511 반영 완료
+2025-08-08 10:08:35 - INFO - app -   ▶ val 20250512 반영 완료
+2025-08-08 10:09:17 - INFO - app -   ▶ val 20250513 반영 완료
+2025-08-08 10:09:56 - INFO - app -   ▶ val 20250514 반영 완료
+2025-08-08 10:10:16 - INFO - app -   ▶ val 20250515 반영 완료
+2025-08-08 10:10:16 - INFO - app - ✅ val 세트 완료
+2025-08-08 10:10:16 - INFO - app - 🔹 test 세트 처리: 3168 ts
+2025-08-08 10:10:24 - INFO - app -   ▶ test 20250508 반영 완료
+2025-08-08 10:10:52 - INFO - app -   ▶ test 20250509 반영 완료
+2025-08-08 10:11:20 - INFO - app -   ▶ test 20250510 반영 완료
+2025-08-08 10:11:48 - INFO - app -   ▶ test 20250511 반영 완료
+2025-08-08 10:12:18 - INFO - app -   ▶ test 20250512 반영 완료
+2025-08-08 10:12:45 - INFO - app -   ▶ test 20250513 반영 완료
+2025-08-08 10:13:23 - INFO - app -   ▶ test 20250514 반영 완료
+2025-08-08 10:14:15 - INFO - app -   ▶ test 20250515 반영 완료
+2025-08-08 10:15:07 - INFO - app -   ▶ test 20250516 반영 완료
+2025-08-08 10:15:57 - INFO - app -   ▶ test 20250517 반영 완료
+2025-08-08 10:16:47 - INFO - app -   ▶ test 20250518 반영 완료
+2025-08-08 10:17:32 - INFO - app -   ▶ test 20250519 반영 완료
+2025-08-08 10:18:18 - INFO - app -   ▶ test 20250520 반영 완료
+2025-08-08 10:19:00 - INFO - app -   ▶ test 20250521 반영 완료
+2025-08-08 10:19:44 - INFO - app -   ▶ test 20250522 반영 완료
+2025-08-08 10:20:27 - INFO - app -   ▶ test 20250523 반영 완료
+2025-08-08 10:21:09 - INFO - app -   ▶ test 20250524 반영 완료
+2025-08-08 10:21:45 - INFO - app -   ▶ test 20250525 반영 완료
+2025-08-08 10:22:08 - INFO - app -   ▶ test 20250526 반영 완료
+2025-08-08 10:22:08 - INFO - app - ✅ test 세트 완료
+2025-08-08 10:22:08 - INFO - app - 🎉 pivot 기반 tensor 생성 완료
+2025-08-08 10:22:08 - INFO - app - ✅ Raw 데이터에서 클러스터 텐서 생성 완료: Model/v0에 저장됨
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 0 loaded from cache: 0.1289
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 1 loaded from cache: 0.2293
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 2 loaded from cache: 0.1434
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 3 loaded from cache: 0.1488
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 4 loaded from cache: 0.5011
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 5 loaded from cache: 0.1871
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 6 loaded from cache: 0.5571
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 7 loaded from cache: 0.5819
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 8 loaded from cache: 0.5773
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 9 loaded from cache: 0.3641
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 10 loaded from cache: 0.2689
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 11 loaded from cache: 0.2629
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 12 loaded from cache: 0.4317
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 13 loaded from cache: 0.4431
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 14 loaded from cache: 0.1575
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 15 loaded from cache: 0.2049
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 16 loaded from cache: 0.1332
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 17 loaded from cache: 0.2421
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 18 loaded from cache: 0.2097
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 19 loaded from cache: 0.6253
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 20 loaded from cache: 0.4859
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 21 loaded from cache: 0.6686
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 22 loaded from cache: 0.7378
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 23 loaded from cache: 0.6341
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 24 loaded from cache: 0.1661
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 25 loaded from cache: 0.3429
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 26 loaded from cache: 0.1499
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 27 loaded from cache: 0.5924
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 28 loaded from cache: 0.1072
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 29 loaded from cache: 0.3842
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 30 loaded from cache: 0.3956
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 31 loaded from cache: 0.3519
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 32 loaded from cache: 0.4808
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 33 loaded from cache: 0.5287
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 34 loaded from cache: 0.6446
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 35 loaded from cache: 0.6397
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 36 loaded from cache: 0.5155
+2025-08-08 10:22:08 - INFO - app - ✅ MAPE for model 37 loaded from cache: 0.3706
+2025-08-08 10:22:09 - INFO - app - ✅ MAPE for model 38 loaded from cache: 0.3693

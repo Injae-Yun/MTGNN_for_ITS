@@ -1,0 +1,122 @@
+2025-08-01 13:33:01 - INFO - app - 📆 far_time_process 모드: 총 1일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 1, 0, 0)]
+2025-08-01 13:33:02 - INFO - app - 🚀 시작 – Postgres DB → Parquet 스트리밍
+2025-08-01 13:35:18 - INFO - app - [2025-02-27] chunk 0-25000: write_table
+2025-08-01 13:37:45 - INFO - app - [2025-02-27] chunk 25000-50000: write_table
+2025-08-01 13:40:09 - INFO - app - [2025-02-27] chunk 50000-75000: write_table
+2025-08-01 13:42:34 - INFO - app - [2025-02-27] chunk 75000-100000: write_table
+2025-08-01 13:45:01 - INFO - app - [2025-02-27] chunk 100000-125000: write_table
+2025-08-01 13:47:46 - INFO - app - [2025-02-27] chunk 125000-150000: write_table
+2025-08-01 13:50:09 - INFO - app - [2025-02-27] chunk 150000-175000: write_table
+2025-08-01 13:52:38 - INFO - app - [2025-02-27] chunk 175000-200000: write_table
+2025-08-01 13:54:57 - INFO - app - [2025-02-27] chunk 200000-225000: write_table
+2025-08-01 13:57:23 - INFO - app - [2025-02-27] chunk 225000-250000: write_table
+2025-08-01 13:59:42 - INFO - app - [2025-02-27] chunk 250000-275000: write_table
+2025-08-01 14:02:07 - INFO - app - [2025-02-27] chunk 275000-300000: write_table
+2025-08-01 14:04:27 - INFO - app - [2025-02-27] chunk 300000-325000: write_table
+2025-08-01 14:06:56 - INFO - app - [2025-02-27] chunk 325000-350000: write_table
+2025-08-01 14:09:24 - INFO - app - [2025-02-27] chunk 350000-375000: write_table
+2025-08-01 14:11:50 - INFO - app - [2025-02-27] chunk 375000-400000: write_table
+2025-08-01 14:14:06 - INFO - app - [2025-02-27] chunk 400000-425000: write_table
+2025-08-01 14:16:37 - INFO - app - [2025-02-27] chunk 425000-450000: write_table
+2025-08-01 14:18:57 - INFO - app - [2025-02-27] chunk 450000-475000: write_table
+2025-08-01 14:21:23 - INFO - app - [2025-02-27] chunk 475000-500000: write_table
+2025-08-01 14:23:48 - INFO - app - [2025-02-27] chunk 500000-525000: write_table
+2025-08-01 14:26:03 - INFO - app - [2025-02-27] chunk 525000-550000: write_table
+2025-08-01 14:26:03 - INFO - app - [2025-02-27 00:00:00] parquet file completed: 2025-02-27 00:00:00
+2025-08-01 14:28:11 - INFO - app - [2025-02-26] chunk 0-25000: write_table
+2025-08-01 14:30:23 - INFO - app - [2025-02-26] chunk 25000-50000: write_table
+2025-08-01 14:32:35 - INFO - app - [2025-02-26] chunk 50000-75000: write_table
+2025-08-01 14:34:46 - INFO - app - [2025-02-26] chunk 75000-100000: write_table
+2025-08-01 14:37:03 - INFO - app - [2025-02-26] chunk 100000-125000: write_table
+2025-08-01 14:39:11 - INFO - app - [2025-02-26] chunk 125000-150000: write_table
+2025-08-01 14:41:19 - INFO - app - [2025-02-26] chunk 150000-175000: write_table
+2025-08-01 14:43:30 - INFO - app - [2025-02-26] chunk 175000-200000: write_table
+2025-08-01 14:45:35 - INFO - app - [2025-02-26] chunk 200000-225000: write_table
+2025-08-01 14:47:52 - INFO - app - [2025-02-26] chunk 225000-250000: write_table
+2025-08-01 14:50:03 - INFO - app - [2025-02-26] chunk 250000-275000: write_table
+2025-08-01 14:52:13 - INFO - app - [2025-02-26] chunk 275000-300000: write_table
+2025-08-01 14:54:21 - INFO - app - [2025-02-26] chunk 300000-325000: write_table
+2025-08-01 14:56:40 - INFO - app - [2025-02-26] chunk 325000-350000: write_table
+2025-08-01 14:58:51 - INFO - app - [2025-02-26] chunk 350000-375000: write_table
+2025-08-01 15:01:00 - INFO - app - [2025-02-26] chunk 375000-400000: write_table
+2025-08-01 15:03:05 - INFO - app - [2025-02-26] chunk 400000-425000: write_table
+2025-08-01 15:05:16 - INFO - app - [2025-02-26] chunk 425000-450000: write_table
+2025-08-01 15:07:25 - INFO - app - [2025-02-26] chunk 450000-475000: write_table
+2025-08-01 15:09:35 - INFO - app - [2025-02-26] chunk 475000-500000: write_table
+2025-08-01 15:12:08 - INFO - app - [2025-02-26] chunk 500000-525000: write_table
+2025-08-01 15:14:09 - INFO - app - [2025-02-26] chunk 525000-550000: write_table
+2025-08-01 15:14:09 - INFO - app - [2025-02-26 00:00:00] parquet file completed: 2025-02-26 00:00:00
+2025-08-01 15:16:11 - INFO - app - [2025-02-22] chunk 0-25000: write_table
+2025-08-01 15:18:22 - INFO - app - [2025-02-22] chunk 25000-50000: write_table
+2025-08-01 15:20:24 - INFO - app - [2025-02-22] chunk 50000-75000: write_table
+2025-08-01 15:22:27 - INFO - app - [2025-02-22] chunk 75000-100000: write_table
+2025-08-01 15:24:28 - INFO - app - [2025-02-22] chunk 100000-125000: write_table
+2025-08-01 15:26:27 - INFO - app - [2025-02-22] chunk 125000-150000: write_table
+2025-08-01 15:28:33 - INFO - app - [2025-02-22] chunk 150000-175000: write_table
+2025-08-01 15:30:33 - INFO - app - [2025-02-22] chunk 175000-200000: write_table
+2025-08-01 15:32:34 - INFO - app - [2025-02-22] chunk 200000-225000: write_table
+2025-08-01 15:34:38 - INFO - app - [2025-02-22] chunk 225000-250000: write_table
+2025-08-01 15:36:36 - INFO - app - [2025-02-22] chunk 250000-275000: write_table
+2025-08-01 15:38:39 - INFO - app - [2025-02-22] chunk 275000-300000: write_table
+2025-08-01 15:40:38 - INFO - app - [2025-02-22] chunk 300000-325000: write_table
+2025-08-01 15:42:36 - INFO - app - [2025-02-22] chunk 325000-350000: write_table
+2025-08-01 15:44:36 - INFO - app - [2025-02-22] chunk 350000-375000: write_table
+2025-08-01 15:46:38 - INFO - app - [2025-02-22] chunk 375000-400000: write_table
+2025-08-01 15:48:42 - INFO - app - [2025-02-22] chunk 400000-425000: write_table
+2025-08-01 15:50:39 - INFO - app - [2025-02-22] chunk 425000-450000: write_table
+2025-08-01 15:52:40 - INFO - app - [2025-02-22] chunk 450000-475000: write_table
+2025-08-01 15:54:42 - INFO - app - [2025-02-22] chunk 475000-500000: write_table
+2025-08-01 15:56:47 - INFO - app - [2025-02-22] chunk 500000-525000: write_table
+2025-08-01 15:58:49 - INFO - app - [2025-02-22] chunk 525000-550000: write_table
+2025-08-01 15:58:49 - INFO - app - [2025-02-22 00:00:00] parquet file completed: 2025-02-22 00:00:00
+2025-08-01 16:01:11 - INFO - app - [2025-02-15] chunk 0-25000: write_table
+2025-08-01 16:03:31 - INFO - app - [2025-02-15] chunk 25000-50000: write_table
+2025-08-01 16:05:52 - INFO - app - [2025-02-15] chunk 50000-75000: write_table
+2025-08-01 16:08:16 - INFO - app - [2025-02-15] chunk 75000-100000: write_table
+2025-08-01 16:10:28 - INFO - app - [2025-02-15] chunk 100000-125000: write_table
+2025-08-01 16:12:45 - INFO - app - [2025-02-15] chunk 125000-150000: write_table
+2025-08-01 16:15:01 - INFO - app - [2025-02-15] chunk 150000-175000: write_table
+2025-08-01 16:17:15 - INFO - app - [2025-02-15] chunk 175000-200000: write_table
+2025-08-01 16:19:30 - INFO - app - [2025-02-15] chunk 200000-225000: write_table
+2025-08-01 16:21:49 - INFO - app - [2025-02-15] chunk 225000-250000: write_table
+2025-08-01 16:24:08 - INFO - app - [2025-02-15] chunk 250000-275000: write_table
+2025-08-01 16:26:29 - INFO - app - [2025-02-15] chunk 275000-300000: write_table
+2025-08-01 16:28:56 - INFO - app - [2025-02-15] chunk 300000-325000: write_table
+2025-08-01 16:31:18 - INFO - app - [2025-02-15] chunk 325000-350000: write_table
+2025-08-01 16:33:34 - INFO - app - [2025-02-15] chunk 350000-375000: write_table
+2025-08-01 16:35:49 - INFO - app - [2025-02-15] chunk 375000-400000: write_table
+2025-08-01 16:38:05 - INFO - app - [2025-02-15] chunk 400000-425000: write_table
+2025-08-01 16:40:21 - INFO - app - [2025-02-15] chunk 425000-450000: write_table
+2025-08-01 16:42:37 - INFO - app - [2025-02-15] chunk 450000-475000: write_table
+2025-08-01 16:44:51 - INFO - app - [2025-02-15] chunk 475000-500000: write_table
+2025-08-01 16:47:07 - INFO - app - [2025-02-15] chunk 500000-525000: write_table
+2025-08-01 16:49:21 - INFO - app - [2025-02-15] chunk 525000-550000: write_table
+2025-08-01 16:49:21 - INFO - app - [2025-02-15 00:00:00] parquet file completed: 2025-02-15 00:00:00
+2025-08-01 16:51:41 - INFO - app - [2025-02-08] chunk 0-25000: write_table
+2025-08-01 16:54:09 - INFO - app - [2025-02-08] chunk 25000-50000: write_table
+2025-08-01 16:56:42 - INFO - app - [2025-02-08] chunk 50000-75000: write_table
+2025-08-01 16:59:17 - INFO - app - [2025-02-08] chunk 75000-100000: write_table
+2025-08-01 17:01:51 - INFO - app - [2025-02-08] chunk 100000-125000: write_table
+2025-08-01 17:04:19 - INFO - app - [2025-02-08] chunk 125000-150000: write_table
+2025-08-01 17:06:47 - INFO - app - [2025-02-08] chunk 150000-175000: write_table
+2025-08-01 17:09:29 - INFO - app - [2025-02-08] chunk 175000-200000: write_table
+2025-08-01 17:12:00 - INFO - app - [2025-02-08] chunk 200000-225000: write_table
+2025-08-01 17:14:26 - INFO - app - [2025-02-08] chunk 225000-250000: write_table
+2025-08-01 17:16:58 - INFO - app - [2025-02-08] chunk 250000-275000: write_table
+2025-08-01 17:19:34 - INFO - app - [2025-02-08] chunk 275000-300000: write_table
+2025-08-01 17:22:03 - INFO - app - [2025-02-08] chunk 300000-325000: write_table
+2025-08-01 17:24:29 - INFO - app - [2025-02-08] chunk 325000-350000: write_table
+2025-08-01 17:26:54 - INFO - app - [2025-02-08] chunk 350000-375000: write_table
+2025-08-01 17:29:28 - INFO - app - [2025-02-08] chunk 375000-400000: write_table
+2025-08-01 17:31:48 - INFO - app - [2025-02-08] chunk 400000-425000: write_table
+2025-08-01 17:34:17 - INFO - app - [2025-02-08] chunk 425000-450000: write_table
+2025-08-01 17:36:47 - INFO - app - [2025-02-08] chunk 450000-475000: write_table
+2025-08-01 17:39:18 - INFO - app - [2025-02-08] chunk 475000-500000: write_table
+2025-08-01 17:41:43 - INFO - app - [2025-02-08] chunk 500000-525000: write_table
+2025-08-01 17:44:02 - INFO - app - [2025-02-08] chunk 525000-550000: write_table
+2025-08-01 17:44:03 - INFO - app - [2025-02-08 00:00:00] parquet file completed: 2025-02-08 00:00:00
+2025-08-01 17:44:03 - INFO - app - 📦 모든 날짜 Parquet 변환 완료
+2025-08-01 17:44:03 - INFO - app - ✅ Data load 완료: 총 1개 파일 저장됨
+2025-08-01 17:44:10 - INFO - app - ✅ HDF5 생성 완료: Model/v3/predict_tensors.h5
+2025-08-01 17:44:10 - INFO - app - ✅ 데이터 전처리(x) 완료: Model/v3에 저장됨
+2025-08-01 17:50:06 - INFO - app - Predicting complete, returning predictions

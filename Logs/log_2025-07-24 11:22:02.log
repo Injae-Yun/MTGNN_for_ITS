@@ -1,0 +1,43 @@
+2025-07-24 11:22:02 - INFO - app - 📌 기준 시점: 2024-05-08 23:00:00
+2025-07-24 11:22:02 - INFO - app - 📆 총 3개 날짜, 36개 시점 생성 완료
+2025-07-24 11:22:02 - INFO - app - 🚀 시작 – MongoDB → Parquet 스트리밍
+2025-07-24 11:22:02 - INFO - app - 📡 [20240508] 컬렉션 연결
+2025-07-24 11:25:43 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: connection closed (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 1/12
+2025-07-24 11:26:50 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 60.0s, Topology Description: <TopologyDescription id: 688198ca9f88ebc32616f769, topology_type: Single, servers: [<ServerDescription ('192.168.0.25', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>. 재시도 2/12
+2025-07-24 11:27:56 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 60.0s, Topology Description: <TopologyDescription id: 688198ca9f88ebc32616f769, topology_type: Single, servers: [<ServerDescription ('192.168.0.25', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>. 재시도 3/12
+2025-07-24 11:29:03 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 60.0s, Topology Description: <TopologyDescription id: 688198ca9f88ebc32616f769, topology_type: Single, servers: [<ServerDescription ('192.168.0.25', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>. 재시도 4/12
+2025-07-24 11:33:35 - INFO - app - ✅ [20240508 00:00-23:59] 51395건 조회
+2025-07-24 11:33:35 - INFO - app - 📡 [20240507] 컬렉션 연결
+2025-07-24 11:37:43 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 1/12
+2025-07-24 11:41:56 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 2/12
+2025-07-24 11:46:09 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 3/12
+2025-07-24 11:50:22 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 4/12
+2025-07-24 11:54:35 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 5/12
+2025-07-24 11:58:47 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 6/12
+2025-07-24 12:03:02 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 7/12
+2025-07-24 12:07:16 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 8/12
+2025-07-24 12:11:30 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 9/12
+2025-07-24 12:15:42 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 10/12
+2025-07-24 12:19:50 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 11/12
+2025-07-24 12:24:02 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 12/12
+2025-07-24 12:24:07 - INFO - app - ℹ️ [20240507 00:00-23:59] 문서 없음
+2025-07-24 12:24:07 - WARNING - app - ⚠️ [20240507] 전체 데이터 없음, 다음 날짜로
+2025-07-24 12:24:07 - INFO - app - 📡 [20240501] 컬렉션 연결
+2025-07-24 12:28:02 - INFO - app - ✅ [20240501 00:00-23:59] 51396건 조회
+2025-07-24 12:28:06 - INFO - app - 📦 모든 날짜 Parquet 변환 완료
+2025-07-24 12:28:06 - INFO - app - ✅ Data load 완료: 총 3개 파일 저장됨
+2025-07-24 12:28:06 - INFO - app - 🔹 날짜 20240508 데이터 전처리 시작
+2025-07-24 12:28:13 - INFO - app - ✅ 날짜 20240508: 정상 변환되었습니다..
+2025-07-24 12:28:14 - INFO - app - 🔹 날짜 20240507 데이터 전처리 시작
+2025-07-24 12:28:33 - INFO - app - ✅ 날짜 20240507: 정상 변환되었습니다..
+2025-07-24 12:28:33 - INFO - app - 🔹 날짜 20240501 데이터 전처리 시작
+2025-07-24 12:28:51 - INFO - app - ✅ 날짜 20240501: 정상 변환되었습니다..
+2025-07-24 12:29:06 - INFO - app - ✅ predict_data 저장 완료: Model/v0/0/predict_data.npy | shape=(1, 1, 36, 232)
+2025-07-24 12:29:12 - INFO - app - ✅ predict_data 저장 완료: Model/v0/1/predict_data.npy | shape=(1, 1, 36, 242)
+2025-07-24 12:29:18 - INFO - app - ✅ predict_data 저장 완료: Model/v0/2/predict_data.npy | shape=(1, 1, 36, 193)
+2025-07-24 12:29:27 - INFO - app - ✅ predict_data 저장 완료: Model/v0/3/predict_data.npy | shape=(1, 1, 36, 227)
+2025-07-24 13:03:30 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2333031800.parquet
+2025-07-24 13:03:39 - INFO - app - ✅ predict_data 저장 완료: Model/v0/4/predict_data.npy | shape=(1, 1, 36, 225)
+2025-07-24 13:03:42 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2333031800.parquet
+2025-07-24 13:03:47 - INFO - app - ✅ predict_data 저장 완료: Model/v0/5/predict_data.npy | shape=(1, 1, 36, 234)
+2025-07-24 13:03:51 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2334316201.parquet

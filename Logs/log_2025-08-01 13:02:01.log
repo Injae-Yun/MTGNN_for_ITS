@@ -1,0 +1,3 @@
+2025-08-01 13:02:01 - INFO - app - 📆 far_time_process 모드: 총 1일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 1, 0, 0)]
+2025-08-01 13:02:01 - INFO - app - 🚀 시작 – Postgres DB → Parquet 스트리밍
+2025-08-01 13:04:09 - WARNING - app - [2025-02-27] SSL EOF, reconnecting and retrying (attempt 1/5)

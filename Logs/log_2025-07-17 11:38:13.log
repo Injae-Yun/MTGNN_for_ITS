@@ -1,0 +1,9 @@
+2025-07-17 11:38:13 - INFO - app - 📆 date_range 모드: 총 22일 간 데이터 조회 예정 → [datetime.datetime(2025, 6, 10, 0, 0), datetime.datetime(2025, 6, 11, 0, 0), datetime.datetime(2025, 6, 12, 0, 0), datetime.datetime(2025, 6, 13, 0, 0), datetime.datetime(2025, 6, 14, 0, 0), datetime.datetime(2025, 6, 17, 0, 0), datetime.datetime(2025, 6, 18, 0, 0), datetime.datetime(2025, 6, 19, 0, 0), datetime.datetime(2025, 6, 20, 0, 0), datetime.datetime(2025, 6, 21, 0, 0), datetime.datetime(2025, 6, 24, 0, 0), datetime.datetime(2025, 6, 25, 0, 0), datetime.datetime(2025, 6, 26, 0, 0), datetime.datetime(2025, 6, 27, 0, 0), datetime.datetime(2025, 6, 28, 0, 0), datetime.datetime(2025, 6, 29, 0, 0), datetime.datetime(2025, 6, 30, 0, 0), datetime.datetime(2025, 7, 1, 0, 0), datetime.datetime(2025, 7, 2, 0, 0), datetime.datetime(2025, 7, 3, 0, 0), datetime.datetime(2025, 7, 4, 0, 0), datetime.datetime(2025, 7, 5, 0, 0)]
+2025-07-17 11:38:13 - INFO - app - ✅ Data load skip: 총 22개 파일 저장됨
+2025-07-17 11:38:13 - INFO - app - ✅ 데이터 전처리(x) skip: Model/v2에 저장됨
+2025-07-17 11:38:13 - INFO - app - ✅ 데이터 전처리(y) skip: Model/v2에 저장됨
+2025-07-17 11:38:13 - INFO - app - Step 000 → RMSE=3.899, MAE=2.392, MAPE=0.0725, R2=0.965
+2025-07-17 11:38:13 - INFO - app - Step 001 → RMSE=3.989, MAE=2.540, MAPE=0.0844, R2=0.962
+2025-07-17 11:38:13 - INFO - app - Step 002 → RMSE=3.857, MAE=2.296, MAPE=0.0705, R2=0.965
+2025-07-17 11:38:13 - INFO - app - Step 003 → RMSE=3.870, MAE=2.216, MAPE=0.0678, R2=0.964
+2025-07-17 11:38:45 - INFO - app - ⚠️ Step 004 → No valid data for prediction, skipping

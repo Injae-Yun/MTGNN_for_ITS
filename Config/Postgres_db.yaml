@@ -1,0 +1,11 @@
+# security info. deleted
+
+tables:
+  info.link:
+    columns:
+      - link_id
+      - has_pty
+      - has_event
+      - avg_speed
+      - data
+      - reg_date

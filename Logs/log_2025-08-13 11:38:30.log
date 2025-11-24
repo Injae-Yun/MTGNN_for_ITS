@@ -1,0 +1,89 @@
+2025-08-13 11:38:30 - INFO - app - 📆 far_time_process 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-13 11:38:30 - INFO - app - ✅ Data load skip: 총 56개 파일 저장됨
+2025-08-13 11:38:30 - INFO - app - 1. 설정 불러오기 (mode: train)
+2025-08-13 11:38:39 - INFO - app - 2. 데이터셋 분할 계획
+2025-08-13 11:38:39 - INFO - app - 학습 데이터셋 생성. 전체 샘플 수: 16128 (Train: 12672, Val: 0, Test: 3456)
+2025-08-13 11:38:39 - INFO - app - 3. 작업 계획 수립
+2025-08-13 11:38:39 - INFO - app - 4. 데이터 처리 및 저장 시작
+2025-08-13 11:38:39 - INFO - app -   - Pivot 로딩: 20250311
+2025-08-13 11:39:04 - INFO - app -   - Pivot 로딩: 20250312
+2025-08-13 11:39:26 - INFO - app -   - Pivot 로딩: 20250313
+2025-08-13 11:39:51 - INFO - app -   - Pivot 로딩: 20250314
+2025-08-13 11:40:10 - INFO - app -   - Pivot 로딩: 20250315
+2025-08-13 11:40:36 - INFO - app -   - Pivot 로딩: 20250316
+2025-08-13 11:40:58 - INFO - app -   - Pivot 로딩: 20250317
+2025-08-13 11:41:22 - INFO - app -   - Pivot 로딩: 20250318
+2025-08-13 11:41:44 - INFO - app -   - Pivot 로딩: 20250319
+2025-08-13 11:41:46 - INFO - app -   - Pivot 로딩: 20250320
+2025-08-13 11:42:01 - INFO - app -   - Pivot 로딩: 20250321
+2025-08-13 11:42:26 - INFO - app -   - Pivot 로딩: 20250322
+2025-08-13 11:42:47 - INFO - app -   - Pivot 로딩: 20250323
+2025-08-13 11:43:11 - INFO - app -   - Pivot 로딩: 20250324
+2025-08-13 11:43:32 - INFO - app -   - Pivot 로딩: 20250325
+2025-08-13 11:43:57 - INFO - app -   - Pivot 로딩: 20250326
+2025-08-13 11:44:22 - INFO - app -   - Pivot 로딩: 20250327
+2025-08-13 11:44:47 - INFO - app -   - Pivot 로딩: 20250328
+2025-08-13 11:45:11 - INFO - app -   - Pivot 로딩: 20250329
+2025-08-13 11:45:35 - INFO - app -   - Pivot 로딩: 20250330
+2025-08-13 11:45:58 - INFO - app -   - Pivot 로딩: 20250331
+2025-08-13 11:46:25 - INFO - app -   - Pivot 로딩: 20250401
+2025-08-13 11:46:55 - INFO - app -   - Pivot 로딩: 20250402
+2025-08-13 11:47:21 - INFO - app -   - Pivot 로딩: 20250403
+2025-08-13 11:47:48 - INFO - app -   - Pivot 로딩: 20250404
+2025-08-13 11:48:12 - INFO - app -   - Pivot 로딩: 20250405
+2025-08-13 11:48:40 - INFO - app -   - Pivot 로딩: 20250406
+2025-08-13 11:49:14 - INFO - app -   - Pivot 로딩: 20250407
+2025-08-13 11:49:40 - INFO - app -   - Pivot 로딩: 20250408
+2025-08-13 11:50:08 - INFO - app -   - Pivot 로딩: 20250409
+2025-08-13 11:50:35 - INFO - app -   - Pivot 로딩: 20250410
+2025-08-13 11:51:04 - INFO - app -   - Pivot 로딩: 20250411
+2025-08-13 11:51:33 - INFO - app -   - Pivot 로딩: 20250412
+2025-08-13 11:52:02 - INFO - app -   - Pivot 로딩: 20250413
+2025-08-13 11:52:27 - INFO - app -   - Pivot 로딩: 20250414
+2025-08-13 11:52:52 - INFO - app -   - Pivot 로딩: 20250415
+2025-08-13 11:53:21 - INFO - app -   - Pivot 로딩: 20250416
+2025-08-13 11:53:48 - INFO - app -   - Pivot 로딩: 20250417
+2025-08-13 11:54:16 - INFO - app -   - Pivot 로딩: 20250418
+2025-08-13 11:54:45 - INFO - app -   - Pivot 로딩: 20250419
+2025-08-13 11:55:12 - INFO - app -   - Pivot 로딩: 20250420
+2025-08-13 11:55:17 - INFO - app -   - Pivot 로딩: 20250421
+2025-08-13 11:55:36 - INFO - app -   - Pivot 로딩: 20250422
+2025-08-13 11:56:02 - INFO - app -   - Pivot 로딩: 20250423
+2025-08-13 11:56:28 - INFO - app -   - Pivot 로딩: 20250424
+2025-08-13 11:56:54 - INFO - app -   - Pivot 로딩: 20250425
+2025-08-13 11:57:19 - INFO - app -   - Pivot 로딩: 20250426
+2025-08-13 11:57:46 - INFO - app -   - Pivot 로딩: 20250427
+2025-08-13 11:58:10 - INFO - app -   - Pivot 로딩: 20250428
+2025-08-13 11:58:37 - INFO - app -   - Pivot 로딩: 20250429
+2025-08-13 11:59:03 - INFO - app -   - Pivot 로딩: 20250430
+2025-08-13 11:59:30 - INFO - app -   - Pivot 로딩: 20250501
+2025-08-13 11:59:54 - INFO - app -   - Pivot 로딩: 20250502
+2025-08-13 12:00:23 - INFO - app -   - Pivot 로딩: 20250503
+2025-08-13 12:00:49 - INFO - app -   - Pivot 로딩: 20250504
+2025-08-13 12:01:15 - INFO - app -   - Pivot 로딩: 20250505
+2025-08-13 12:01:40 - INFO - app -   - Pivot 로딩: 20250506
+2025-08-13 12:02:03 - INFO - app -   - Pivot 로딩: 20250507
+2025-08-13 12:02:12 - INFO - app -   - Pivot 로딩: 20250508
+2025-08-13 12:02:15 - INFO - app -   - Pivot 로딩: 20250509
+2025-08-13 12:02:40 - INFO - app -   - Pivot 로딩: 20250510
+2025-08-13 12:03:06 - INFO - app -   - Pivot 로딩: 20250511
+2025-08-13 12:03:31 - INFO - app -   - Pivot 로딩: 20250512
+2025-08-13 12:03:58 - INFO - app -   - Pivot 로딩: 20250513
+2025-08-13 12:04:21 - INFO - app -   - Pivot 로딩: 20250514
+2025-08-13 12:04:47 - INFO - app -   - Pivot 로딩: 20250515
+2025-08-13 12:05:13 - INFO - app -   - Pivot 로딩: 20250516
+2025-08-13 12:05:38 - INFO - app -   - Pivot 로딩: 20250517
+2025-08-13 12:06:02 - INFO - app -   - Pivot 로딩: 20250518
+2025-08-13 12:06:25 - INFO - app -   - Pivot 로딩: 20250519
+2025-08-13 12:06:52 - INFO - app -   - Pivot 로딩: 20250520
+2025-08-13 12:07:19 - INFO - app -   - Pivot 로딩: 20250521
+2025-08-13 12:07:46 - INFO - app -   - Pivot 로딩: 20250522
+2025-08-13 12:08:10 - INFO - app -   - Pivot 로딩: 20250523
+2025-08-13 12:08:38 - INFO - app -   - Pivot 로딩: 20250524
+2025-08-13 12:09:02 - INFO - app -   - Pivot 로딩: 20250525
+2025-08-13 12:09:28 - INFO - app -   - Pivot 로딩: 20250526
+2025-08-13 12:09:53 - INFO - app - 5. Holiday 피처 추가 (train/val/test only)
+2025-08-13 12:10:09 - INFO - app - ✅ X HDF5 생성 완료: Model/v3/tensors.h5
+2025-08-13 12:10:09 - INFO - app - ✅ Y HDF5 생성 완료: Model/v3/y_tensors.h5
+2025-08-13 12:10:09 - INFO - app - ✅ 데이터 전처리(x-y) 완료: Model/v3에 저장됨
+2025-08-13 12:10:10 - INFO - app - ▶ Training step 1/288

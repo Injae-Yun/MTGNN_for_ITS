@@ -1,0 +1,10 @@
+2025-07-16 17:17:58 - INFO - app - 📆 date_range 모드: 총 22일 간 데이터 조회 예정 → [datetime.datetime(2025, 6, 10, 0, 0), datetime.datetime(2025, 6, 11, 0, 0), datetime.datetime(2025, 6, 12, 0, 0), datetime.datetime(2025, 6, 13, 0, 0), datetime.datetime(2025, 6, 14, 0, 0), datetime.datetime(2025, 6, 17, 0, 0), datetime.datetime(2025, 6, 18, 0, 0), datetime.datetime(2025, 6, 19, 0, 0), datetime.datetime(2025, 6, 20, 0, 0), datetime.datetime(2025, 6, 21, 0, 0), datetime.datetime(2025, 6, 24, 0, 0), datetime.datetime(2025, 6, 25, 0, 0), datetime.datetime(2025, 6, 26, 0, 0), datetime.datetime(2025, 6, 27, 0, 0), datetime.datetime(2025, 6, 28, 0, 0), datetime.datetime(2025, 6, 29, 0, 0), datetime.datetime(2025, 6, 30, 0, 0), datetime.datetime(2025, 7, 1, 0, 0), datetime.datetime(2025, 7, 2, 0, 0), datetime.datetime(2025, 7, 3, 0, 0), datetime.datetime(2025, 7, 4, 0, 0), datetime.datetime(2025, 7, 5, 0, 0)]
+2025-07-16 17:17:58 - INFO - app - ✅ Data load skip: 총 22개 파일 저장됨
+2025-07-16 17:21:03 - INFO - app - ✅ test 데이터셋 저장 완료: Model/v2/test_data.npz 
+2025-07-16 17:22:10 - INFO - app - ✅ predict_data 저장 완료: Model/v2/predict_data.npy | shape=(4309, 6, 288)
+2025-07-16 17:29:31 - INFO - app - ✅ test 데이터셋 저장 완료: Model/v2/test_data.npz 
+2025-07-16 17:30:21 - INFO - app - ✅ predict_data 저장 완료: Model/v2/predict_data.npy | shape=(288, 6, 4309)
+2025-07-16 17:31:37 - INFO - app - ✅ predict_data 저장 완료: Model/v2/predict_data.npz | shape=(288, 6, 4309)
+2025-07-16 17:31:43 - INFO - app - ✅ predict_data 저장 완료: Model/v2/predict_data.npz | shape=(288, 6, 4309)
+2025-07-16 17:53:47 - INFO - app - ✅ test 데이터셋 저장 완료: Model/v2/test_data.npz 
+2025-07-16 21:13:55 - INFO - app - ✅ test y 데이터셋 저장 완료: Model/v2/test_ydata.npz 

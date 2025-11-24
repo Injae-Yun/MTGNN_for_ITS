@@ -1,0 +1,419 @@
+2025-07-17 12:43:43 - INFO - app - 📆 date_range 모드: 총 81일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 11, 0, 0), datetime.datetime(2025, 3, 12, 0, 0), datetime.datetime(2025, 3, 13, 0, 0), datetime.datetime(2025, 3, 14, 0, 0), datetime.datetime(2025, 3, 15, 0, 0), datetime.datetime(2025, 3, 16, 0, 0), datetime.datetime(2025, 3, 17, 0, 0), datetime.datetime(2025, 3, 18, 0, 0), datetime.datetime(2025, 3, 19, 0, 0), datetime.datetime(2025, 3, 20, 0, 0), datetime.datetime(2025, 3, 21, 0, 0), datetime.datetime(2025, 3, 22, 0, 0), datetime.datetime(2025, 3, 23, 0, 0), datetime.datetime(2025, 3, 24, 0, 0), datetime.datetime(2025, 3, 25, 0, 0), datetime.datetime(2025, 3, 26, 0, 0), datetime.datetime(2025, 3, 27, 0, 0), datetime.datetime(2025, 3, 28, 0, 0), datetime.datetime(2025, 3, 29, 0, 0), datetime.datetime(2025, 3, 30, 0, 0), datetime.datetime(2025, 3, 31, 0, 0), datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0), datetime.datetime(2025, 5, 27, 0, 0), datetime.datetime(2025, 5, 28, 0, 0), datetime.datetime(2025, 5, 29, 0, 0), datetime.datetime(2025, 5, 30, 0, 0)]
+2025-07-17 12:43:43 - INFO - app - ✅ Data load skip: 총 81개 파일 저장됨
+2025-07-17 12:43:55 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:44:09 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:44:20 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:44:37 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:44:43 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250319.parquet
+2025-07-17 12:44:48 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:45:04 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:45:16 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:45:30 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:45:44 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:45:58 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:46:12 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:46:25 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:46:37 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:46:52 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:47:04 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:47:19 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:47:30 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:47:44 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:47:52 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250319.parquet
+2025-07-17 12:47:57 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:48:10 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:48:22 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:48:37 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:48:49 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:49:03 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:49:14 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:49:27 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:49:41 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:49:54 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:50:07 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:50:20 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:50:31 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:50:46 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:50:57 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:51:11 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:51:23 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:51:36 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:51:49 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:52:03 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:52:14 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:52:29 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:52:40 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:52:53 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:53:06 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:53:19 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:53:29 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:53:44 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:53:55 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:54:10 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:54:21 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:54:34 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:54:46 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:54:59 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:55:10 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:55:25 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:55:36 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:55:51 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:56:02 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:56:14 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:56:27 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:56:40 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:56:50 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:57:05 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:57:16 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:57:31 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:57:42 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:57:55 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:58:08 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:58:20 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:58:31 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:58:46 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:58:57 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:59:10 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:59:22 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 12:59:35 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 12:59:47 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:00:00 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:00:11 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:00:26 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:00:36 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:00:49 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:01:02 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:01:14 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:01:25 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:01:40 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:01:51 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:02:06 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:02:16 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:02:29 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:02:42 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:02:55 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:03:06 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:03:21 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:03:32 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:03:48 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:03:59 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:04:11 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:04:24 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:04:37 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:04:48 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:05:03 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:05:14 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:05:29 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:05:40 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:05:53 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:06:06 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:06:19 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:06:29 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:06:44 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:06:55 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:07:07 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:07:20 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:07:33 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:07:43 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:07:58 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:08:09 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:08:24 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:08:34 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:08:47 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:09:00 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:09:12 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:10:13 - INFO - app - ✅ test 데이터셋 저장 완료: Model/v2/test_data.npz 
+2025-07-17 13:10:13 - INFO - app - ✅ 데이터 전처리(x) 완료: Model/v2에 저장됨
+2025-07-17 13:10:16 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250420.parquet
+2025-07-17 13:10:19 - WARNING - app - 파일 없음, NaN 처리: Data/Raw/20250508.parquet
+2025-07-17 13:10:32 - INFO - app - ✅ test y 데이터셋 저장 완료: Model/v2/test_ydata.npz 
+2025-07-17 13:10:32 - INFO - app - ✅ 데이터 전처리(y) 완료: Model/v2에 저장됨
+2025-07-17 13:10:33 - INFO - app - Step 000 → RMSE=4.158, MAE=2.652, MAPE=0.0859, R2=0.959
+2025-07-17 13:10:34 - INFO - app - Step 001 → RMSE=3.862, MAE=2.285, MAPE=0.0734, R2=0.964
+2025-07-17 13:10:37 - INFO - app - Step 002 → RMSE=6.212, MAE=3.454, MAPE=0.1270, R2=0.906
+2025-07-17 13:10:38 - INFO - app - Step 003 → RMSE=7.254, MAE=3.969, MAPE=0.1508, R2=0.872
+2025-07-17 13:10:39 - INFO - app - Step 004 → RMSE=7.332, MAE=3.917, MAPE=0.1479, R2=0.868
+2025-07-17 13:10:40 - INFO - app - Step 005 → RMSE=6.297, MAE=3.509, MAPE=0.1309, R2=0.902
+2025-07-17 13:10:41 - INFO - app - Step 006 → RMSE=6.270, MAE=3.425, MAPE=0.1255, R2=0.904
+2025-07-17 13:10:42 - INFO - app - Step 007 → RMSE=7.449, MAE=4.103, MAPE=0.1542, R2=0.865
+2025-07-17 13:10:43 - INFO - app - Step 008 → RMSE=6.438, MAE=3.536, MAPE=0.1266, R2=0.898
+2025-07-17 13:10:44 - INFO - app - Step 009 → RMSE=6.670, MAE=3.633, MAPE=0.1349, R2=0.890
+2025-07-17 13:10:45 - INFO - app - Step 010 → RMSE=7.881, MAE=4.268, MAPE=0.1604, R2=0.848
+2025-07-17 13:10:45 - INFO - app - Step 011 → RMSE=5.648, MAE=3.133, MAPE=0.1140, R2=0.922
+2025-07-17 13:10:46 - INFO - app - Step 012 → RMSE=7.847, MAE=4.257, MAPE=0.1589, R2=0.849
+2025-07-17 13:10:47 - INFO - app - Step 013 → RMSE=4.176, MAE=2.661, MAPE=0.0814, R2=0.957
+2025-07-17 13:10:48 - INFO - app - Step 014 → RMSE=7.194, MAE=3.994, MAPE=0.1493, R2=0.872
+2025-07-17 13:10:49 - INFO - app - Step 015 → RMSE=5.613, MAE=3.341, MAPE=0.1223, R2=0.922
+2025-07-17 13:10:50 - INFO - app - Step 016 → RMSE=5.351, MAE=2.967, MAPE=0.1025, R2=0.929
+2025-07-17 13:10:51 - INFO - app - Step 017 → RMSE=6.587, MAE=3.705, MAPE=0.1399, R2=0.892
+2025-07-17 13:10:52 - INFO - app - Step 018 → RMSE=4.294, MAE=2.561, MAPE=0.0852, R2=0.954
+2025-07-17 13:10:53 - INFO - app - Step 019 → RMSE=5.430, MAE=3.042, MAPE=0.1075, R2=0.926
+2025-07-17 13:10:54 - INFO - app - Step 020 → RMSE=5.427, MAE=3.069, MAPE=0.1086, R2=0.927
+2025-07-17 13:10:55 - INFO - app - Step 021 → RMSE=6.595, MAE=3.689, MAPE=0.1360, R2=0.892
+2025-07-17 13:10:56 - INFO - app - Step 022 → RMSE=5.748, MAE=3.235, MAPE=0.1158, R2=0.918
+2025-07-17 13:10:57 - INFO - app - Step 023 → RMSE=3.982, MAE=2.364, MAPE=0.0738, R2=0.960
+2025-07-17 13:10:58 - INFO - app - Step 024 → RMSE=4.801, MAE=2.877, MAPE=0.1012, R2=0.942
+2025-07-17 13:10:59 - INFO - app - Step 025 → RMSE=5.278, MAE=3.006, MAPE=0.1073, R2=0.930
+2025-07-17 13:11:00 - INFO - app - Step 026 → RMSE=3.921, MAE=2.349, MAPE=0.0771, R2=0.961
+2025-07-17 13:11:01 - INFO - app - Step 027 → RMSE=4.184, MAE=2.516, MAPE=0.0848, R2=0.956
+2025-07-17 13:11:02 - INFO - app - Step 028 → RMSE=3.751, MAE=2.216, MAPE=0.0720, R2=0.965
+2025-07-17 13:11:03 - INFO - app - Step 029 → RMSE=3.737, MAE=2.198, MAPE=0.0710, R2=0.965
+2025-07-17 13:11:04 - INFO - app - Step 030 → RMSE=3.822, MAE=2.253, MAPE=0.0730, R2=0.963
+2025-07-17 13:11:05 - INFO - app - Step 031 → RMSE=3.795, MAE=2.200, MAPE=0.0686, R2=0.964
+2025-07-17 13:11:06 - INFO - app - Step 032 → RMSE=3.772, MAE=2.235, MAPE=0.0709, R2=0.964
+2025-07-17 13:11:07 - INFO - app - Step 033 → RMSE=4.019, MAE=2.390, MAPE=0.0774, R2=0.959
+2025-07-17 13:11:08 - INFO - app - Step 034 → RMSE=3.837, MAE=2.235, MAPE=0.0692, R2=0.963
+2025-07-17 13:11:10 - INFO - app - Step 035 → RMSE=3.854, MAE=2.253, MAPE=0.0707, R2=0.963
+2025-07-17 13:11:11 - INFO - app - Step 036 → RMSE=3.808, MAE=2.211, MAPE=0.0695, R2=0.963
+2025-07-17 13:11:12 - INFO - app - Step 037 → RMSE=5.282, MAE=3.056, MAPE=0.1126, R2=0.929
+2025-07-17 13:11:13 - INFO - app - Step 038 → RMSE=3.827, MAE=2.246, MAPE=0.0697, R2=0.963
+2025-07-17 13:11:14 - INFO - app - Step 039 → RMSE=3.835, MAE=2.245, MAPE=0.0697, R2=0.963
+2025-07-17 13:11:15 - INFO - app - Step 040 → RMSE=3.815, MAE=2.241, MAPE=0.0707, R2=0.963
+2025-07-17 13:11:16 - INFO - app - Step 041 → RMSE=4.268, MAE=2.556, MAPE=0.0868, R2=0.954
+2025-07-17 13:11:16 - INFO - app - Step 042 → RMSE=3.778, MAE=2.209, MAPE=0.0691, R2=0.964
+2025-07-17 13:11:17 - INFO - app - Step 043 → RMSE=3.975, MAE=2.342, MAPE=0.0746, R2=0.960
+2025-07-17 13:11:18 - INFO - app - Step 044 → RMSE=4.725, MAE=2.847, MAPE=0.1027, R2=0.944
+2025-07-17 13:11:19 - INFO - app - Step 045 → RMSE=4.170, MAE=2.619, MAPE=0.0846, R2=0.956
+2025-07-17 13:11:20 - INFO - app - Step 046 → RMSE=4.017, MAE=2.436, MAPE=0.0730, R2=0.959
+2025-07-17 13:11:21 - INFO - app - Step 047 → RMSE=5.434, MAE=3.064, MAPE=0.1099, R2=0.925
+2025-07-17 13:11:22 - INFO - app - Step 048 → RMSE=3.958, MAE=2.406, MAPE=0.0740, R2=0.960
+2025-07-17 13:11:23 - INFO - app - Step 049 → RMSE=3.922, MAE=2.389, MAPE=0.0733, R2=0.961
+2025-07-17 13:11:24 - INFO - app - Step 050 → RMSE=4.028, MAE=2.494, MAPE=0.0819, R2=0.959
+2025-07-17 13:11:25 - INFO - app - Step 051 → RMSE=5.300, MAE=2.976, MAPE=0.1050, R2=0.929
+2025-07-17 13:11:26 - INFO - app - Step 052 → RMSE=6.961, MAE=4.646, MAPE=0.1856, R2=0.877
+2025-07-17 13:11:27 - INFO - app - Step 053 → RMSE=5.092, MAE=2.898, MAPE=0.1013, R2=0.934
+2025-07-17 13:11:28 - INFO - app - Step 054 → RMSE=5.253, MAE=3.101, MAPE=0.1136, R2=0.930
+2025-07-17 13:11:29 - INFO - app - Step 055 → RMSE=7.008, MAE=3.892, MAPE=0.1460, R2=0.875
+2025-07-17 13:11:30 - INFO - app - Step 056 → RMSE=5.132, MAE=2.891, MAPE=0.0997, R2=0.933
+2025-07-17 13:11:31 - INFO - app - Step 057 → RMSE=5.336, MAE=3.026, MAPE=0.1085, R2=0.928
+2025-07-17 13:11:31 - INFO - app - Step 058 → RMSE=6.396, MAE=3.534, MAPE=0.1326, R2=0.896
+2025-07-17 13:11:32 - INFO - app - Step 059 → RMSE=4.987, MAE=2.916, MAPE=0.1016, R2=0.937
+2025-07-17 13:11:33 - INFO - app - Step 060 → RMSE=5.624, MAE=3.075, MAPE=0.1148, R2=0.919
+2025-07-17 13:11:34 - INFO - app - Step 061 → RMSE=6.258, MAE=3.465, MAPE=0.1272, R2=0.901
+2025-07-17 13:11:35 - INFO - app - Step 062 → RMSE=5.990, MAE=3.287, MAPE=0.1189, R2=0.909
+2025-07-17 13:11:36 - INFO - app - Step 063 → RMSE=6.154, MAE=3.351, MAPE=0.1232, R2=0.904
+2025-07-17 13:11:37 - INFO - app - Step 064 → RMSE=5.770, MAE=3.160, MAPE=0.1165, R2=0.915
+2025-07-17 13:11:38 - INFO - app - Step 065 → RMSE=5.941, MAE=3.254, MAPE=0.1207, R2=0.910
+2025-07-17 13:11:39 - INFO - app - Step 066 → RMSE=7.312, MAE=3.959, MAPE=0.1490, R2=0.864
+2025-07-17 13:11:40 - INFO - app - Step 067 → RMSE=5.630, MAE=3.185, MAPE=0.1165, R2=0.919
+2025-07-17 13:11:41 - INFO - app - Step 068 → RMSE=5.234, MAE=2.983, MAPE=0.1091, R2=0.930
+2025-07-17 13:11:42 - INFO - app - Step 069 → RMSE=5.816, MAE=3.165, MAPE=0.1176, R2=0.913
+2025-07-17 13:11:45 - INFO - app - Step 070 → RMSE=5.161, MAE=2.917, MAPE=0.1053, R2=0.932
+2025-07-17 13:11:46 - INFO - app - Step 071 → RMSE=5.698, MAE=3.088, MAPE=0.1158, R2=0.916
+2025-07-17 13:11:47 - INFO - app - Step 072 → RMSE=5.040, MAE=2.759, MAPE=0.0958, R2=0.934
+2025-07-17 13:11:48 - INFO - app - Step 073 → RMSE=4.714, MAE=2.539, MAPE=0.0881, R2=0.942
+2025-07-17 13:11:48 - INFO - app - Step 074 → RMSE=6.384, MAE=3.373, MAPE=0.1292, R2=0.893
+2025-07-17 13:11:49 - INFO - app - Step 075 → RMSE=6.414, MAE=3.340, MAPE=0.1257, R2=0.892
+2025-07-17 13:11:50 - INFO - app - Step 076 → RMSE=6.720, MAE=3.479, MAPE=0.1334, R2=0.881
+2025-07-17 13:11:51 - INFO - app - Step 077 → RMSE=6.750, MAE=3.481, MAPE=0.1325, R2=0.881
+2025-07-17 13:11:52 - INFO - app - Step 078 → RMSE=5.398, MAE=2.824, MAPE=0.0996, R2=0.923
+2025-07-17 13:11:53 - INFO - app - Step 079 → RMSE=5.639, MAE=2.953, MAPE=0.1041, R2=0.916
+2025-07-17 13:11:54 - INFO - app - Step 080 → RMSE=5.909, MAE=3.077, MAPE=0.1095, R2=0.908
+2025-07-17 13:11:55 - INFO - app - Step 081 → RMSE=5.704, MAE=2.956, MAPE=0.1025, R2=0.915
+2025-07-17 13:11:56 - INFO - app - Step 082 → RMSE=6.802, MAE=3.645, MAPE=0.1417, R2=0.879
+2025-07-17 13:11:57 - INFO - app - Step 083 → RMSE=5.628, MAE=2.938, MAPE=0.1040, R2=0.917
+2025-07-17 13:11:58 - INFO - app - Step 084 → RMSE=5.615, MAE=2.942, MAPE=0.1052, R2=0.917
+2025-07-17 13:11:59 - INFO - app - Step 085 → RMSE=6.691, MAE=3.755, MAPE=0.1363, R2=0.882
+2025-07-17 13:12:00 - INFO - app - Step 086 → RMSE=5.339, MAE=2.803, MAPE=0.1005, R2=0.925
+2025-07-17 13:12:01 - INFO - app - Step 087 → RMSE=6.893, MAE=3.587, MAPE=0.1341, R2=0.874
+2025-07-17 13:12:02 - INFO - app - Step 088 → RMSE=7.305, MAE=3.979, MAPE=0.1597, R2=0.858
+2025-07-17 13:12:03 - INFO - app - Step 089 → RMSE=4.410, MAE=2.425, MAPE=0.0818, R2=0.948
+2025-07-17 13:12:04 - INFO - app - Step 090 → RMSE=5.683, MAE=3.104, MAPE=0.1208, R2=0.914
+2025-07-17 13:12:04 - INFO - app - Step 091 → RMSE=5.571, MAE=2.983, MAPE=0.1134, R2=0.917
+2025-07-17 13:12:05 - INFO - app - Step 092 → RMSE=5.323, MAE=2.899, MAPE=0.1107, R2=0.925
+2025-07-17 13:12:06 - INFO - app - Step 093 → RMSE=4.611, MAE=2.713, MAPE=0.0929, R2=0.943
+2025-07-17 13:12:07 - INFO - app - Step 094 → RMSE=5.091, MAE=2.847, MAPE=0.1069, R2=0.931
+2025-07-17 13:12:08 - INFO - app - Step 095 → RMSE=5.258, MAE=2.858, MAPE=0.1120, R2=0.926
+2025-07-17 13:12:09 - INFO - app - Step 096 → RMSE=4.756, MAE=2.753, MAPE=0.0963, R2=0.940
+2025-07-17 13:12:10 - INFO - app - Step 097 → RMSE=4.365, MAE=2.530, MAPE=0.0878, R2=0.949
+2025-07-17 13:12:11 - INFO - app - Step 098 → RMSE=4.485, MAE=2.657, MAPE=0.0930, R2=0.947
+2025-07-17 13:12:12 - INFO - app - Step 099 → RMSE=4.571, MAE=2.467, MAPE=0.0842, R2=0.944
+2025-07-17 13:12:13 - INFO - app - Step 100 → RMSE=4.211, MAE=2.407, MAPE=0.0852, R2=0.953
+2025-07-17 13:12:14 - INFO - app - Step 101 → RMSE=4.329, MAE=2.533, MAPE=0.0857, R2=0.950
+2025-07-17 13:12:15 - INFO - app - Step 102 → RMSE=5.454, MAE=3.068, MAPE=0.1172, R2=0.920
+2025-07-17 13:12:16 - INFO - app - Step 103 → RMSE=6.705, MAE=3.475, MAPE=0.1340, R2=0.879
+2025-07-17 13:12:18 - INFO - app - Step 104 → RMSE=7.428, MAE=3.927, MAPE=0.1567, R2=0.852
+2025-07-17 13:12:19 - INFO - app - Step 105 → RMSE=6.662, MAE=3.394, MAPE=0.1329, R2=0.881
+2025-07-17 13:12:20 - INFO - app - Step 106 → RMSE=6.120, MAE=3.133, MAPE=0.1207, R2=0.900
+2025-07-17 13:12:21 - INFO - app - Step 107 → RMSE=4.780, MAE=2.469, MAPE=0.0859, R2=0.939
+2025-07-17 13:12:22 - INFO - app - Step 108 → RMSE=6.037, MAE=3.152, MAPE=0.1157, R2=0.903
+2025-07-17 13:12:23 - INFO - app - Step 109 → RMSE=4.709, MAE=2.420, MAPE=0.0822, R2=0.941
+2025-07-17 13:12:24 - INFO - app - Step 110 → RMSE=4.956, MAE=2.941, MAPE=0.1137, R2=0.934
+2025-07-17 13:12:25 - INFO - app - Step 111 → RMSE=5.385, MAE=3.608, MAPE=0.1182, R2=0.923
+2025-07-17 13:12:26 - INFO - app - Step 112 → RMSE=4.422, MAE=2.509, MAPE=0.0810, R2=0.948
+2025-07-17 13:12:27 - INFO - app - Step 113 → RMSE=4.745, MAE=2.717, MAPE=0.1016, R2=0.939
+2025-07-17 13:12:28 - INFO - app - Step 114 → RMSE=4.396, MAE=2.553, MAPE=0.0810, R2=0.948
+2025-07-17 13:12:29 - INFO - app - Step 115 → RMSE=4.348, MAE=2.356, MAPE=0.0759, R2=0.949
+2025-07-17 13:12:30 - INFO - app - Step 116 → RMSE=4.243, MAE=2.492, MAPE=0.0879, R2=0.951
+2025-07-17 13:12:31 - INFO - app - Step 117 → RMSE=6.084, MAE=3.322, MAPE=0.1288, R2=0.899
+2025-07-17 13:12:32 - INFO - app - Step 118 → RMSE=3.997, MAE=2.320, MAPE=0.0774, R2=0.957
+2025-07-17 13:12:33 - INFO - app - Step 119 → RMSE=4.447, MAE=2.612, MAPE=0.0992, R2=0.946
+2025-07-17 13:12:34 - INFO - app - Step 120 → RMSE=7.886, MAE=5.615, MAPE=0.2439, R2=0.829
+2025-07-17 13:12:35 - INFO - app - Step 121 → RMSE=3.983, MAE=2.328, MAPE=0.0776, R2=0.956
+2025-07-17 13:12:35 - INFO - app - Step 122 → RMSE=4.783, MAE=2.523, MAPE=0.0891, R2=0.937
+2025-07-17 13:12:36 - INFO - app - Step 123 → RMSE=5.419, MAE=2.792, MAPE=0.1021, R2=0.919
+2025-07-17 13:12:37 - INFO - app - Step 124 → RMSE=3.695, MAE=2.024, MAPE=0.0681, R2=0.962
+2025-07-17 13:12:38 - INFO - app - Step 125 → RMSE=4.084, MAE=2.367, MAPE=0.0770, R2=0.954
+2025-07-17 13:12:39 - INFO - app - Step 126 → RMSE=3.721, MAE=2.040, MAPE=0.0689, R2=0.962
+2025-07-17 13:12:40 - INFO - app - Step 127 → RMSE=6.728, MAE=3.607, MAPE=0.1479, R2=0.875
+2025-07-17 13:12:41 - INFO - app - Step 128 → RMSE=6.742, MAE=3.625, MAPE=0.1505, R2=0.874
+2025-07-17 13:12:42 - INFO - app - Step 129 → RMSE=6.490, MAE=3.530, MAPE=0.1377, R2=0.883
+2025-07-17 13:12:43 - INFO - app - Step 130 → RMSE=4.293, MAE=2.422, MAPE=0.0824, R2=0.949
+2025-07-17 13:12:44 - INFO - app - Step 131 → RMSE=5.479, MAE=3.193, MAPE=0.1208, R2=0.917
+2025-07-17 13:12:45 - INFO - app - Step 132 → RMSE=9.909, MAE=5.691, MAPE=0.2404, R2=0.728
+2025-07-17 13:12:46 - INFO - app - Step 133 → RMSE=4.522, MAE=2.479, MAPE=0.0813, R2=0.943
+2025-07-17 13:12:47 - INFO - app - Step 134 → RMSE=7.117, MAE=3.973, MAPE=0.1433, R2=0.859
+2025-07-17 13:12:48 - INFO - app - Step 135 → RMSE=6.914, MAE=4.067, MAPE=0.1418, R2=0.867
+2025-07-17 13:12:49 - INFO - app - Step 136 → RMSE=7.021, MAE=4.777, MAPE=0.2062, R2=0.864
+2025-07-17 13:12:50 - INFO - app - Step 137 → RMSE=4.530, MAE=2.591, MAPE=0.0869, R2=0.943
+2025-07-17 13:12:52 - INFO - app - Step 138 → RMSE=4.177, MAE=2.485, MAPE=0.0901, R2=0.952
+2025-07-17 13:12:53 - INFO - app - Step 139 → RMSE=8.047, MAE=4.721, MAPE=0.2157, R2=0.823
+2025-07-17 13:12:54 - INFO - app - Step 140 → RMSE=7.420, MAE=3.915, MAPE=0.1564, R2=0.851
+2025-07-17 13:12:55 - INFO - app - Step 141 → RMSE=8.997, MAE=5.267, MAPE=0.2253, R2=0.780
+2025-07-17 13:12:56 - INFO - app - Step 142 → RMSE=5.197, MAE=3.141, MAPE=0.1184, R2=0.927
+2025-07-17 13:12:57 - INFO - app - Step 143 → RMSE=7.731, MAE=4.298, MAPE=0.1807, R2=0.839
+2025-07-17 13:12:58 - INFO - app - Step 144 → RMSE=8.480, MAE=4.686, MAPE=0.2037, R2=0.806
+2025-07-17 13:12:59 - INFO - app - Step 145 → RMSE=5.190, MAE=2.855, MAPE=0.1061, R2=0.928
+2025-07-17 13:13:00 - INFO - app - Step 146 → RMSE=5.102, MAE=3.074, MAPE=0.1300, R2=0.930
+2025-07-17 13:13:01 - INFO - app - Step 147 → RMSE=3.843, MAE=2.417, MAPE=0.0841, R2=0.961
+2025-07-17 13:13:02 - INFO - app - Step 148 → RMSE=5.409, MAE=2.865, MAPE=0.1081, R2=0.922
+2025-07-17 13:13:03 - INFO - app - Step 149 → RMSE=5.376, MAE=2.843, MAPE=0.1074, R2=0.923
+2025-07-17 13:13:04 - INFO - app - Step 150 → RMSE=4.956, MAE=2.557, MAPE=0.0976, R2=0.935
+2025-07-17 13:13:05 - INFO - app - Step 151 → RMSE=4.824, MAE=2.805, MAPE=0.1101, R2=0.939
+2025-07-17 13:13:06 - INFO - app - Step 152 → RMSE=3.947, MAE=2.351, MAPE=0.0824, R2=0.959
+2025-07-17 13:13:07 - INFO - app - Step 153 → RMSE=7.465, MAE=4.043, MAPE=0.1704, R2=0.853
+2025-07-17 13:13:08 - INFO - app - Step 154 → RMSE=4.432, MAE=2.650, MAPE=0.0994, R2=0.948
+2025-07-17 13:13:09 - INFO - app - Step 155 → RMSE=4.021, MAE=2.403, MAPE=0.0808, R2=0.958
+2025-07-17 13:13:10 - INFO - app - Step 156 → RMSE=3.910, MAE=2.331, MAPE=0.0841, R2=0.960
+2025-07-17 13:13:11 - INFO - app - Step 157 → RMSE=4.014, MAE=2.247, MAPE=0.0753, R2=0.958
+2025-07-17 13:13:11 - INFO - app - Step 158 → RMSE=3.767, MAE=2.139, MAPE=0.0714, R2=0.963
+2025-07-17 13:13:12 - INFO - app - Step 159 → RMSE=4.507, MAE=2.661, MAPE=0.0998, R2=0.947
+2025-07-17 13:13:13 - INFO - app - Step 160 → RMSE=3.809, MAE=2.189, MAPE=0.0727, R2=0.962
+2025-07-17 13:13:14 - INFO - app - Step 161 → RMSE=5.010, MAE=2.665, MAPE=0.0988, R2=0.935
+2025-07-17 13:13:15 - INFO - app - Step 162 → RMSE=4.881, MAE=2.880, MAPE=0.1099, R2=0.938
+2025-07-17 13:13:16 - INFO - app - Step 163 → RMSE=6.750, MAE=3.847, MAPE=0.1616, R2=0.880
+2025-07-17 13:13:17 - INFO - app - Step 164 → RMSE=6.843, MAE=3.841, MAPE=0.1589, R2=0.876
+2025-07-17 13:13:18 - INFO - app - Step 165 → RMSE=5.526, MAE=3.102, MAPE=0.1230, R2=0.920
+2025-07-17 13:13:19 - INFO - app - Step 166 → RMSE=5.010, MAE=2.926, MAPE=0.1159, R2=0.934
+2025-07-17 13:13:20 - INFO - app - Step 167 → RMSE=6.493, MAE=3.826, MAPE=0.1643, R2=0.888
+2025-07-17 13:13:21 - INFO - app - Step 168 → RMSE=6.756, MAE=3.788, MAPE=0.1516, R2=0.879
+2025-07-17 13:13:22 - INFO - app - Step 169 → RMSE=6.275, MAE=3.398, MAPE=0.1303, R2=0.896
+2025-07-17 13:13:23 - INFO - app - Step 170 → RMSE=5.418, MAE=3.062, MAPE=0.1217, R2=0.921
+2025-07-17 13:13:24 - INFO - app - Step 171 → RMSE=5.120, MAE=2.832, MAPE=0.1054, R2=0.930
+2025-07-17 13:13:27 - INFO - app - Step 172 → RMSE=5.129, MAE=2.941, MAPE=0.1093, R2=0.929
+2025-07-17 13:13:27 - INFO - app - Step 173 → RMSE=5.025, MAE=2.866, MAPE=0.1134, R2=0.932
+2025-07-17 13:13:28 - INFO - app - Step 174 → RMSE=4.945, MAE=2.766, MAPE=0.1016, R2=0.934
+2025-07-17 13:13:29 - INFO - app - Step 175 → RMSE=9.776, MAE=5.864, MAPE=0.2667, R2=0.741
+2025-07-17 13:13:30 - INFO - app - Step 176 → RMSE=6.935, MAE=4.180, MAPE=0.1799, R2=0.869
+2025-07-17 13:13:31 - INFO - app - Step 177 → RMSE=6.462, MAE=3.964, MAPE=0.1611, R2=0.887
+2025-07-17 13:13:32 - INFO - app - Step 178 → RMSE=8.370, MAE=5.240, MAPE=0.2196, R2=0.807
+2025-07-17 13:13:33 - INFO - app - Step 179 → RMSE=4.558, MAE=2.601, MAPE=0.0898, R2=0.943
+2025-07-17 13:13:34 - INFO - app - Step 180 → RMSE=7.005, MAE=4.493, MAPE=0.1788, R2=0.866
+2025-07-17 13:13:35 - INFO - app - Step 181 → RMSE=4.486, MAE=2.399, MAPE=0.0829, R2=0.945
+2025-07-17 13:13:36 - INFO - app - Step 182 → RMSE=6.314, MAE=3.683, MAPE=0.1502, R2=0.891
+2025-07-17 13:13:37 - INFO - app - Step 183 → RMSE=5.372, MAE=2.936, MAPE=0.1091, R2=0.921
+2025-07-17 13:13:38 - INFO - app - Step 184 → RMSE=5.403, MAE=3.047, MAPE=0.1171, R2=0.920
+2025-07-17 13:13:39 - INFO - app - Step 185 → RMSE=5.264, MAE=2.889, MAPE=0.1081, R2=0.924
+2025-07-17 13:13:40 - INFO - app - Step 186 → RMSE=4.428, MAE=2.438, MAPE=0.0813, R2=0.946
+2025-07-17 13:13:41 - INFO - app - Step 187 → RMSE=9.970, MAE=6.116, MAPE=0.2591, R2=0.724
+2025-07-17 13:13:42 - INFO - app - Step 188 → RMSE=4.603, MAE=2.706, MAPE=0.1052, R2=0.941
+2025-07-17 13:13:43 - INFO - app - Step 189 → RMSE=10.247, MAE=5.208, MAPE=0.2194, R2=0.707
+2025-07-17 13:13:44 - INFO - app - Step 190 → RMSE=8.323, MAE=5.061, MAPE=0.2351, R2=0.805
+2025-07-17 13:13:45 - INFO - app - Step 191 → RMSE=5.707, MAE=3.558, MAPE=0.1446, R2=0.911
+2025-07-17 13:13:46 - INFO - app - Step 192 → RMSE=10.269, MAE=6.386, MAPE=0.2851, R2=0.710
+2025-07-17 13:13:46 - INFO - app - Step 193 → RMSE=7.818, MAE=4.177, MAPE=0.1833, R2=0.832
+2025-07-17 13:13:47 - INFO - app - Step 194 → RMSE=4.600, MAE=2.606, MAPE=0.0959, R2=0.942
+2025-07-17 13:13:48 - INFO - app - Step 195 → RMSE=4.215, MAE=2.368, MAPE=0.0913, R2=0.951
+2025-07-17 13:13:49 - INFO - app - Step 196 → RMSE=8.158, MAE=4.674, MAPE=0.2045, R2=0.817
+2025-07-17 13:13:50 - INFO - app - Step 197 → RMSE=4.644, MAE=2.475, MAPE=0.0852, R2=0.941
+2025-07-17 13:13:51 - INFO - app - Step 198 → RMSE=5.047, MAE=2.782, MAPE=0.1022, R2=0.930
+2025-07-17 13:13:52 - INFO - app - Step 199 → RMSE=9.537, MAE=4.976, MAPE=0.2127, R2=0.751
+2025-07-17 13:13:53 - INFO - app - Step 200 → RMSE=8.333, MAE=4.768, MAPE=0.2134, R2=0.808
+2025-07-17 13:13:54 - INFO - app - Step 201 → RMSE=8.713, MAE=5.281, MAPE=0.2311, R2=0.790
+2025-07-17 13:13:55 - INFO - app - Step 202 → RMSE=5.019, MAE=3.117, MAPE=0.1337, R2=0.929
+2025-07-17 13:13:56 - INFO - app - Step 203 → RMSE=10.772, MAE=7.363, MAPE=0.3462, R2=0.678
+2025-07-17 13:13:57 - INFO - app - Step 204 → RMSE=12.211, MAE=7.338, MAPE=0.3350, R2=0.588
+2025-07-17 13:13:58 - INFO - app - Step 205 → RMSE=7.000, MAE=3.978, MAPE=0.1687, R2=0.865
+2025-07-17 13:14:01 - INFO - app - Step 206 → RMSE=6.091, MAE=3.350, MAPE=0.1319, R2=0.898
+2025-07-17 13:14:02 - INFO - app - Step 207 → RMSE=4.790, MAE=2.804, MAPE=0.1025, R2=0.937
+2025-07-17 13:14:02 - INFO - app - Step 208 → RMSE=4.989, MAE=2.974, MAPE=0.1189, R2=0.932
+2025-07-17 13:14:03 - INFO - app - Step 209 → RMSE=9.484, MAE=5.281, MAPE=0.2340, R2=0.754
+2025-07-17 13:14:04 - INFO - app - Step 210 → RMSE=6.226, MAE=3.571, MAPE=0.1631, R2=0.894
+2025-07-17 13:14:05 - INFO - app - Step 211 → RMSE=11.516, MAE=7.227, MAPE=0.3251, R2=0.635
+2025-07-17 13:14:06 - INFO - app - Step 212 → RMSE=10.821, MAE=7.153, MAPE=0.3193, R2=0.679
+2025-07-17 13:14:07 - INFO - app - Step 213 → RMSE=10.537, MAE=6.651, MAPE=0.2939, R2=0.696
+2025-07-17 13:14:08 - INFO - app - Step 214 → RMSE=8.630, MAE=5.446, MAPE=0.2359, R2=0.796
+2025-07-17 13:14:09 - INFO - app - Step 215 → RMSE=10.497, MAE=6.358, MAPE=0.2810, R2=0.696
+2025-07-17 13:14:10 - INFO - app - Step 216 → RMSE=6.138, MAE=3.303, MAPE=0.1292, R2=0.898
+2025-07-17 13:14:11 - INFO - app - Step 217 → RMSE=7.433, MAE=4.117, MAPE=0.1578, R2=0.851
+2025-07-17 13:14:12 - INFO - app - Step 218 → RMSE=8.458, MAE=5.041, MAPE=0.2261, R2=0.807
+2025-07-17 13:14:13 - INFO - app - Step 219 → RMSE=13.217, MAE=8.015, MAPE=0.3657, R2=0.532
+2025-07-17 13:14:14 - INFO - app - Step 220 → RMSE=11.898, MAE=7.095, MAPE=0.3269, R2=0.621
+2025-07-17 13:14:15 - INFO - app - Step 221 → RMSE=8.132, MAE=4.553, MAPE=0.2017, R2=0.824
+2025-07-17 13:14:16 - INFO - app - Step 222 → RMSE=8.004, MAE=4.064, MAPE=0.1718, R2=0.830
+2025-07-17 13:14:17 - INFO - app - Step 223 → RMSE=7.669, MAE=4.160, MAPE=0.1585, R2=0.845
+2025-07-17 13:14:18 - INFO - app - Step 224 → RMSE=16.066, MAE=10.808, MAPE=0.5026, R2=0.326
+2025-07-17 13:14:19 - INFO - app - Step 225 → RMSE=13.407, MAE=8.901, MAPE=0.4086, R2=0.533
+2025-07-17 13:14:20 - INFO - app - Step 226 → RMSE=10.224, MAE=6.607, MAPE=0.2917, R2=0.729
+2025-07-17 13:14:21 - INFO - app - Step 227 → RMSE=10.537, MAE=6.261, MAPE=0.2840, R2=0.715
+2025-07-17 13:14:22 - INFO - app - Step 228 → RMSE=12.074, MAE=6.768, MAPE=0.2975, R2=0.626
+2025-07-17 13:14:22 - INFO - app - Step 229 → RMSE=7.261, MAE=4.194, MAPE=0.1788, R2=0.865
+2025-07-17 13:14:23 - INFO - app - Step 230 → RMSE=5.338, MAE=2.743, MAPE=0.0961, R2=0.928
+2025-07-17 13:14:24 - INFO - app - Step 231 → RMSE=7.217, MAE=3.883, MAPE=0.1558, R2=0.869
+2025-07-17 13:14:25 - INFO - app - Step 232 → RMSE=6.185, MAE=3.474, MAPE=0.1370, R2=0.905
+2025-07-17 13:14:26 - INFO - app - Step 233 → RMSE=6.422, MAE=3.871, MAPE=0.1615, R2=0.898
+2025-07-17 13:14:27 - INFO - app - Step 234 → RMSE=6.253, MAE=3.536, MAPE=0.1413, R2=0.903
+2025-07-17 13:14:28 - INFO - app - Step 235 → RMSE=8.478, MAE=4.766, MAPE=0.1953, R2=0.823
+2025-07-17 13:14:29 - INFO - app - Step 236 → RMSE=6.966, MAE=4.078, MAPE=0.1689, R2=0.881
+2025-07-17 13:14:30 - INFO - app - Step 237 → RMSE=5.518, MAE=3.089, MAPE=0.1162, R2=0.925
+2025-07-17 13:14:31 - INFO - app - Step 238 → RMSE=5.812, MAE=3.360, MAPE=0.1345, R2=0.918
+2025-07-17 13:14:32 - INFO - app - Step 239 → RMSE=5.899, MAE=3.262, MAPE=0.1300, R2=0.915
+2025-07-17 13:14:35 - INFO - app - Step 240 → RMSE=6.047, MAE=3.453, MAPE=0.1393, R2=0.910
+2025-07-17 13:14:36 - INFO - app - Step 241 → RMSE=5.915, MAE=3.287, MAPE=0.1319, R2=0.913
+2025-07-17 13:14:37 - INFO - app - Step 242 → RMSE=5.103, MAE=2.899, MAPE=0.1110, R2=0.935
+2025-07-17 13:14:38 - INFO - app - Step 243 → RMSE=5.489, MAE=3.280, MAPE=0.1279, R2=0.925
+2025-07-17 13:14:38 - INFO - app - Step 244 → RMSE=4.236, MAE=2.667, MAPE=0.0984, R2=0.955
+2025-07-17 13:14:39 - INFO - app - Step 245 → RMSE=5.010, MAE=2.817, MAPE=0.1093, R2=0.937
+2025-07-17 13:14:40 - INFO - app - Step 246 → RMSE=4.565, MAE=2.712, MAPE=0.0948, R2=0.948
+2025-07-17 13:14:41 - INFO - app - Step 247 → RMSE=4.033, MAE=2.461, MAPE=0.0793, R2=0.959
+2025-07-17 13:14:42 - INFO - app - Step 248 → RMSE=3.518, MAE=2.040, MAPE=0.0675, R2=0.969
+2025-07-17 13:14:43 - INFO - app - Step 249 → RMSE=4.792, MAE=2.865, MAPE=0.1045, R2=0.943
+2025-07-17 13:14:44 - INFO - app - Step 250 → RMSE=4.549, MAE=2.738, MAPE=0.0968, R2=0.949
+2025-07-17 13:14:45 - INFO - app - Step 251 → RMSE=5.115, MAE=2.820, MAPE=0.1027, R2=0.935
+2025-07-17 13:14:46 - INFO - app - Step 252 → RMSE=6.431, MAE=4.423, MAPE=0.1914, R2=0.897
+2025-07-17 13:14:47 - INFO - app - Step 253 → RMSE=5.861, MAE=3.969, MAPE=0.1660, R2=0.915
+2025-07-17 13:14:48 - INFO - app - Step 254 → RMSE=5.503, MAE=2.914, MAPE=0.1065, R2=0.925
+2025-07-17 13:14:49 - INFO - app - Step 255 → RMSE=3.769, MAE=2.209, MAPE=0.0718, R2=0.965
+2025-07-17 13:14:50 - INFO - app - Step 256 → RMSE=4.755, MAE=2.591, MAPE=0.0894, R2=0.945
+2025-07-17 13:14:51 - INFO - app - Step 257 → RMSE=3.978, MAE=2.204, MAPE=0.0730, R2=0.961
+2025-07-17 13:14:52 - INFO - app - Step 258 → RMSE=4.037, MAE=2.394, MAPE=0.0763, R2=0.960
+2025-07-17 13:14:53 - INFO - app - Step 259 → RMSE=4.220, MAE=2.572, MAPE=0.0880, R2=0.957
+2025-07-17 13:14:54 - INFO - app - Step 260 → RMSE=4.294, MAE=2.431, MAPE=0.0789, R2=0.955
+2025-07-17 13:14:55 - INFO - app - Step 261 → RMSE=4.697, MAE=2.636, MAPE=0.0946, R2=0.947
+2025-07-17 13:14:56 - INFO - app - Step 262 → RMSE=4.134, MAE=2.414, MAPE=0.0779, R2=0.959
+2025-07-17 13:14:56 - INFO - app - Step 263 → RMSE=3.774, MAE=2.274, MAPE=0.0723, R2=0.966
+2025-07-17 13:14:57 - INFO - app - Step 264 → RMSE=3.893, MAE=2.297, MAPE=0.0750, R2=0.963
+2025-07-17 13:14:58 - INFO - app - Step 265 → RMSE=3.733, MAE=2.210, MAPE=0.0717, R2=0.967
+2025-07-17 13:14:59 - INFO - app - Step 266 → RMSE=3.702, MAE=2.201, MAPE=0.0720, R2=0.967
+2025-07-17 13:15:00 - INFO - app - Step 267 → RMSE=3.472, MAE=2.086, MAPE=0.0683, R2=0.971
+2025-07-17 13:15:01 - INFO - app - Step 268 → RMSE=3.601, MAE=2.170, MAPE=0.0706, R2=0.969
+2025-07-17 13:15:02 - INFO - app - Step 269 → RMSE=3.575, MAE=2.159, MAPE=0.0707, R2=0.970
+2025-07-17 13:15:03 - INFO - app - Step 270 → RMSE=3.530, MAE=2.143, MAPE=0.0689, R2=0.970
+2025-07-17 13:15:04 - INFO - app - Step 271 → RMSE=3.756, MAE=2.370, MAPE=0.0773, R2=0.967
+2025-07-17 13:15:05 - INFO - app - Step 272 → RMSE=3.606, MAE=2.191, MAPE=0.0702, R2=0.969
+2025-07-17 13:15:06 - INFO - app - Step 273 → RMSE=3.780, MAE=2.326, MAPE=0.0737, R2=0.966
+2025-07-17 13:15:09 - INFO - app - Step 274 → RMSE=3.789, MAE=2.343, MAPE=0.0742, R2=0.966
+2025-07-17 13:15:10 - INFO - app - Step 275 → RMSE=3.692, MAE=2.246, MAPE=0.0733, R2=0.968
+2025-07-17 13:15:11 - INFO - app - Step 276 → RMSE=3.841, MAE=2.339, MAPE=0.0780, R2=0.965
+2025-07-17 13:15:12 - INFO - app - Step 277 → RMSE=3.840, MAE=2.348, MAPE=0.0741, R2=0.965
+2025-07-17 13:15:13 - INFO - app - Step 278 → RMSE=4.062, MAE=2.498, MAPE=0.0785, R2=0.961
+2025-07-17 13:15:14 - INFO - app - Step 279 → RMSE=3.964, MAE=2.462, MAPE=0.0799, R2=0.963
+2025-07-17 13:15:15 - INFO - app - Step 280 → RMSE=4.010, MAE=2.450, MAPE=0.0754, R2=0.962
+2025-07-17 13:15:16 - INFO - app - Step 281 → RMSE=4.217, MAE=2.628, MAPE=0.0835, R2=0.958
+2025-07-17 13:15:17 - INFO - app - Step 282 → RMSE=4.291, MAE=2.691, MAPE=0.0840, R2=0.956
+2025-07-17 13:15:18 - INFO - app - Step 283 → RMSE=4.363, MAE=2.694, MAPE=0.0861, R2=0.955
+2025-07-17 13:15:19 - INFO - app - Step 284 → RMSE=3.984, MAE=2.390, MAPE=0.0726, R2=0.963
+2025-07-17 13:15:20 - INFO - app - Step 285 → RMSE=4.066, MAE=2.444, MAPE=0.0741, R2=0.961
+2025-07-17 13:15:21 - INFO - app - Step 286 → RMSE=4.147, MAE=2.556, MAPE=0.0801, R2=0.959
+2025-07-17 13:15:21 - INFO - app - Step 287 → RMSE=4.081, MAE=2.489, MAPE=0.0767, R2=0.960
+2025-07-17 13:15:22 - INFO - app - Overall  → RMSE=6.055, MAE=3.298, MAPE=0.1257, R2=0.906

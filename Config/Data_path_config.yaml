@@ -1,0 +1,4 @@
+data:
+  GPS : /home/kayden/Analysis/Traffic_prediction/Car_simulation/Result/GPS_data/
+  ITS_info : /home/kayden/Analysis/Traffic_prediction/Common_data/MOCT_LINK.dbf
+  Node_info : /home/kayden/Analysis/Traffic_prediction/Common_data/MOCT_NODE.csv

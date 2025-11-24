@@ -1,0 +1,194 @@
+2025-08-13 15:02:49 - INFO - app - 📆 far_time_process 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-13 15:02:49 - INFO - app - ✅ Data load skip: 총 56개 파일 저장됨
+2025-08-13 15:02:49 - INFO - app - ✅ 데이터 전처리(x-y) skip: Model/v3에 저장됨
+2025-08-13 15:02:49 - INFO - app - ✅ Step 0 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ✅ Step 1 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ✅ Step 2 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ✅ Step 3 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ✅ Step 4 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ✅ Step 5 model already exists, skipping...
+2025-08-13 15:02:49 - INFO - app - ▶ Training step 7/288
+2025-08-13 15:03:00 - INFO - app - [0] valid's rmse: 0.78449 valid's l2: 0.61543
+2025-08-13 15:03:57 - INFO - app - [100] valid's rmse: 0.27857 valid's l2: 0.07760
+2025-08-13 15:04:43 - INFO - app - [200] valid's rmse: 0.25496 valid's l2: 0.06501
+2025-08-13 15:05:21 - INFO - app - [300] valid's rmse: 0.25311 valid's l2: 0.06406
+2025-08-13 15:05:51 - INFO - app - [400] valid's rmse: 0.25253 valid's l2: 0.06377
+2025-08-13 15:06:19 - INFO - app - [500] valid's rmse: 0.25217 valid's l2: 0.06359
+2025-08-13 15:06:44 - INFO - app - [600] valid's rmse: 0.25194 valid's l2: 0.06347
+2025-08-13 15:07:08 - INFO - app - [700] valid's rmse: 0.25178 valid's l2: 0.06339
+2025-08-13 15:07:30 - INFO - app - [800] valid's rmse: 0.25166 valid's l2: 0.06333
+2025-08-13 15:07:51 - INFO - app - [900] valid's rmse: 0.25157 valid's l2: 0.06329
+2025-08-13 15:09:33 - INFO - app - 🏆 Step 6 Best iteration: 999, Train RMSE: 0.25179, Valid RMSE: 0.25151
+2025-08-13 15:09:33 - INFO - app - ✔ Saved model step 6 → Model/v3/lgbm_step_006.pkl
+2025-08-13 15:09:34 - INFO - app - ▶ Training step 8/288
+2025-08-13 15:09:55 - INFO - app - [0] valid's rmse: 0.78409 valid's l2: 0.61480
+2025-08-13 15:10:51 - INFO - app - [100] valid's rmse: 0.27898 valid's l2: 0.07783
+2025-08-13 15:11:37 - INFO - app - [200] valid's rmse: 0.25542 valid's l2: 0.06524
+2025-08-13 15:12:15 - INFO - app - [300] valid's rmse: 0.25354 valid's l2: 0.06428
+2025-08-13 15:12:44 - INFO - app - [400] valid's rmse: 0.25296 valid's l2: 0.06399
+2025-08-13 15:13:14 - INFO - app - [500] valid's rmse: 0.25260 valid's l2: 0.06381
+2025-08-13 15:13:40 - INFO - app - [600] valid's rmse: 0.25235 valid's l2: 0.06368
+2025-08-13 15:14:03 - INFO - app - [700] valid's rmse: 0.25221 valid's l2: 0.06361
+2025-08-13 15:14:26 - INFO - app - [800] valid's rmse: 0.25206 valid's l2: 0.06354
+2025-08-13 15:14:48 - INFO - app - [900] valid's rmse: 0.25197 valid's l2: 0.06349
+2025-08-13 15:16:31 - INFO - app - 🏆 Step 7 Best iteration: 1000, Train RMSE: 0.25212, Valid RMSE: 0.25191
+2025-08-13 15:16:31 - INFO - app - ✔ Saved model step 7 → Model/v3/lgbm_step_007.pkl
+2025-08-13 15:16:31 - INFO - app - ▶ Training step 9/288
+2025-08-13 15:16:47 - INFO - app - [0] valid's rmse: 0.78402 valid's l2: 0.61469
+2025-08-13 15:17:42 - INFO - app - [100] valid's rmse: 0.27802 valid's l2: 0.07729
+2025-08-13 15:18:29 - INFO - app - [200] valid's rmse: 0.25441 valid's l2: 0.06473
+2025-08-13 15:19:06 - INFO - app - [300] valid's rmse: 0.25256 valid's l2: 0.06379
+2025-08-13 15:19:38 - INFO - app - [400] valid's rmse: 0.25199 valid's l2: 0.06350
+2025-08-13 15:20:07 - INFO - app - [500] valid's rmse: 0.25164 valid's l2: 0.06332
+2025-08-13 15:20:34 - INFO - app - [600] valid's rmse: 0.25141 valid's l2: 0.06321
+2025-08-13 15:20:57 - INFO - app - [700] valid's rmse: 0.25127 valid's l2: 0.06314
+2025-08-13 15:21:21 - INFO - app - [800] valid's rmse: 0.25113 valid's l2: 0.06307
+2025-08-13 15:21:43 - INFO - app - [900] valid's rmse: 0.25104 valid's l2: 0.06302
+2025-08-13 15:23:26 - INFO - app - 🏆 Step 8 Best iteration: 1000, Train RMSE: 0.25116, Valid RMSE: 0.25097
+2025-08-13 15:23:26 - INFO - app - ✔ Saved model step 8 → Model/v3/lgbm_step_008.pkl
+2025-08-13 15:23:26 - INFO - app - ▶ Training step 10/288
+2025-08-13 15:23:40 - INFO - app - [0] valid's rmse: 0.78386 valid's l2: 0.61443
+2025-08-13 15:24:35 - INFO - app - [100] valid's rmse: 0.27743 valid's l2: 0.07697
+2025-08-13 15:25:21 - INFO - app - [200] valid's rmse: 0.25380 valid's l2: 0.06442
+2025-08-13 15:25:59 - INFO - app - [300] valid's rmse: 0.25195 valid's l2: 0.06348
+2025-08-13 15:26:32 - INFO - app - [400] valid's rmse: 0.25138 valid's l2: 0.06319
+2025-08-13 15:27:02 - INFO - app - [500] valid's rmse: 0.25100 valid's l2: 0.06300
+2025-08-13 15:27:29 - INFO - app - [600] valid's rmse: 0.25075 valid's l2: 0.06288
+2025-08-13 15:27:53 - INFO - app - [700] valid's rmse: 0.25059 valid's l2: 0.06280
+2025-08-13 15:28:15 - INFO - app - [800] valid's rmse: 0.25049 valid's l2: 0.06274
+2025-08-13 15:28:36 - INFO - app - [900] valid's rmse: 0.25041 valid's l2: 0.06270
+2025-08-13 15:30:17 - INFO - app - 🏆 Step 9 Best iteration: 1000, Train RMSE: 0.25054, Valid RMSE: 0.25034
+2025-08-13 15:30:17 - INFO - app - ✔ Saved model step 9 → Model/v3/lgbm_step_009.pkl
+2025-08-13 15:30:17 - INFO - app - ▶ Training step 11/288
+2025-08-13 15:30:32 - INFO - app - [0] valid's rmse: 0.78381 valid's l2: 0.61435
+2025-08-13 15:31:26 - INFO - app - [100] valid's rmse: 0.27741 valid's l2: 0.07696
+2025-08-13 15:32:12 - INFO - app - [200] valid's rmse: 0.25377 valid's l2: 0.06440
+2025-08-13 15:32:49 - INFO - app - [300] valid's rmse: 0.25192 valid's l2: 0.06347
+2025-08-13 15:33:19 - INFO - app - [400] valid's rmse: 0.25136 valid's l2: 0.06318
+2025-08-13 15:33:48 - INFO - app - [500] valid's rmse: 0.25098 valid's l2: 0.06299
+2025-08-13 15:34:15 - INFO - app - [600] valid's rmse: 0.25073 valid's l2: 0.06287
+2025-08-13 15:34:38 - INFO - app - [700] valid's rmse: 0.25058 valid's l2: 0.06279
+2025-08-13 15:35:01 - INFO - app - [800] valid's rmse: 0.25047 valid's l2: 0.06273
+2025-08-13 15:35:22 - INFO - app - [900] valid's rmse: 0.25038 valid's l2: 0.06269
+2025-08-13 15:37:02 - INFO - app - 🏆 Step 10 Best iteration: 1000, Train RMSE: 0.25055, Valid RMSE: 0.25031
+2025-08-13 15:37:02 - INFO - app - ✔ Saved model step 10 → Model/v3/lgbm_step_010.pkl
+2025-08-13 15:37:02 - INFO - app - ▶ Training step 12/288
+2025-08-13 15:37:16 - INFO - app - [0] valid's rmse: 0.78368 valid's l2: 0.61416
+2025-08-13 15:38:12 - INFO - app - [100] valid's rmse: 0.27751 valid's l2: 0.07701
+2025-08-13 15:39:00 - INFO - app - [200] valid's rmse: 0.25387 valid's l2: 0.06445
+2025-08-13 15:39:39 - INFO - app - [300] valid's rmse: 0.25200 valid's l2: 0.06350
+2025-08-13 15:40:10 - INFO - app - [400] valid's rmse: 0.25145 valid's l2: 0.06323
+2025-08-13 15:40:41 - INFO - app - [500] valid's rmse: 0.25108 valid's l2: 0.06304
+2025-08-13 15:41:08 - INFO - app - [600] valid's rmse: 0.25084 valid's l2: 0.06292
+2025-08-13 15:41:33 - INFO - app - [700] valid's rmse: 0.25069 valid's l2: 0.06285
+2025-08-13 15:41:55 - INFO - app - [800] valid's rmse: 0.25058 valid's l2: 0.06279
+2025-08-13 15:42:18 - INFO - app - [900] valid's rmse: 0.25049 valid's l2: 0.06274
+2025-08-13 15:43:55 - INFO - app - 🏆 Step 11 Best iteration: 1000, Train RMSE: 0.25061, Valid RMSE: 0.25041
+2025-08-13 15:43:55 - INFO - app - ✔ Saved model step 11 → Model/v3/lgbm_step_011.pkl
+2025-08-13 15:43:55 - INFO - app - ▶ Training step 13/288
+2025-08-13 15:44:09 - INFO - app - [0] valid's rmse: 0.78476 valid's l2: 0.61585
+2025-08-13 15:45:04 - INFO - app - [100] valid's rmse: 0.27981 valid's l2: 0.07830
+2025-08-13 15:45:52 - INFO - app - [200] valid's rmse: 0.25620 valid's l2: 0.06564
+2025-08-13 15:46:30 - INFO - app - [300] valid's rmse: 0.25432 valid's l2: 0.06468
+2025-08-13 15:47:01 - INFO - app - [400] valid's rmse: 0.25376 valid's l2: 0.06440
+2025-08-13 15:47:31 - INFO - app - [500] valid's rmse: 0.25341 valid's l2: 0.06422
+2025-08-13 15:47:58 - INFO - app - [600] valid's rmse: 0.25317 valid's l2: 0.06410
+2025-08-13 15:48:23 - INFO - app - [700] valid's rmse: 0.25301 valid's l2: 0.06401
+2025-08-13 15:48:47 - INFO - app - [800] valid's rmse: 0.25289 valid's l2: 0.06396
+2025-08-13 15:49:06 - INFO - app - [900] valid's rmse: 0.25284 valid's l2: 0.06393
+2025-08-13 15:50:44 - INFO - app - 🏆 Step 12 Best iteration: 1000, Train RMSE: 0.25295, Valid RMSE: 0.25278
+2025-08-13 15:50:44 - INFO - app - ✔ Saved model step 12 → Model/v3/lgbm_step_012.pkl
+2025-08-13 15:50:44 - INFO - app - ▶ Training step 14/288
+2025-08-13 15:50:57 - INFO - app - [0] valid's rmse: 0.78468 valid's l2: 0.61573
+2025-08-13 15:51:53 - INFO - app - [100] valid's rmse: 0.27983 valid's l2: 0.07831
+2025-08-13 15:52:41 - INFO - app - [200] valid's rmse: 0.25624 valid's l2: 0.06566
+2025-08-13 15:53:19 - INFO - app - [300] valid's rmse: 0.25435 valid's l2: 0.06469
+2025-08-13 15:53:51 - INFO - app - [400] valid's rmse: 0.25378 valid's l2: 0.06440
+2025-08-13 15:54:21 - INFO - app - [500] valid's rmse: 0.25342 valid's l2: 0.06422
+2025-08-13 15:54:48 - INFO - app - [600] valid's rmse: 0.25322 valid's l2: 0.06412
+2025-08-13 15:55:11 - INFO - app - [700] valid's rmse: 0.25309 valid's l2: 0.06405
+2025-08-13 15:55:34 - INFO - app - [800] valid's rmse: 0.25298 valid's l2: 0.06400
+2025-08-13 15:55:56 - INFO - app - [900] valid's rmse: 0.25290 valid's l2: 0.06396
+2025-08-13 15:57:36 - INFO - app - 🏆 Step 13 Best iteration: 1000, Train RMSE: 0.25299, Valid RMSE: 0.25280
+2025-08-13 15:57:36 - INFO - app - ✔ Saved model step 13 → Model/v3/lgbm_step_013.pkl
+2025-08-13 15:57:36 - INFO - app - ▶ Training step 15/288
+2025-08-13 15:57:49 - INFO - app - [0] valid's rmse: 0.78449 valid's l2: 0.61543
+2025-08-13 15:58:48 - INFO - app - [100] valid's rmse: 0.27986 valid's l2: 0.07832
+2025-08-13 15:59:36 - INFO - app - [200] valid's rmse: 0.25630 valid's l2: 0.06569
+2025-08-13 16:00:15 - INFO - app - [300] valid's rmse: 0.25441 valid's l2: 0.06472
+2025-08-13 16:00:46 - INFO - app - [400] valid's rmse: 0.25385 valid's l2: 0.06444
+2025-08-13 16:01:16 - INFO - app - [500] valid's rmse: 0.25350 valid's l2: 0.06426
+2025-08-13 16:01:42 - INFO - app - [600] valid's rmse: 0.25329 valid's l2: 0.06416
+2025-08-13 16:02:06 - INFO - app - [700] valid's rmse: 0.25313 valid's l2: 0.06407
+2025-08-13 16:02:28 - INFO - app - [800] valid's rmse: 0.25302 valid's l2: 0.06402
+2025-08-13 16:02:47 - INFO - app - [900] valid's rmse: 0.25294 valid's l2: 0.06398
+2025-08-13 16:04:30 - INFO - app - 🏆 Step 14 Best iteration: 1000, Train RMSE: 0.25313, Valid RMSE: 0.25285
+2025-08-13 16:04:30 - INFO - app - ✔ Saved model step 14 → Model/v3/lgbm_step_014.pkl
+2025-08-13 16:04:30 - INFO - app - ▶ Training step 16/288
+2025-08-13 16:04:46 - INFO - app - [0] valid's rmse: 0.78445 valid's l2: 0.61535
+2025-08-13 16:05:42 - INFO - app - [100] valid's rmse: 0.27982 valid's l2: 0.07830
+2025-08-13 16:06:28 - INFO - app - [200] valid's rmse: 0.25626 valid's l2: 0.06567
+2025-08-13 16:07:07 - INFO - app - [300] valid's rmse: 0.25439 valid's l2: 0.06472
+2025-08-13 16:07:37 - INFO - app - [400] valid's rmse: 0.25383 valid's l2: 0.06443
+2025-08-13 16:08:09 - INFO - app - [500] valid's rmse: 0.25346 valid's l2: 0.06424
+2025-08-13 16:08:36 - INFO - app - [600] valid's rmse: 0.25323 valid's l2: 0.06413
+2025-08-13 16:09:01 - INFO - app - [700] valid's rmse: 0.25307 valid's l2: 0.06405
+2025-08-13 16:09:24 - INFO - app - [800] valid's rmse: 0.25296 valid's l2: 0.06399
+2025-08-13 16:09:46 - INFO - app - [900] valid's rmse: 0.25288 valid's l2: 0.06395
+2025-08-13 16:11:26 - INFO - app - 🏆 Step 15 Best iteration: 1000, Train RMSE: 0.25305, Valid RMSE: 0.25282
+2025-08-13 16:11:26 - INFO - app - ✔ Saved model step 15 → Model/v3/lgbm_step_015.pkl
+2025-08-13 16:11:26 - INFO - app - ▶ Training step 17/288
+2025-08-13 16:11:41 - INFO - app - [0] valid's rmse: 0.78360 valid's l2: 0.61402
+2025-08-13 16:12:41 - INFO - app - [100] valid's rmse: 0.27878 valid's l2: 0.07772
+2025-08-13 16:13:30 - INFO - app - [200] valid's rmse: 0.25523 valid's l2: 0.06514
+2025-08-13 16:14:10 - INFO - app - [300] valid's rmse: 0.25336 valid's l2: 0.06419
+2025-08-13 16:14:42 - INFO - app - [400] valid's rmse: 0.25280 valid's l2: 0.06391
+2025-08-13 16:15:12 - INFO - app - [500] valid's rmse: 0.25245 valid's l2: 0.06373
+2025-08-13 16:15:39 - INFO - app - [600] valid's rmse: 0.25223 valid's l2: 0.06362
+2025-08-13 16:16:02 - INFO - app - [700] valid's rmse: 0.25210 valid's l2: 0.06355
+2025-08-13 16:16:24 - INFO - app - [800] valid's rmse: 0.25196 valid's l2: 0.06349
+2025-08-13 16:16:45 - INFO - app - [900] valid's rmse: 0.25188 valid's l2: 0.06344
+2025-08-13 16:18:25 - INFO - app - 🏆 Step 16 Best iteration: 1000, Train RMSE: 0.25215, Valid RMSE: 0.25181
+2025-08-13 16:18:25 - INFO - app - ✔ Saved model step 16 → Model/v3/lgbm_step_016.pkl
+2025-08-13 16:18:25 - INFO - app - ▶ Training step 18/288
+2025-08-13 16:18:41 - INFO - app - [0] valid's rmse: 0.78423 valid's l2: 0.61502
+2025-08-13 16:19:36 - INFO - app - [100] valid's rmse: 0.27957 valid's l2: 0.07816
+2025-08-13 16:20:22 - INFO - app - [200] valid's rmse: 0.25550 valid's l2: 0.06528
+2025-08-13 16:21:00 - INFO - app - [300] valid's rmse: 0.25353 valid's l2: 0.06428
+2025-08-13 16:21:29 - INFO - app - [400] valid's rmse: 0.25295 valid's l2: 0.06398
+2025-08-13 16:21:59 - INFO - app - [500] valid's rmse: 0.25257 valid's l2: 0.06379
+2025-08-13 16:22:23 - INFO - app - [600] valid's rmse: 0.25236 valid's l2: 0.06369
+2025-08-13 16:22:46 - INFO - app - [700] valid's rmse: 0.25221 valid's l2: 0.06361
+2025-08-13 16:23:09 - INFO - app - [800] valid's rmse: 0.25209 valid's l2: 0.06355
+2025-08-13 16:23:30 - INFO - app - [900] valid's rmse: 0.25200 valid's l2: 0.06351
+2025-08-13 16:25:08 - INFO - app - 🏆 Step 17 Best iteration: 1000, Train RMSE: 0.25217, Valid RMSE: 0.25193
+2025-08-13 16:25:08 - INFO - app - ✔ Saved model step 17 → Model/v3/lgbm_step_017.pkl
+2025-08-13 16:25:08 - INFO - app - ▶ Training step 19/288
+2025-08-13 16:25:21 - INFO - app - [0] valid's rmse: 0.78406 valid's l2: 0.61476
+2025-08-13 16:26:15 - INFO - app - [100] valid's rmse: 0.27983 valid's l2: 0.07830
+2025-08-13 16:27:00 - INFO - app - [200] valid's rmse: 0.25629 valid's l2: 0.06569
+2025-08-13 16:27:37 - INFO - app - [300] valid's rmse: 0.25443 valid's l2: 0.06474
+2025-08-13 16:28:07 - INFO - app - [400] valid's rmse: 0.25384 valid's l2: 0.06443
+2025-08-13 16:28:37 - INFO - app - [500] valid's rmse: 0.25347 valid's l2: 0.06425
+2025-08-13 16:29:04 - INFO - app - [600] valid's rmse: 0.25322 valid's l2: 0.06412
+2025-08-13 16:29:29 - INFO - app - [700] valid's rmse: 0.25306 valid's l2: 0.06404
+2025-08-13 16:29:50 - INFO - app - [800] valid's rmse: 0.25295 valid's l2: 0.06398
+2025-08-13 16:30:11 - INFO - app - [900] valid's rmse: 0.25286 valid's l2: 0.06394
+2025-08-13 16:31:48 - INFO - app - 🏆 Step 18 Best iteration: 999, Train RMSE: 0.25299, Valid RMSE: 0.25280
+2025-08-13 16:31:48 - INFO - app - ✔ Saved model step 18 → Model/v3/lgbm_step_018.pkl
+2025-08-13 16:31:48 - INFO - app - ▶ Training step 20/288
+2025-08-13 16:32:02 - INFO - app - [0] valid's rmse: 0.78285 valid's l2: 0.61285
+2025-08-13 16:32:56 - INFO - app - [100] valid's rmse: 0.27797 valid's l2: 0.07726
+2025-08-13 16:33:41 - INFO - app - [200] valid's rmse: 0.25391 valid's l2: 0.06447
+2025-08-13 16:34:18 - INFO - app - [300] valid's rmse: 0.25195 valid's l2: 0.06348
+2025-08-13 16:34:48 - INFO - app - [400] valid's rmse: 0.25135 valid's l2: 0.06318
+2025-08-13 16:35:17 - INFO - app - [500] valid's rmse: 0.25101 valid's l2: 0.06300
+2025-08-13 16:35:43 - INFO - app - [600] valid's rmse: 0.25076 valid's l2: 0.06288
+2025-08-13 16:36:07 - INFO - app - [700] valid's rmse: 0.25059 valid's l2: 0.06280
+2025-08-13 16:36:30 - INFO - app - [800] valid's rmse: 0.25046 valid's l2: 0.06273
+2025-08-13 16:36:52 - INFO - app - [900] valid's rmse: 0.25037 valid's l2: 0.06269
+2025-08-13 16:38:29 - INFO - app - 🏆 Step 19 Best iteration: 1000, Train RMSE: 0.25052, Valid RMSE: 0.25030
+2025-08-13 16:38:29 - INFO - app - ✔ Saved model step 19 → Model/v3/lgbm_step_019.pkl
+2025-08-13 16:38:30 - INFO - app - ▶ Training step 21/288
+2025-08-13 16:38:44 - INFO - app - [0] valid's rmse: 0.78264 valid's l2: 0.61252
+2025-08-13 16:39:40 - INFO - app - [100] valid's rmse: 0.27795 valid's l2: 0.07726

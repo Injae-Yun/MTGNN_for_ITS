@@ -1,0 +1,23 @@
+# 최적화 설정 예시
+# 이 파일을 참고하여 기존 config 파일에 최적화 옵션을 추가하세요
+
+# 최적화 방법 선택
+# - 'cached': 링크 데이터 캐싱 활용 (메모리 사용량 증가, 속도 향상)
+# - 'parallel': 병렬 처리 활용 (CPU 코어 활용 극대화)
+# - 'memory_efficient': 배치 처리 활용 (메모리 사용량 최적화, 기본값)
+# - 'original': 기존 방법 사용
+optimization_method: 'memory_efficient'
+
+# 배치 크기 (memory_efficient 방법 사용 시)
+batch_size: 10
+
+# 기존 설정들...
+interval: 5
+interest: [-12, -6, 0]
+interest_y: 12
+train_ratio: [0.7, 0.15, 0.15]
+mode: 'date_range'
+date_range:
+  start: '2024-01-01'
+  end: '2024-01-31'
+target: 'Livinglab' 

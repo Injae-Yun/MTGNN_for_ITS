@@ -1,0 +1,56 @@
+# 공통 설정
+mode: time_reference  #date_range 또는 time_points far_time_process
+target: Livinglab  # 또는 Livinglab
+
+projection :
+    {"link_id": 1,
+    "speed": 1,
+    "insert_time": 1,
+    "_id": 0}  # ID 필요 없음.
+# Model data interesting points 설정
+interval: 5 # 시간 간격 (분 단위)
+interest : [-12, -288, -2016]
+generate_y: True
+interest_y: 12
+
+# train, val, test 설정
+train_ratio: [0.6, 0.2 , 0.2]  # train, val, test 비율 # val은 사용하지 않음
+
+
+# [mode = date_range]의 경우
+date_range:
+  start: "2025-04-01"
+  end: "2025-05-26"
+
+# [mode = time_reference]의 경우
+time_reference:
+  date: "2025-08-02"
+  time: "12:00"
+
+# for far_time_process
+far_time_process:
+  start: None  # None으로 설정하면 현재 날짜로 대체됨
+  end: None  # None으로 설정하면 현재 날짜로 대체됨
+  interest: [-2,-3,-7,-14,-21]
+  pg_projection:
+    {"link_id": 1, #Link ID
+     "avg_speed": 0, # ?
+     "data": 1 ,  # True data
+    "reg_date": 0, # 등록일
+     }
+  explode_list: 
+    - "insert_time"  # 시간
+    - "speed"  # 속도
+    - "pty"  # 강수 형태 # 0: 없음, 1: 비, 2: 눈-비, 3: 눈
+    - "rn1"  # 강우량
+    
+    
+Postgres_info:
+  host: "192.168.0.137"
+  port: 5433
+  database: "traffic"
+  user: "postgres"
+  password: "1234"
+Postgres_db_info:
+  table: link_dev
+  schema: predict

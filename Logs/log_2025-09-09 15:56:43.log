@@ -1,0 +1,67 @@
+2025-09-09 15:56:43 - INFO - app - 📆 date_range 모드: 총 53일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0), datetime.datetime(2025, 5, 27, 0, 0), datetime.datetime(2025, 5, 28, 0, 0), datetime.datetime(2025, 5, 29, 0, 0), datetime.datetime(2025, 5, 30, 0, 0)]
+2025-09-09 15:56:43 - INFO - app - 📊 확장된 범위: 2025-04-01 ~ 2025-05-30 (총 60개 파일)
+2025-09-09 15:56:43 - INFO - app - 🔍 최대 lookback: 7일 (10080분)
+2025-09-09 15:56:43 - INFO - app - ✅ Data load skip: 총 60개 파일 저장됨
+2025-09-09 15:56:43 - INFO - app - ✅ 데이터 전처리 skip: Model/v1에 저장됨
+2025-09-09 15:56:43 - INFO - app - ✅ map 형성 skip
+2025-09-09 15:56:43 - INFO - app - Model/v1/0/valid_link_id.npy
+2025-09-09 15:56:43 - INFO - app - [get_device] GPUSet from config = RTX
+2025-09-09 15:56:43 - INFO - app - [get_device] → using GPU, device=cuda:0, ddpSet=False
+2025-09-09 15:56:43 - INFO - app - ▶️ 클러스터 0 처리 중... 링크 수: 864
+2025-09-09 15:56:43 - INFO - app - 📂 Loading .h5 file: Model/v1/0/train_data.h5
+2025-09-09 15:56:44 - INFO - app - 📂 Loading .h5 file: Model/v1/0/train_data.h5
+2025-09-09 15:56:45 - INFO - app - 📂 Loading .h5 file: Model/v1/0/val_data.h5
+2025-09-09 15:56:45 - INFO - app - 📂 Loading .h5 file: Model/v1/0/val_data.h5
+2025-09-09 15:56:45 - INFO - app - 📂 Loading .h5 file: Model/v1/0/test_data.h5
+2025-09-09 15:56:45 - INFO - app - 📂 Loading .h5 file: Model/v1/0/test_data.h5
+2025-09-09 15:56:46 - INFO - app - 📊 Dataset shapes:
+   • train: x=(8985, 1, 864, 36), y=(8985, 1, 864, 12)
+   • val:   x=(2995, 1, 864, 36), y=(2995, 1, 864, 12)
+   • test:  x=(2996, 1, 864, 36), y=(2996, 1, 864, 12)
+2025-09-09 15:56:46 - INFO - app - [GPU 체크] model parameter device = cuda:0
+2025-09-09 16:58:09 - INFO - app - Epoch: 001, Train Loss: 0.1751, Train MAPE: 0.1692, Train RMSE: 7.2402 
+ Valid Loss: 0.1261, Valid MAPE: 0.1138, Valid RMSE: 5.7580, Training Time: 3170.60+510.61/epoch
+2025-09-09 17:54:14 - INFO - app - Epoch: 002, Train Loss: 0.1123, Train MAPE: 0.1039, Train RMSE: 5.6021 
+ Valid Loss: 0.1184, Valid MAPE: 0.1049, Valid RMSE: 5.6636, Training Time: 2939.59+426.29/epoch
+2025-09-09 18:52:14 - INFO - app - Epoch: 003, Train Loss: 0.1043, Train MAPE: 0.0949, Train RMSE: 5.5662 
+ Valid Loss: 0.1195, Valid MAPE: 0.1095, Valid RMSE: 5.6981, Training Time: 3022.33+457.05/epoch
+2025-09-09 19:34:36 - INFO - app - Epoch: 004, Train Loss: 0.1005, Train MAPE: 0.0906, Train RMSE: 5.5503 
+ Valid Loss: 0.1131, Valid MAPE: 0.1007, Valid RMSE: 5.6903, Training Time: 2212.75+329.52/epoch
+2025-09-09 20:16:58 - INFO - app - Epoch: 005, Train Loss: 0.0990, Train MAPE: 0.0891, Train RMSE: 5.5416 
+ Valid Loss: 0.1129, Valid MAPE: 0.0978, Valid RMSE: 5.7037, Training Time: 2212.84+329.45/epoch
+2025-09-09 20:59:19 - INFO - app - Epoch: 006, Train Loss: 0.0961, Train MAPE: 0.0851, Train RMSE: 5.5331 
+ Valid Loss: 0.1095, Valid MAPE: 0.0944, Valid RMSE: 5.7038, Training Time: 2210.28+329.99/epoch
+2025-09-09 21:41:38 - INFO - app - Epoch: 007, Train Loss: 0.0968, Train MAPE: 0.0861, Train RMSE: 5.5359 
+ Valid Loss: 0.1105, Valid MAPE: 0.0953, Valid RMSE: 5.7204, Training Time: 2209.30+330.22/epoch
+2025-09-09 22:23:55 - INFO - app - Epoch: 008, Train Loss: 0.0941, Train MAPE: 0.0828, Train RMSE: 5.5205 
+ Valid Loss: 0.1098, Valid MAPE: 0.0948, Valid RMSE: 5.7145, Training Time: 2208.52+328.32/epoch
+2025-09-09 23:06:17 - INFO - app - Epoch: 009, Train Loss: 0.0921, Train MAPE: 0.0804, Train RMSE: 5.5074 
+ Valid Loss: 0.1083, Valid MAPE: 0.0947, Valid RMSE: 5.7160, Training Time: 2213.86+327.81/epoch
+2025-09-09 23:48:37 - INFO - app - Epoch: 010, Train Loss: 0.0933, Train MAPE: 0.0820, Train RMSE: 5.4984 
+ Valid Loss: 0.1097, Valid MAPE: 0.0966, Valid RMSE: 5.6980, Training Time: 2211.83+328.68/epoch
+2025-09-10 00:30:57 - INFO - app - Epoch: 011, Train Loss: 0.0917, Train MAPE: 0.0802, Train RMSE: 5.4816 
+ Valid Loss: 0.1081, Valid MAPE: 0.0938, Valid RMSE: 5.6573, Training Time: 2209.44+330.34/epoch
+2025-09-10 01:13:17 - INFO - app - Epoch: 012, Train Loss: 0.0902, Train MAPE: 0.0783, Train RMSE: 5.4751 
+ Valid Loss: 0.1091, Valid MAPE: 0.0961, Valid RMSE: 5.6715, Training Time: 2209.57+330.21/epoch
+2025-09-10 01:55:38 - INFO - app - Epoch: 013, Train Loss: 0.0910, Train MAPE: 0.0796, Train RMSE: 5.4746 
+ Valid Loss: 0.1066, Valid MAPE: 0.0909, Valid RMSE: 5.6877, Training Time: 2209.20+331.95/epoch
+2025-09-10 02:38:01 - INFO - app - Epoch: 014, Train Loss: 0.0900, Train MAPE: 0.0786, Train RMSE: 5.4539 
+ Valid Loss: 0.1111, Valid MAPE: 0.0977, Valid RMSE: 5.6269, Training Time: 2212.30+330.14/epoch
+2025-09-10 03:20:20 - INFO - app - Epoch: 015, Train Loss: 0.0908, Train MAPE: 0.0790, Train RMSE: 5.4393 
+ Valid Loss: 0.1059, Valid MAPE: 0.0908, Valid RMSE: 5.6150, Training Time: 2208.98+330.81/epoch
+2025-09-10 04:02:41 - INFO - app - Epoch: 016, Train Loss: 0.0890, Train MAPE: 0.0776, Train RMSE: 5.4207 
+ Valid Loss: 0.1070, Valid MAPE: 0.0923, Valid RMSE: 5.6621, Training Time: 2211.77+328.99/epoch
+2025-09-10 04:45:02 - INFO - app - Epoch: 017, Train Loss: 0.0906, Train MAPE: 0.0796, Train RMSE: 5.4211 
+ Valid Loss: 0.1084, Valid MAPE: 0.0941, Valid RMSE: 5.6670, Training Time: 2209.60+331.41/epoch
+2025-09-10 05:27:18 - INFO - app - Epoch: 018, Train Loss: 0.0937, Train MAPE: 0.0838, Train RMSE: 5.4087 
+ Valid Loss: 0.1093, Valid MAPE: 0.0973, Valid RMSE: 5.6214, Training Time: 2207.61+328.23/epoch
+2025-09-10 06:09:45 - INFO - app - Epoch: 019, Train Loss: 0.0919, Train MAPE: 0.0818, Train RMSE: 5.3925 
+ Valid Loss: 0.1062, Valid MAPE: 0.0910, Valid RMSE: 5.6131, Training Time: 2215.73+331.65/epoch
+2025-09-10 06:52:11 - INFO - app - Epoch: 020, Train Loss: 0.0880, Train MAPE: 0.0768, Train RMSE: 5.3825 
+ Valid Loss: 0.1052, Valid MAPE: 0.0901, Valid RMSE: 5.6208, Training Time: 2215.39+329.85/epoch
+2025-09-10 07:34:39 - INFO - app - Epoch: 021, Train Loss: 0.0869, Train MAPE: 0.0756, Train RMSE: 5.3732 
+ Valid Loss: 0.1066, Valid MAPE: 0.0934, Valid RMSE: 5.6036, Training Time: 2218.49+329.75/epoch
+2025-09-10 08:16:59 - INFO - app - Epoch: 022, Train Loss: 0.0863, Train MAPE: 0.0746, Train RMSE: 5.3715 
+ Valid Loss: 0.1052, Valid MAPE: 0.0895, Valid RMSE: 5.6095, Training Time: 2212.31+327.58/epoch
+2025-09-10 09:01:29 - INFO - app - Epoch: 023, Train Loss: 0.0872, Train MAPE: 0.0761, Train RMSE: 5.3512 
+ Valid Loss: 0.1079, Valid MAPE: 0.0932, Valid RMSE: 5.6486, Training Time: 2215.40+454.95/epoch

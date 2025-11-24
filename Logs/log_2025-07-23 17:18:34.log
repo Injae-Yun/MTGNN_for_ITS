@@ -1,0 +1,190 @@
+2025-07-23 17:18:34 - INFO - app - 📆 date_range 모드: 총 77일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 11, 0, 0), datetime.datetime(2025, 3, 12, 0, 0), datetime.datetime(2025, 3, 13, 0, 0), datetime.datetime(2025, 3, 14, 0, 0), datetime.datetime(2025, 3, 15, 0, 0), datetime.datetime(2025, 3, 16, 0, 0), datetime.datetime(2025, 3, 17, 0, 0), datetime.datetime(2025, 3, 18, 0, 0), datetime.datetime(2025, 3, 19, 0, 0), datetime.datetime(2025, 3, 20, 0, 0), datetime.datetime(2025, 3, 21, 0, 0), datetime.datetime(2025, 3, 22, 0, 0), datetime.datetime(2025, 3, 23, 0, 0), datetime.datetime(2025, 3, 24, 0, 0), datetime.datetime(2025, 3, 25, 0, 0), datetime.datetime(2025, 3, 26, 0, 0), datetime.datetime(2025, 3, 27, 0, 0), datetime.datetime(2025, 3, 28, 0, 0), datetime.datetime(2025, 3, 29, 0, 0), datetime.datetime(2025, 3, 30, 0, 0), datetime.datetime(2025, 3, 31, 0, 0), datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-07-23 17:18:34 - INFO - app - ✅ Data load skip: 총 77개 파일 저장됨
+2025-07-23 17:18:34 - INFO - app - ✅ 데이터 전처리(x) skip: Model/v3에 저장됨
+2025-07-23 17:18:43 - INFO - app - [2025-04-01] Y tensor 처리 (1/56)
+2025-07-23 17:20:00 - INFO - app - [2025-04-02] Y tensor 처리 (2/56)
+2025-07-23 17:21:09 - INFO - app - [2025-04-03] Y tensor 처리 (3/56)
+2025-07-23 17:22:23 - INFO - app - [2025-04-04] Y tensor 처리 (4/56)
+2025-07-23 17:23:32 - INFO - app - [2025-04-05] Y tensor 처리 (5/56)
+2025-07-23 17:24:39 - INFO - app - [2025-04-06] Y tensor 처리 (6/56)
+2025-07-23 17:25:48 - INFO - app - [2025-04-07] Y tensor 처리 (7/56)
+2025-07-23 17:26:54 - INFO - app - [2025-04-08] Y tensor 처리 (8/56)
+2025-07-23 17:28:03 - INFO - app - [2025-04-09] Y tensor 처리 (9/56)
+2025-07-23 17:29:12 - INFO - app - [2025-04-10] Y tensor 처리 (10/56)
+2025-07-23 17:30:21 - INFO - app - [2025-04-11] Y tensor 처리 (11/56)
+2025-07-23 17:31:26 - INFO - app - [2025-04-12] Y tensor 처리 (12/56)
+2025-07-23 17:32:38 - INFO - app - [2025-04-13] Y tensor 처리 (13/56)
+2025-07-23 17:33:41 - INFO - app - [2025-04-14] Y tensor 처리 (14/56)
+2025-07-23 17:34:50 - INFO - app - [2025-04-15] Y tensor 처리 (15/56)
+2025-07-23 17:35:56 - INFO - app - [2025-04-16] Y tensor 처리 (16/56)
+2025-07-23 17:37:06 - INFO - app - [2025-04-17] Y tensor 처리 (17/56)
+2025-07-23 17:38:11 - INFO - app - [2025-04-18] Y tensor 처리 (18/56)
+2025-07-23 17:39:22 - INFO - app - [2025-04-19] Y tensor 처리 (19/56)
+2025-07-23 17:40:31 - INFO - app - [2025-04-20] Y tensor 처리 (20/56)
+2025-07-23 17:40:32 - WARNING - app -   - 2025-04-20.parquet 없음 → 전부 NaN 처리
+2025-07-23 17:40:58 - INFO - app - [2025-04-21] Y tensor 처리 (21/56)
+2025-07-23 17:41:49 - INFO - app - [2025-04-22] Y tensor 처리 (22/56)
+2025-07-23 17:43:00 - INFO - app - [2025-04-23] Y tensor 처리 (23/56)
+2025-07-23 17:44:05 - INFO - app - [2025-04-24] Y tensor 처리 (24/56)
+2025-07-23 17:45:10 - INFO - app - [2025-04-25] Y tensor 처리 (25/56)
+2025-07-23 17:46:12 - INFO - app - [2025-04-26] Y tensor 처리 (26/56)
+2025-07-23 17:47:18 - INFO - app - [2025-04-27] Y tensor 처리 (27/56)
+2025-07-23 17:48:19 - INFO - app - [2025-04-28] Y tensor 처리 (28/56)
+2025-07-23 17:49:24 - INFO - app - [2025-04-29] Y tensor 처리 (29/56)
+2025-07-23 17:50:26 - INFO - app - [2025-04-30] Y tensor 처리 (30/56)
+2025-07-23 17:51:31 - INFO - app - [2025-05-01] Y tensor 처리 (31/56)
+2025-07-23 17:52:30 - INFO - app - [2025-05-02] Y tensor 처리 (32/56)
+2025-07-23 17:53:40 - INFO - app - [2025-05-03] Y tensor 처리 (33/56)
+2025-07-23 17:54:47 - INFO - app - [2025-05-04] Y tensor 처리 (34/56)
+2025-07-23 17:55:54 - INFO - app - [2025-05-05] Y tensor 처리 (35/56)
+2025-07-23 17:56:57 - INFO - app - [2025-05-06] Y tensor 처리 (36/56)
+2025-07-23 17:57:57 - INFO - app - [2025-05-07] Y tensor 처리 (37/56)
+2025-07-23 17:58:31 - INFO - app - [2025-05-08] Y tensor 처리 (38/56)
+2025-07-23 17:58:32 - WARNING - app -   - 2025-05-08.parquet 없음 → 전부 NaN 처리
+2025-07-23 17:58:58 - INFO - app - [2025-05-09] Y tensor 처리 (39/56)
+2025-07-23 18:00:01 - INFO - app - [2025-05-10] Y tensor 처리 (40/56)
+2025-07-23 18:01:08 - INFO - app - [2025-05-11] Y tensor 처리 (41/56)
+2025-07-23 18:02:13 - INFO - app - [2025-05-12] Y tensor 처리 (42/56)
+2025-07-23 18:03:22 - INFO - app - [2025-05-13] Y tensor 처리 (43/56)
+2025-07-23 18:04:23 - INFO - app - [2025-05-14] Y tensor 처리 (44/56)
+2025-07-23 18:05:27 - INFO - app - [2025-05-15] Y tensor 처리 (45/56)
+2025-07-23 18:06:34 - INFO - app - [2025-05-16] Y tensor 처리 (46/56)
+2025-07-23 18:07:40 - INFO - app - [2025-05-17] Y tensor 처리 (47/56)
+2025-07-23 18:08:46 - INFO - app - [2025-05-18] Y tensor 처리 (48/56)
+2025-07-23 18:09:52 - INFO - app - [2025-05-19] Y tensor 처리 (49/56)
+2025-07-23 18:10:57 - INFO - app - [2025-05-20] Y tensor 처리 (50/56)
+2025-07-23 18:12:07 - INFO - app - [2025-05-21] Y tensor 처리 (51/56)
+2025-07-23 18:13:14 - INFO - app - [2025-05-22] Y tensor 처리 (52/56)
+2025-07-23 18:14:20 - INFO - app - [2025-05-23] Y tensor 처리 (53/56)
+2025-07-23 18:15:29 - INFO - app - [2025-05-24] Y tensor 처리 (54/56)
+2025-07-23 18:16:34 - INFO - app - [2025-05-25] Y tensor 처리 (55/56)
+2025-07-23 18:17:43 - INFO - app - [2025-05-26] Y tensor 처리 (56/56)
+2025-07-23 18:18:52 - INFO - app - ✅ Y HDF5 생성 완료: Model/v3/y_tensors.h5
+2025-07-23 18:18:52 - INFO - app - ✅ 데이터 전처리(y) 완료: Model/v3에 저장됨
+2025-07-23 18:18:52 - INFO - app - ▶ Training step 1/288
+2025-07-23 18:20:59 - INFO - app - ✔ Saved model step 0 → Model/v3/lgbm_step_000.pkl
+2025-07-23 18:20:59 - INFO - app - ▶ Training step 2/288
+2025-07-23 18:23:07 - INFO - app - ✔ Saved model step 1 → Model/v3/lgbm_step_001.pkl
+2025-07-23 18:23:07 - INFO - app - ▶ Training step 3/288
+2025-07-23 18:25:14 - INFO - app - ✔ Saved model step 2 → Model/v3/lgbm_step_002.pkl
+2025-07-23 18:25:14 - INFO - app - ▶ Training step 4/288
+2025-07-23 18:27:22 - INFO - app - ✔ Saved model step 3 → Model/v3/lgbm_step_003.pkl
+2025-07-23 18:27:22 - INFO - app - ▶ Training step 5/288
+2025-07-23 18:29:30 - INFO - app - ✔ Saved model step 4 → Model/v3/lgbm_step_004.pkl
+2025-07-23 18:29:30 - INFO - app - ▶ Training step 6/288
+2025-07-23 18:31:36 - INFO - app - ✔ Saved model step 5 → Model/v3/lgbm_step_005.pkl
+2025-07-23 18:31:36 - INFO - app - ▶ Training step 7/288
+2025-07-23 18:33:45 - INFO - app - ✔ Saved model step 6 → Model/v3/lgbm_step_006.pkl
+2025-07-23 18:33:45 - INFO - app - ▶ Training step 8/288
+2025-07-23 18:35:55 - INFO - app - ✔ Saved model step 7 → Model/v3/lgbm_step_007.pkl
+2025-07-23 18:35:55 - INFO - app - ▶ Training step 9/288
+2025-07-23 18:38:06 - INFO - app - ✔ Saved model step 8 → Model/v3/lgbm_step_008.pkl
+2025-07-23 18:38:06 - INFO - app - ▶ Training step 10/288
+2025-07-23 18:40:17 - INFO - app - ✔ Saved model step 9 → Model/v3/lgbm_step_009.pkl
+2025-07-23 18:40:17 - INFO - app - ▶ Training step 11/288
+2025-07-23 18:42:26 - INFO - app - ✔ Saved model step 10 → Model/v3/lgbm_step_010.pkl
+2025-07-23 18:42:26 - INFO - app - ▶ Training step 12/288
+2025-07-23 18:44:36 - INFO - app - ✔ Saved model step 11 → Model/v3/lgbm_step_011.pkl
+2025-07-23 18:44:36 - INFO - app - ▶ Training step 13/288
+2025-07-23 18:46:46 - INFO - app - ✔ Saved model step 12 → Model/v3/lgbm_step_012.pkl
+2025-07-23 18:46:46 - INFO - app - ▶ Training step 14/288
+2025-07-23 18:48:56 - INFO - app - ✔ Saved model step 13 → Model/v3/lgbm_step_013.pkl
+2025-07-23 18:48:57 - INFO - app - ▶ Training step 15/288
+2025-07-23 18:51:06 - INFO - app - ✔ Saved model step 14 → Model/v3/lgbm_step_014.pkl
+2025-07-23 18:51:06 - INFO - app - ▶ Training step 16/288
+2025-07-23 18:53:17 - INFO - app - ✔ Saved model step 15 → Model/v3/lgbm_step_015.pkl
+2025-07-23 18:53:17 - INFO - app - ▶ Training step 17/288
+2025-07-23 18:55:27 - INFO - app - ✔ Saved model step 16 → Model/v3/lgbm_step_016.pkl
+2025-07-23 18:55:28 - INFO - app - ▶ Training step 18/288
+2025-07-23 18:57:38 - INFO - app - ✔ Saved model step 17 → Model/v3/lgbm_step_017.pkl
+2025-07-23 18:57:38 - INFO - app - ▶ Training step 19/288
+2025-07-23 18:59:49 - INFO - app - ✔ Saved model step 18 → Model/v3/lgbm_step_018.pkl
+2025-07-23 18:59:49 - INFO - app - ▶ Training step 20/288
+2025-07-23 19:01:59 - INFO - app - ✔ Saved model step 19 → Model/v3/lgbm_step_019.pkl
+2025-07-23 19:02:00 - INFO - app - ▶ Training step 21/288
+2025-07-23 19:04:08 - INFO - app - ✔ Saved model step 20 → Model/v3/lgbm_step_020.pkl
+2025-07-23 19:04:08 - INFO - app - ▶ Training step 22/288
+2025-07-23 19:06:18 - INFO - app - ✔ Saved model step 21 → Model/v3/lgbm_step_021.pkl
+2025-07-23 19:06:18 - INFO - app - ▶ Training step 23/288
+2025-07-23 19:08:29 - INFO - app - ✔ Saved model step 22 → Model/v3/lgbm_step_022.pkl
+2025-07-23 19:08:29 - INFO - app - ▶ Training step 24/288
+2025-07-23 19:10:39 - INFO - app - ✔ Saved model step 23 → Model/v3/lgbm_step_023.pkl
+2025-07-23 19:10:39 - INFO - app - ▶ Training step 25/288
+2025-07-23 19:12:49 - INFO - app - ✔ Saved model step 24 → Model/v3/lgbm_step_024.pkl
+2025-07-23 19:12:49 - INFO - app - ▶ Training step 26/288
+2025-07-23 19:14:59 - INFO - app - ✔ Saved model step 25 → Model/v3/lgbm_step_025.pkl
+2025-07-23 19:15:00 - INFO - app - ▶ Training step 27/288
+2025-07-23 19:17:08 - INFO - app - ✔ Saved model step 26 → Model/v3/lgbm_step_026.pkl
+2025-07-23 19:17:08 - INFO - app - ▶ Training step 28/288
+2025-07-23 19:19:17 - INFO - app - ✔ Saved model step 27 → Model/v3/lgbm_step_027.pkl
+2025-07-23 19:19:18 - INFO - app - ▶ Training step 29/288
+2025-07-23 19:21:28 - INFO - app - ✔ Saved model step 28 → Model/v3/lgbm_step_028.pkl
+2025-07-23 19:21:28 - INFO - app - ▶ Training step 30/288
+2025-07-23 19:23:37 - INFO - app - ✔ Saved model step 29 → Model/v3/lgbm_step_029.pkl
+2025-07-23 19:23:37 - INFO - app - ▶ Training step 31/288
+2025-07-23 19:25:48 - INFO - app - ✔ Saved model step 30 → Model/v3/lgbm_step_030.pkl
+2025-07-23 19:25:48 - INFO - app - ▶ Training step 32/288
+2025-07-23 19:27:57 - INFO - app - ✔ Saved model step 31 → Model/v3/lgbm_step_031.pkl
+2025-07-23 19:27:57 - INFO - app - ▶ Training step 33/288
+2025-07-23 19:30:06 - INFO - app - ✔ Saved model step 32 → Model/v3/lgbm_step_032.pkl
+2025-07-23 19:30:06 - INFO - app - ▶ Training step 34/288
+2025-07-23 19:32:16 - INFO - app - ✔ Saved model step 33 → Model/v3/lgbm_step_033.pkl
+2025-07-23 19:32:16 - INFO - app - ▶ Training step 35/288
+2025-07-23 19:34:26 - INFO - app - ✔ Saved model step 34 → Model/v3/lgbm_step_034.pkl
+2025-07-23 19:34:27 - INFO - app - ▶ Training step 36/288
+2025-07-23 19:36:37 - INFO - app - ✔ Saved model step 35 → Model/v3/lgbm_step_035.pkl
+2025-07-23 19:36:37 - INFO - app - ▶ Training step 37/288
+2025-07-23 19:38:45 - INFO - app - ✔ Saved model step 36 → Model/v3/lgbm_step_036.pkl
+2025-07-23 19:38:45 - INFO - app - ▶ Training step 38/288
+2025-07-23 19:41:04 - INFO - app - ✔ Saved model step 37 → Model/v3/lgbm_step_037.pkl
+2025-07-23 19:41:04 - INFO - app - ▶ Training step 39/288
+2025-07-23 19:43:13 - INFO - app - ✔ Saved model step 38 → Model/v3/lgbm_step_038.pkl
+2025-07-23 19:43:13 - INFO - app - ▶ Training step 40/288
+2025-07-23 19:45:24 - INFO - app - ✔ Saved model step 39 → Model/v3/lgbm_step_039.pkl
+2025-07-23 19:45:24 - INFO - app - ▶ Training step 41/288
+2025-07-23 19:47:33 - INFO - app - ✔ Saved model step 40 → Model/v3/lgbm_step_040.pkl
+2025-07-23 19:47:33 - INFO - app - ▶ Training step 42/288
+2025-07-23 19:49:43 - INFO - app - ✔ Saved model step 41 → Model/v3/lgbm_step_041.pkl
+2025-07-23 19:49:43 - INFO - app - ▶ Training step 43/288
+2025-07-23 19:51:53 - INFO - app - ✔ Saved model step 42 → Model/v3/lgbm_step_042.pkl
+2025-07-23 19:51:53 - INFO - app - ▶ Training step 44/288
+2025-07-23 19:54:00 - INFO - app - ✔ Saved model step 43 → Model/v3/lgbm_step_043.pkl
+2025-07-23 19:54:00 - INFO - app - ▶ Training step 45/288
+2025-07-23 19:56:10 - INFO - app - ✔ Saved model step 44 → Model/v3/lgbm_step_044.pkl
+2025-07-23 19:56:10 - INFO - app - ▶ Training step 46/288
+2025-07-23 19:58:21 - INFO - app - ✔ Saved model step 45 → Model/v3/lgbm_step_045.pkl
+2025-07-23 19:58:21 - INFO - app - ▶ Training step 47/288
+2025-07-23 20:00:31 - INFO - app - ✔ Saved model step 46 → Model/v3/lgbm_step_046.pkl
+2025-07-23 20:00:31 - INFO - app - ▶ Training step 48/288
+2025-07-23 20:02:42 - INFO - app - ✔ Saved model step 47 → Model/v3/lgbm_step_047.pkl
+2025-07-23 20:02:42 - INFO - app - ▶ Training step 49/288
+2025-07-23 20:04:49 - INFO - app - ✔ Saved model step 48 → Model/v3/lgbm_step_048.pkl
+2025-07-23 20:04:49 - INFO - app - ▶ Training step 50/288
+2025-07-23 20:07:01 - INFO - app - ✔ Saved model step 49 → Model/v3/lgbm_step_049.pkl
+2025-07-23 20:07:01 - INFO - app - ▶ Training step 51/288
+2025-07-23 20:09:12 - INFO - app - ✔ Saved model step 50 → Model/v3/lgbm_step_050.pkl
+2025-07-23 20:09:12 - INFO - app - ▶ Training step 52/288
+2025-07-23 20:11:24 - INFO - app - ✔ Saved model step 51 → Model/v3/lgbm_step_051.pkl
+2025-07-23 20:11:24 - INFO - app - ▶ Training step 53/288
+2025-07-23 20:13:35 - INFO - app - ✔ Saved model step 52 → Model/v3/lgbm_step_052.pkl
+2025-07-23 20:13:35 - INFO - app - ▶ Training step 54/288
+2025-07-23 20:15:46 - INFO - app - ✔ Saved model step 53 → Model/v3/lgbm_step_053.pkl
+2025-07-23 20:15:46 - INFO - app - ▶ Training step 55/288
+2025-07-23 20:17:55 - INFO - app - ✔ Saved model step 54 → Model/v3/lgbm_step_054.pkl
+2025-07-23 20:17:55 - INFO - app - ▶ Training step 56/288
+2025-07-23 20:20:05 - INFO - app - ✔ Saved model step 55 → Model/v3/lgbm_step_055.pkl
+2025-07-23 20:20:05 - INFO - app - ▶ Training step 57/288
+2025-07-23 20:22:15 - INFO - app - ✔ Saved model step 56 → Model/v3/lgbm_step_056.pkl
+2025-07-23 20:22:15 - INFO - app - ▶ Training step 58/288
+2025-07-23 20:24:25 - INFO - app - ✔ Saved model step 57 → Model/v3/lgbm_step_057.pkl
+2025-07-23 20:24:26 - INFO - app - ▶ Training step 59/288
+2025-07-23 20:26:37 - INFO - app - ✔ Saved model step 58 → Model/v3/lgbm_step_058.pkl
+2025-07-23 20:26:37 - INFO - app - ▶ Training step 60/288
+2025-07-23 20:28:47 - INFO - app - ✔ Saved model step 59 → Model/v3/lgbm_step_059.pkl
+2025-07-23 20:28:47 - INFO - app - ▶ Training step 61/288
+2025-07-23 20:30:57 - INFO - app - ✔ Saved model step 60 → Model/v3/lgbm_step_060.pkl
+2025-07-23 20:30:57 - INFO - app - ▶ Training step 62/288
+2025-07-23 20:33:07 - INFO - app - ✔ Saved model step 61 → Model/v3/lgbm_step_061.pkl
+2025-07-23 20:33:07 - INFO - app - ▶ Training step 63/288
+2025-07-23 20:35:17 - INFO - app - ✔ Saved model step 62 → Model/v3/lgbm_step_062.pkl
+2025-07-23 20:35:17 - INFO - app - ▶ Training step 64/288

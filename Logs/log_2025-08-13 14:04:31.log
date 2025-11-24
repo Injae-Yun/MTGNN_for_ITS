@@ -1,0 +1,31 @@
+2025-08-13 14:04:31 - INFO - app - 📆 far_time_process 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-13 14:04:31 - INFO - app - ✅ Data load skip: 총 56개 파일 저장됨
+2025-08-13 14:04:31 - INFO - app - ✅ 데이터 전처리(x-y) skip: Model/v3에 저장됨
+2025-08-13 14:04:31 - INFO - app - ✅ Step 0 model already exists, skipping...
+2025-08-13 14:04:31 - INFO - app - ▶ Training step 2/288
+2025-08-13 14:04:43 - INFO - app - [0] valid_0's rmse: 0.78561 valid_0's l2: 0.61718
+2025-08-13 14:05:10 - INFO - app - [50] valid_0's rmse: 0.38081 valid_0's l2: 0.14502
+2025-08-13 14:05:36 - INFO - app - [100] valid_0's rmse: 0.27965 valid_0's l2: 0.07821
+2025-08-13 14:06:00 - INFO - app - [150] valid_0's rmse: 0.26016 valid_0's l2: 0.06768
+2025-08-13 14:06:21 - INFO - app - [200] valid_0's rmse: 0.25607 valid_0's l2: 0.06557
+2025-08-13 14:06:40 - INFO - app - [250] valid_0's rmse: 0.25474 valid_0's l2: 0.06489
+2025-08-13 14:06:57 - INFO - app - [300] valid_0's rmse: 0.25417 valid_0's l2: 0.06460
+2025-08-13 14:07:13 - INFO - app - [350] valid_0's rmse: 0.25384 valid_0's l2: 0.06443
+2025-08-13 14:07:27 - INFO - app - [400] valid_0's rmse: 0.25362 valid_0's l2: 0.06432
+2025-08-13 14:07:41 - INFO - app - [450] valid_0's rmse: 0.25343 valid_0's l2: 0.06422
+2025-08-13 14:07:55 - INFO - app - [500] valid_0's rmse: 0.25326 valid_0's l2: 0.06414
+2025-08-13 14:08:09 - INFO - app - [550] valid_0's rmse: 0.25313 valid_0's l2: 0.06407
+2025-08-13 14:08:21 - INFO - app - [600] valid_0's rmse: 0.25304 valid_0's l2: 0.06403
+2025-08-13 14:08:34 - INFO - app - [650] valid_0's rmse: 0.25294 valid_0's l2: 0.06398
+2025-08-13 14:08:45 - INFO - app - [700] valid_0's rmse: 0.25287 valid_0's l2: 0.06394
+2025-08-13 14:08:56 - INFO - app - [750] valid_0's rmse: 0.25282 valid_0's l2: 0.06392
+2025-08-13 14:09:06 - INFO - app - [800] valid_0's rmse: 0.25277 valid_0's l2: 0.06389
+2025-08-13 14:09:17 - INFO - app - [850] valid_0's rmse: 0.25272 valid_0's l2: 0.06387
+2025-08-13 14:09:28 - INFO - app - [900] valid_0's rmse: 0.25266 valid_0's l2: 0.06384
+2025-08-13 14:09:39 - INFO - app - [950] valid_0's rmse: 0.25263 valid_0's l2: 0.06382
+2025-08-13 14:09:49 - INFO - app - ✔ Saved model step 1 → Model/v3/lgbm_step_001.pkl
+2025-08-13 14:09:49 - INFO - app - ▶ Training step 3/288
+2025-08-13 14:10:01 - INFO - app - [0] valid_0's rmse: 0.78551 valid_0's l2: 0.61702
+2025-08-13 14:10:30 - INFO - app - [50] valid_0's rmse: 0.38084 valid_0's l2: 0.14504
+2025-08-13 14:10:55 - INFO - app - [100] valid_0's rmse: 0.27975 valid_0's l2: 0.07826
+2025-08-13 14:11:19 - INFO - app - [150] valid_0's rmse: 0.26024 valid_0's l2: 0.06773

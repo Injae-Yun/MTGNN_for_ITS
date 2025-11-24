@@ -1,0 +1,434 @@
+2025-08-06 10:34:39 - INFO - app - 📆 date_range 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-06 10:34:39 - INFO - app - 📊 확장된 범위: 2025-03-24 ~ 2025-05-26 (총 64개 파일)
+2025-08-06 10:34:39 - INFO - app - 🔍 최대 lookback: 8일 (10135분)
+2025-08-06 10:34:39 - INFO - app - ✅ Data load skip: 총 64개 파일 저장됨
+2025-08-06 10:34:39 - INFO - app - ✅ 데이터 전처리 skip: Model/v0에 저장됨
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/train_data.h5
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/train_data.h5
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/val_data.h5
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/val_data.h5
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/test_data.h5
+2025-08-06 10:34:41 - INFO - app - 📂 Loading .h5 file: Model/v0/0/test_data.h5
+2025-08-06 10:34:41 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 232, 36), y=(9504, 1, 232, 12)
+   • val:   x=(3168, 1, 232, 36), y=(3168, 1, 232, 12)
+   • test:  x=(3168, 1, 232, 36), y=(3168, 1, 232, 12)
+2025-08-06 10:34:44 - INFO - app - ✅ MAPE for model 0: 0.7121
+2025-08-06 10:34:44 - INFO - app - 📂 Loading .h5 file: Model/v0/1/train_data.h5
+2025-08-06 10:34:44 - INFO - app - 📂 Loading .h5 file: Model/v0/1/train_data.h5
+2025-08-06 10:34:45 - INFO - app - 📂 Loading .h5 file: Model/v0/1/val_data.h5
+2025-08-06 10:34:45 - INFO - app - 📂 Loading .h5 file: Model/v0/1/val_data.h5
+2025-08-06 10:34:45 - INFO - app - 📂 Loading .h5 file: Model/v0/1/test_data.h5
+2025-08-06 10:34:45 - INFO - app - 📂 Loading .h5 file: Model/v0/1/test_data.h5
+2025-08-06 10:34:45 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 242, 36), y=(9504, 1, 242, 12)
+   • val:   x=(3168, 1, 242, 36), y=(3168, 1, 242, 12)
+   • test:  x=(3168, 1, 242, 36), y=(3168, 1, 242, 12)
+2025-08-06 10:34:48 - INFO - app - ✅ MAPE for model 1: 1.0681
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/train_data.h5
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/train_data.h5
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/val_data.h5
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/val_data.h5
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/test_data.h5
+2025-08-06 10:34:48 - INFO - app - 📂 Loading .h5 file: Model/v0/2/test_data.h5
+2025-08-06 10:34:48 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 193, 36), y=(9504, 1, 193, 12)
+   • val:   x=(3168, 1, 193, 36), y=(3168, 1, 193, 12)
+   • test:  x=(3168, 1, 193, 36), y=(3168, 1, 193, 12)
+2025-08-06 10:34:51 - INFO - app - ✅ MAPE for model 2: 0.6558
+2025-08-06 10:34:51 - INFO - app - 📂 Loading .h5 file: Model/v0/3/train_data.h5
+2025-08-06 10:34:51 - INFO - app - 📂 Loading .h5 file: Model/v0/3/train_data.h5
+2025-08-06 10:34:51 - INFO - app - 📂 Loading .h5 file: Model/v0/3/val_data.h5
+2025-08-06 10:34:53 - INFO - app - 📂 Loading .h5 file: Model/v0/3/val_data.h5
+2025-08-06 10:34:53 - INFO - app - 📂 Loading .h5 file: Model/v0/3/test_data.h5
+2025-08-06 10:34:53 - INFO - app - 📂 Loading .h5 file: Model/v0/3/test_data.h5
+2025-08-06 10:34:53 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 227, 36), y=(9504, 1, 227, 12)
+   • val:   x=(3168, 1, 227, 36), y=(3168, 1, 227, 12)
+   • test:  x=(3168, 1, 227, 36), y=(3168, 1, 227, 12)
+2025-08-06 10:34:56 - INFO - app - ✅ MAPE for model 3: 0.9429
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/train_data.h5
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/train_data.h5
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/val_data.h5
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/val_data.h5
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/test_data.h5
+2025-08-06 10:34:56 - INFO - app - 📂 Loading .h5 file: Model/v0/4/test_data.h5
+2025-08-06 10:34:56 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 225, 36), y=(9504, 1, 225, 12)
+   • val:   x=(3168, 1, 225, 36), y=(3168, 1, 225, 12)
+   • test:  x=(3168, 1, 225, 36), y=(3168, 1, 225, 12)
+2025-08-06 10:34:59 - INFO - app - ✅ MAPE for model 4: 1.7714
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/train_data.h5
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/train_data.h5
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/val_data.h5
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/val_data.h5
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/test_data.h5
+2025-08-06 10:34:59 - INFO - app - 📂 Loading .h5 file: Model/v0/5/test_data.h5
+2025-08-06 10:34:59 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 234, 36), y=(9504, 1, 234, 12)
+   • val:   x=(3168, 1, 234, 36), y=(3168, 1, 234, 12)
+   • test:  x=(3168, 1, 234, 36), y=(3168, 1, 234, 12)
+2025-08-06 10:35:02 - INFO - app - ✅ MAPE for model 5: 0.9228
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/train_data.h5
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/train_data.h5
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/val_data.h5
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/val_data.h5
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/test_data.h5
+2025-08-06 10:35:02 - INFO - app - 📂 Loading .h5 file: Model/v0/6/test_data.h5
+2025-08-06 10:35:02 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 258, 36), y=(9504, 1, 258, 12)
+   • val:   x=(3168, 1, 258, 36), y=(3168, 1, 258, 12)
+   • test:  x=(3168, 1, 258, 36), y=(3168, 1, 258, 12)
+2025-08-06 10:35:05 - INFO - app - ✅ MAPE for model 6: 1.6704
+2025-08-06 10:35:05 - INFO - app - 📂 Loading .h5 file: Model/v0/7/train_data.h5
+2025-08-06 10:35:06 - INFO - app - 📂 Loading .h5 file: Model/v0/7/train_data.h5
+2025-08-06 10:35:06 - INFO - app - 📂 Loading .h5 file: Model/v0/7/val_data.h5
+2025-08-06 10:35:06 - INFO - app - 📂 Loading .h5 file: Model/v0/7/val_data.h5
+2025-08-06 10:35:06 - INFO - app - 📂 Loading .h5 file: Model/v0/7/test_data.h5
+2025-08-06 10:35:06 - INFO - app - 📂 Loading .h5 file: Model/v0/7/test_data.h5
+2025-08-06 10:35:06 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 255, 36), y=(9504, 1, 255, 12)
+   • val:   x=(3168, 1, 255, 36), y=(3168, 1, 255, 12)
+   • test:  x=(3168, 1, 255, 36), y=(3168, 1, 255, 12)
+2025-08-06 10:35:09 - INFO - app - ✅ MAPE for model 7: 1.4667
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/train_data.h5
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/train_data.h5
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/val_data.h5
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/val_data.h5
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/test_data.h5
+2025-08-06 10:35:09 - INFO - app - 📂 Loading .h5 file: Model/v0/8/test_data.h5
+2025-08-06 10:35:09 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 218, 36), y=(9504, 1, 218, 12)
+   • val:   x=(3168, 1, 218, 36), y=(3168, 1, 218, 12)
+   • test:  x=(3168, 1, 218, 36), y=(3168, 1, 218, 12)
+2025-08-06 10:35:11 - INFO - app - ✅ MAPE for model 8: 1.6052
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/train_data.h5
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/train_data.h5
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/val_data.h5
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/val_data.h5
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/test_data.h5
+2025-08-06 10:35:12 - INFO - app - 📂 Loading .h5 file: Model/v0/9/test_data.h5
+2025-08-06 10:35:12 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 199, 36), y=(9504, 1, 199, 12)
+   • val:   x=(3168, 1, 199, 36), y=(3168, 1, 199, 12)
+   • test:  x=(3168, 1, 199, 36), y=(3168, 1, 199, 12)
+2025-08-06 10:35:14 - INFO - app - ✅ MAPE for model 9: 1.1808
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/train_data.h5
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/train_data.h5
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/val_data.h5
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/val_data.h5
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/test_data.h5
+2025-08-06 10:35:14 - INFO - app - 📂 Loading .h5 file: Model/v0/10/test_data.h5
+2025-08-06 10:35:14 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 200, 36), y=(9504, 1, 200, 12)
+   • val:   x=(3168, 1, 200, 36), y=(3168, 1, 200, 12)
+   • test:  x=(3168, 1, 200, 36), y=(3168, 1, 200, 12)
+2025-08-06 10:35:17 - INFO - app - ✅ MAPE for model 10: 0.5309
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/train_data.h5
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/train_data.h5
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/val_data.h5
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/val_data.h5
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/test_data.h5
+2025-08-06 10:35:17 - INFO - app - 📂 Loading .h5 file: Model/v0/11/test_data.h5
+2025-08-06 10:35:17 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 226, 36), y=(9504, 1, 226, 12)
+   • val:   x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+   • test:  x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+2025-08-06 10:35:20 - INFO - app - ✅ MAPE for model 11: 0.4816
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/train_data.h5
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/train_data.h5
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/val_data.h5
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/val_data.h5
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/test_data.h5
+2025-08-06 10:35:20 - INFO - app - 📂 Loading .h5 file: Model/v0/12/test_data.h5
+2025-08-06 10:35:20 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 247, 36), y=(9504, 1, 247, 12)
+   • val:   x=(3168, 1, 247, 36), y=(3168, 1, 247, 12)
+   • test:  x=(3168, 1, 247, 36), y=(3168, 1, 247, 12)
+2025-08-06 10:35:23 - INFO - app - ✅ MAPE for model 12: 1.3120
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/train_data.h5
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/train_data.h5
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/val_data.h5
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/val_data.h5
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/test_data.h5
+2025-08-06 10:35:23 - INFO - app - 📂 Loading .h5 file: Model/v0/13/test_data.h5
+2025-08-06 10:35:23 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 238, 36), y=(9504, 1, 238, 12)
+   • val:   x=(3168, 1, 238, 36), y=(3168, 1, 238, 12)
+   • test:  x=(3168, 1, 238, 36), y=(3168, 1, 238, 12)
+2025-08-06 10:35:28 - INFO - app - ✅ MAPE for model 13: 1.8047
+2025-08-06 10:35:28 - INFO - app - 📂 Loading .h5 file: Model/v0/14/train_data.h5
+2025-08-06 10:35:28 - INFO - app - 📂 Loading .h5 file: Model/v0/14/train_data.h5
+2025-08-06 10:35:28 - INFO - app - 📂 Loading .h5 file: Model/v0/14/val_data.h5
+2025-08-06 10:35:29 - INFO - app - 📂 Loading .h5 file: Model/v0/14/val_data.h5
+2025-08-06 10:35:29 - INFO - app - 📂 Loading .h5 file: Model/v0/14/test_data.h5
+2025-08-06 10:35:29 - INFO - app - 📂 Loading .h5 file: Model/v0/14/test_data.h5
+2025-08-06 10:35:29 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 226, 36), y=(9504, 1, 226, 12)
+   • val:   x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+   • test:  x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+2025-08-06 10:35:31 - INFO - app - ✅ MAPE for model 14: 0.6054
+2025-08-06 10:35:31 - INFO - app - 📂 Loading .h5 file: Model/v0/15/train_data.h5
+2025-08-06 10:35:32 - INFO - app - 📂 Loading .h5 file: Model/v0/15/train_data.h5
+2025-08-06 10:35:32 - INFO - app - 📂 Loading .h5 file: Model/v0/15/val_data.h5
+2025-08-06 10:35:32 - INFO - app - 📂 Loading .h5 file: Model/v0/15/val_data.h5
+2025-08-06 10:35:32 - INFO - app - 📂 Loading .h5 file: Model/v0/15/test_data.h5
+2025-08-06 10:35:32 - INFO - app - 📂 Loading .h5 file: Model/v0/15/test_data.h5
+2025-08-06 10:35:32 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 260, 36), y=(9504, 1, 260, 12)
+   • val:   x=(3168, 1, 260, 36), y=(3168, 1, 260, 12)
+   • test:  x=(3168, 1, 260, 36), y=(3168, 1, 260, 12)
+2025-08-06 10:35:35 - INFO - app - ✅ MAPE for model 15: 0.7699
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/train_data.h5
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/train_data.h5
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/val_data.h5
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/val_data.h5
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/test_data.h5
+2025-08-06 10:35:35 - INFO - app - 📂 Loading .h5 file: Model/v0/16/test_data.h5
+2025-08-06 10:35:35 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 263, 36), y=(9504, 1, 263, 12)
+   • val:   x=(3168, 1, 263, 36), y=(3168, 1, 263, 12)
+   • test:  x=(3168, 1, 263, 36), y=(3168, 1, 263, 12)
+2025-08-06 10:35:38 - INFO - app - ✅ MAPE for model 16: 0.7006
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/train_data.h5
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/train_data.h5
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/val_data.h5
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/val_data.h5
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/test_data.h5
+2025-08-06 10:35:39 - INFO - app - 📂 Loading .h5 file: Model/v0/17/test_data.h5
+2025-08-06 10:35:39 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 221, 36), y=(9504, 1, 221, 12)
+   • val:   x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+   • test:  x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+2025-08-06 10:35:42 - INFO - app - ✅ MAPE for model 17: 0.9475
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/train_data.h5
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/train_data.h5
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/val_data.h5
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/val_data.h5
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/test_data.h5
+2025-08-06 10:35:42 - INFO - app - 📂 Loading .h5 file: Model/v0/18/test_data.h5
+2025-08-06 10:35:42 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 223, 36), y=(9504, 1, 223, 12)
+   • val:   x=(3168, 1, 223, 36), y=(3168, 1, 223, 12)
+   • test:  x=(3168, 1, 223, 36), y=(3168, 1, 223, 12)
+2025-08-06 10:35:45 - INFO - app - ✅ MAPE for model 18: 0.6358
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/train_data.h5
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/train_data.h5
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/val_data.h5
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/val_data.h5
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/test_data.h5
+2025-08-06 10:35:45 - INFO - app - 📂 Loading .h5 file: Model/v0/19/test_data.h5
+2025-08-06 10:35:45 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 221, 36), y=(9504, 1, 221, 12)
+   • val:   x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+   • test:  x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+2025-08-06 10:35:48 - INFO - app - ✅ MAPE for model 19: 1.3909
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/train_data.h5
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/train_data.h5
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/val_data.h5
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/val_data.h5
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/test_data.h5
+2025-08-06 10:35:48 - INFO - app - 📂 Loading .h5 file: Model/v0/20/test_data.h5
+2025-08-06 10:35:48 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 263, 36), y=(9504, 1, 263, 12)
+   • val:   x=(3168, 1, 263, 36), y=(3168, 1, 263, 12)
+   • test:  x=(3168, 1, 263, 36), y=(3168, 1, 263, 12)
+2025-08-06 10:35:51 - INFO - app - ✅ MAPE for model 20: 1.2220
+2025-08-06 10:35:51 - INFO - app - 📂 Loading .h5 file: Model/v0/21/train_data.h5
+2025-08-06 10:35:51 - INFO - app - 📂 Loading .h5 file: Model/v0/21/train_data.h5
+2025-08-06 10:35:52 - INFO - app - 📂 Loading .h5 file: Model/v0/21/val_data.h5
+2025-08-06 10:35:52 - INFO - app - 📂 Loading .h5 file: Model/v0/21/val_data.h5
+2025-08-06 10:35:52 - INFO - app - 📂 Loading .h5 file: Model/v0/21/test_data.h5
+2025-08-06 10:35:52 - INFO - app - 📂 Loading .h5 file: Model/v0/21/test_data.h5
+2025-08-06 10:35:52 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 219, 36), y=(9504, 1, 219, 12)
+   • val:   x=(3168, 1, 219, 36), y=(3168, 1, 219, 12)
+   • test:  x=(3168, 1, 219, 36), y=(3168, 1, 219, 12)
+2025-08-06 10:35:54 - INFO - app - ✅ MAPE for model 21: 1.8080
+2025-08-06 10:35:54 - INFO - app - 📂 Loading .h5 file: Model/v0/22/train_data.h5
+2025-08-06 10:35:54 - INFO - app - 📂 Loading .h5 file: Model/v0/22/train_data.h5
+2025-08-06 10:35:55 - INFO - app - 📂 Loading .h5 file: Model/v0/22/val_data.h5
+2025-08-06 10:35:55 - INFO - app - 📂 Loading .h5 file: Model/v0/22/val_data.h5
+2025-08-06 10:35:55 - INFO - app - 📂 Loading .h5 file: Model/v0/22/test_data.h5
+2025-08-06 10:35:55 - INFO - app - 📂 Loading .h5 file: Model/v0/22/test_data.h5
+2025-08-06 10:35:55 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 246, 36), y=(9504, 1, 246, 12)
+   • val:   x=(3168, 1, 246, 36), y=(3168, 1, 246, 12)
+   • test:  x=(3168, 1, 246, 36), y=(3168, 1, 246, 12)
+2025-08-06 10:35:58 - INFO - app - ✅ MAPE for model 22: 1.9341
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/train_data.h5
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/train_data.h5
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/val_data.h5
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/val_data.h5
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/test_data.h5
+2025-08-06 10:35:58 - INFO - app - 📂 Loading .h5 file: Model/v0/23/test_data.h5
+2025-08-06 10:35:58 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 227, 36), y=(9504, 1, 227, 12)
+   • val:   x=(3168, 1, 227, 36), y=(3168, 1, 227, 12)
+   • test:  x=(3168, 1, 227, 36), y=(3168, 1, 227, 12)
+2025-08-06 10:36:03 - INFO - app - ✅ MAPE for model 23: 2.0139
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/train_data.h5
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/train_data.h5
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/val_data.h5
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/val_data.h5
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/test_data.h5
+2025-08-06 10:36:03 - INFO - app - 📂 Loading .h5 file: Model/v0/24/test_data.h5
+2025-08-06 10:36:03 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 184, 36), y=(9504, 1, 184, 12)
+   • val:   x=(3168, 1, 184, 36), y=(3168, 1, 184, 12)
+   • test:  x=(3168, 1, 184, 36), y=(3168, 1, 184, 12)
+2025-08-06 10:36:06 - INFO - app - ✅ MAPE for model 24: 0.6468
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/train_data.h5
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/train_data.h5
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/val_data.h5
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/val_data.h5
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/test_data.h5
+2025-08-06 10:36:06 - INFO - app - 📂 Loading .h5 file: Model/v0/25/test_data.h5
+2025-08-06 10:36:06 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 249, 36), y=(9504, 1, 249, 12)
+   • val:   x=(3168, 1, 249, 36), y=(3168, 1, 249, 12)
+   • test:  x=(3168, 1, 249, 36), y=(3168, 1, 249, 12)
+2025-08-06 10:36:09 - INFO - app - ✅ MAPE for model 25: 0.8674
+2025-08-06 10:36:09 - INFO - app - 📂 Loading .h5 file: Model/v0/26/train_data.h5
+2025-08-06 10:36:09 - INFO - app - 📂 Loading .h5 file: Model/v0/26/train_data.h5
+2025-08-06 10:36:09 - INFO - app - 📂 Loading .h5 file: Model/v0/26/val_data.h5
+2025-08-06 10:36:10 - INFO - app - 📂 Loading .h5 file: Model/v0/26/val_data.h5
+2025-08-06 10:36:10 - INFO - app - 📂 Loading .h5 file: Model/v0/26/test_data.h5
+2025-08-06 10:36:10 - INFO - app - 📂 Loading .h5 file: Model/v0/26/test_data.h5
+2025-08-06 10:36:10 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 230, 36), y=(9504, 1, 230, 12)
+   • val:   x=(3168, 1, 230, 36), y=(3168, 1, 230, 12)
+   • test:  x=(3168, 1, 230, 36), y=(3168, 1, 230, 12)
+2025-08-06 10:36:12 - INFO - app - ✅ MAPE for model 26: 0.8458
+2025-08-06 10:36:12 - INFO - app - 📂 Loading .h5 file: Model/v0/27/train_data.h5
+2025-08-06 10:36:12 - INFO - app - 📂 Loading .h5 file: Model/v0/27/train_data.h5
+2025-08-06 10:36:12 - INFO - app - 📂 Loading .h5 file: Model/v0/27/val_data.h5
+2025-08-06 10:36:13 - INFO - app - 📂 Loading .h5 file: Model/v0/27/val_data.h5
+2025-08-06 10:36:13 - INFO - app - 📂 Loading .h5 file: Model/v0/27/test_data.h5
+2025-08-06 10:36:13 - INFO - app - 📂 Loading .h5 file: Model/v0/27/test_data.h5
+2025-08-06 10:36:13 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 221, 36), y=(9504, 1, 221, 12)
+   • val:   x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+   • test:  x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+2025-08-06 10:36:15 - INFO - app - ✅ MAPE for model 27: 1.6600
+2025-08-06 10:36:15 - INFO - app - 📂 Loading .h5 file: Model/v0/28/train_data.h5
+2025-08-06 10:36:15 - INFO - app - 📂 Loading .h5 file: Model/v0/28/train_data.h5
+2025-08-06 10:36:15 - INFO - app - 📂 Loading .h5 file: Model/v0/28/val_data.h5
+2025-08-06 10:36:15 - INFO - app - 📂 Loading .h5 file: Model/v0/28/val_data.h5
+2025-08-06 10:36:15 - INFO - app - 📂 Loading .h5 file: Model/v0/28/test_data.h5
+2025-08-06 10:36:16 - INFO - app - 📂 Loading .h5 file: Model/v0/28/test_data.h5
+2025-08-06 10:36:16 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 236, 36), y=(9504, 1, 236, 12)
+   • val:   x=(3168, 1, 236, 36), y=(3168, 1, 236, 12)
+   • test:  x=(3168, 1, 236, 36), y=(3168, 1, 236, 12)
+2025-08-06 10:36:18 - INFO - app - ✅ MAPE for model 28: 0.6137
+2025-08-06 10:36:18 - INFO - app - 📂 Loading .h5 file: Model/v0/29/train_data.h5
+2025-08-06 10:36:18 - INFO - app - 📂 Loading .h5 file: Model/v0/29/train_data.h5
+2025-08-06 10:36:18 - INFO - app - 📂 Loading .h5 file: Model/v0/29/val_data.h5
+2025-08-06 10:36:19 - INFO - app - 📂 Loading .h5 file: Model/v0/29/val_data.h5
+2025-08-06 10:36:19 - INFO - app - 📂 Loading .h5 file: Model/v0/29/test_data.h5
+2025-08-06 10:36:19 - INFO - app - 📂 Loading .h5 file: Model/v0/29/test_data.h5
+2025-08-06 10:36:19 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 214, 36), y=(9504, 1, 214, 12)
+   • val:   x=(3168, 1, 214, 36), y=(3168, 1, 214, 12)
+   • test:  x=(3168, 1, 214, 36), y=(3168, 1, 214, 12)
+2025-08-06 10:36:21 - INFO - app - ✅ MAPE for model 29: 1.1250
+2025-08-06 10:36:21 - INFO - app - 📂 Loading .h5 file: Model/v0/30/train_data.h5
+2025-08-06 10:36:21 - INFO - app - 📂 Loading .h5 file: Model/v0/30/train_data.h5
+2025-08-06 10:36:21 - INFO - app - 📂 Loading .h5 file: Model/v0/30/val_data.h5
+2025-08-06 10:36:21 - INFO - app - 📂 Loading .h5 file: Model/v0/30/val_data.h5
+2025-08-06 10:36:21 - INFO - app - 📂 Loading .h5 file: Model/v0/30/test_data.h5
+2025-08-06 10:36:22 - INFO - app - 📂 Loading .h5 file: Model/v0/30/test_data.h5
+2025-08-06 10:36:22 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 226, 36), y=(9504, 1, 226, 12)
+   • val:   x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+   • test:  x=(3168, 1, 226, 36), y=(3168, 1, 226, 12)
+2025-08-06 10:36:24 - INFO - app - ✅ MAPE for model 30: 0.9226
+2025-08-06 10:36:24 - INFO - app - 📂 Loading .h5 file: Model/v0/31/train_data.h5
+2025-08-06 10:36:24 - INFO - app - 📂 Loading .h5 file: Model/v0/31/train_data.h5
+2025-08-06 10:36:24 - INFO - app - 📂 Loading .h5 file: Model/v0/31/val_data.h5
+2025-08-06 10:36:24 - INFO - app - 📂 Loading .h5 file: Model/v0/31/val_data.h5
+2025-08-06 10:36:24 - INFO - app - 📂 Loading .h5 file: Model/v0/31/test_data.h5
+2025-08-06 10:36:25 - INFO - app - 📂 Loading .h5 file: Model/v0/31/test_data.h5
+2025-08-06 10:36:25 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 255, 36), y=(9504, 1, 255, 12)
+   • val:   x=(3168, 1, 255, 36), y=(3168, 1, 255, 12)
+   • test:  x=(3168, 1, 255, 36), y=(3168, 1, 255, 12)
+2025-08-06 10:36:27 - INFO - app - ✅ MAPE for model 31: 1.5151
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/train_data.h5
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/train_data.h5
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/val_data.h5
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/val_data.h5
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/test_data.h5
+2025-08-06 10:36:28 - INFO - app - 📂 Loading .h5 file: Model/v0/32/test_data.h5
+2025-08-06 10:36:28 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 237, 36), y=(9504, 1, 237, 12)
+   • val:   x=(3168, 1, 237, 36), y=(3168, 1, 237, 12)
+   • test:  x=(3168, 1, 237, 36), y=(3168, 1, 237, 12)
+2025-08-06 10:36:31 - INFO - app - ✅ MAPE for model 32: 1.3315
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/train_data.h5
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/train_data.h5
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/val_data.h5
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/val_data.h5
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/test_data.h5
+2025-08-06 10:36:31 - INFO - app - 📂 Loading .h5 file: Model/v0/33/test_data.h5
+2025-08-06 10:36:31 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 221, 36), y=(9504, 1, 221, 12)
+   • val:   x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+   • test:  x=(3168, 1, 221, 36), y=(3168, 1, 221, 12)
+2025-08-06 10:36:36 - INFO - app - ✅ MAPE for model 33: 1.6054
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/train_data.h5
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/train_data.h5
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/val_data.h5
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/val_data.h5
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/test_data.h5
+2025-08-06 10:36:36 - INFO - app - 📂 Loading .h5 file: Model/v0/34/test_data.h5
+2025-08-06 10:36:36 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 222, 36), y=(9504, 1, 222, 12)
+   • val:   x=(3168, 1, 222, 36), y=(3168, 1, 222, 12)
+   • test:  x=(3168, 1, 222, 36), y=(3168, 1, 222, 12)
+2025-08-06 10:36:39 - INFO - app - ✅ MAPE for model 34: 1.7512
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/train_data.h5
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/train_data.h5
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/val_data.h5
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/val_data.h5
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/test_data.h5
+2025-08-06 10:36:39 - INFO - app - 📂 Loading .h5 file: Model/v0/35/test_data.h5
+2025-08-06 10:36:39 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 266, 36), y=(9504, 1, 266, 12)
+   • val:   x=(3168, 1, 266, 36), y=(3168, 1, 266, 12)
+   • test:  x=(3168, 1, 266, 36), y=(3168, 1, 266, 12)
+2025-08-06 10:36:42 - INFO - app - ✅ MAPE for model 35: 2.4587
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/train_data.h5
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/train_data.h5
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/val_data.h5
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/val_data.h5
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/test_data.h5
+2025-08-06 10:36:43 - INFO - app - 📂 Loading .h5 file: Model/v0/36/test_data.h5
+2025-08-06 10:36:43 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 229, 36), y=(9504, 1, 229, 12)
+   • val:   x=(3168, 1, 229, 36), y=(3168, 1, 229, 12)
+   • test:  x=(3168, 1, 229, 36), y=(3168, 1, 229, 12)
+2025-08-06 10:36:45 - INFO - app - ✅ MAPE for model 36: 1.2075
+2025-08-06 10:36:45 - INFO - app - 📂 Loading .h5 file: Model/v0/37/train_data.h5
+2025-08-06 10:36:46 - INFO - app - 📂 Loading .h5 file: Model/v0/37/train_data.h5
+2025-08-06 10:36:46 - INFO - app - 📂 Loading .h5 file: Model/v0/37/val_data.h5
+2025-08-06 10:36:46 - INFO - app - 📂 Loading .h5 file: Model/v0/37/val_data.h5
+2025-08-06 10:36:46 - INFO - app - 📂 Loading .h5 file: Model/v0/37/test_data.h5
+2025-08-06 10:36:46 - INFO - app - 📂 Loading .h5 file: Model/v0/37/test_data.h5
+2025-08-06 10:36:46 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 218, 36), y=(9504, 1, 218, 12)
+   • val:   x=(3168, 1, 218, 36), y=(3168, 1, 218, 12)
+   • test:  x=(3168, 1, 218, 36), y=(3168, 1, 218, 12)
+2025-08-06 10:36:48 - INFO - app - ✅ MAPE for model 37: 1.1759
+2025-08-06 10:36:48 - INFO - app - 📂 Loading .h5 file: Model/v0/38/train_data.h5
+2025-08-06 10:36:48 - INFO - app - 📂 Loading .h5 file: Model/v0/38/train_data.h5
+2025-08-06 10:36:49 - INFO - app - 📂 Loading .h5 file: Model/v0/38/val_data.h5
+2025-08-06 10:36:49 - INFO - app - 📂 Loading .h5 file: Model/v0/38/val_data.h5
+2025-08-06 10:36:49 - INFO - app - 📂 Loading .h5 file: Model/v0/38/test_data.h5
+2025-08-06 10:36:49 - INFO - app - 📂 Loading .h5 file: Model/v0/38/test_data.h5
+2025-08-06 10:36:49 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 235, 36), y=(9504, 1, 235, 12)
+   • val:   x=(3168, 1, 235, 36), y=(3168, 1, 235, 12)
+   • test:  x=(3168, 1, 235, 36), y=(3168, 1, 235, 12)
+2025-08-06 10:36:51 - INFO - app - ✅ MAPE for model 38: 0.9674

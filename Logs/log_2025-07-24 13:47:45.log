@@ -1,0 +1,815 @@
+2025-07-24 13:47:45 - INFO - app - 📆 date_range 모드: 총 77일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 11, 0, 0), datetime.datetime(2025, 3, 12, 0, 0), datetime.datetime(2025, 3, 13, 0, 0), datetime.datetime(2025, 3, 14, 0, 0), datetime.datetime(2025, 3, 15, 0, 0), datetime.datetime(2025, 3, 16, 0, 0), datetime.datetime(2025, 3, 17, 0, 0), datetime.datetime(2025, 3, 18, 0, 0), datetime.datetime(2025, 3, 19, 0, 0), datetime.datetime(2025, 3, 20, 0, 0), datetime.datetime(2025, 3, 21, 0, 0), datetime.datetime(2025, 3, 22, 0, 0), datetime.datetime(2025, 3, 23, 0, 0), datetime.datetime(2025, 3, 24, 0, 0), datetime.datetime(2025, 3, 25, 0, 0), datetime.datetime(2025, 3, 26, 0, 0), datetime.datetime(2025, 3, 27, 0, 0), datetime.datetime(2025, 3, 28, 0, 0), datetime.datetime(2025, 3, 29, 0, 0), datetime.datetime(2025, 3, 30, 0, 0), datetime.datetime(2025, 3, 31, 0, 0), datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-07-24 13:47:45 - INFO - app - ✅ Data load skip: 총 77개 파일 저장됨
+2025-07-24 13:47:45 - INFO - app - ✅ 데이터 전처리(x) skip: Model/v3에 저장됨
+2025-07-24 13:47:45 - INFO - app - ✅ 데이터 전처리(y) skip: Model/v3에 저장됨
+2025-07-24 13:47:45 - INFO - app - ▶ Training step 19/288
+2025-07-24 13:57:26 - INFO - app - ✔ Saved model step 18 → Model/v3/lgbm_step_018.pkl
+2025-07-24 13:57:26 - INFO - app - ▶ Training step 20/288
+2025-07-24 14:07:13 - INFO - app - ✔ Saved model step 19 → Model/v3/lgbm_step_019.pkl
+2025-07-24 14:07:14 - INFO - app - ▶ Training step 21/288
+2025-07-24 14:16:57 - INFO - app - ✔ Saved model step 20 → Model/v3/lgbm_step_020.pkl
+2025-07-24 14:16:58 - INFO - app - ▶ Training step 22/288
+2025-07-24 14:26:41 - INFO - app - ✔ Saved model step 21 → Model/v3/lgbm_step_021.pkl
+2025-07-24 14:26:41 - INFO - app - ▶ Training step 23/288
+2025-07-24 14:36:27 - INFO - app - ✔ Saved model step 22 → Model/v3/lgbm_step_022.pkl
+2025-07-24 14:36:27 - INFO - app - ▶ Training step 24/288
+2025-07-24 14:46:13 - INFO - app - ✔ Saved model step 23 → Model/v3/lgbm_step_023.pkl
+2025-07-24 14:46:13 - INFO - app - ▶ Training step 25/288
+2025-07-24 14:55:55 - INFO - app - ✔ Saved model step 24 → Model/v3/lgbm_step_024.pkl
+2025-07-24 14:55:55 - INFO - app - ▶ Training step 26/288
+2025-07-24 15:05:36 - INFO - app - ✔ Saved model step 25 → Model/v3/lgbm_step_025.pkl
+2025-07-24 15:05:36 - INFO - app - ▶ Training step 27/288
+2025-07-24 15:15:12 - INFO - app - ✔ Saved model step 26 → Model/v3/lgbm_step_026.pkl
+2025-07-24 15:15:12 - INFO - app - ▶ Training step 28/288
+2025-07-24 15:24:52 - INFO - app - ✔ Saved model step 27 → Model/v3/lgbm_step_027.pkl
+2025-07-24 15:24:52 - INFO - app - ▶ Training step 29/288
+2025-07-24 15:34:23 - INFO - app - ✔ Saved model step 28 → Model/v3/lgbm_step_028.pkl
+2025-07-24 15:34:23 - INFO - app - ▶ Training step 30/288
+2025-07-24 15:43:54 - INFO - app - ✔ Saved model step 29 → Model/v3/lgbm_step_029.pkl
+2025-07-24 15:43:54 - INFO - app - ▶ Training step 31/288
+2025-07-24 15:53:28 - INFO - app - ✔ Saved model step 30 → Model/v3/lgbm_step_030.pkl
+2025-07-24 15:53:29 - INFO - app - ▶ Training step 32/288
+2025-07-24 16:03:04 - INFO - app - ✔ Saved model step 31 → Model/v3/lgbm_step_031.pkl
+2025-07-24 16:03:04 - INFO - app - ▶ Training step 33/288
+2025-07-24 16:12:43 - INFO - app - ✔ Saved model step 32 → Model/v3/lgbm_step_032.pkl
+2025-07-24 16:12:45 - INFO - app - ▶ Training step 34/288
+2025-07-24 16:22:18 - INFO - app - ✔ Saved model step 33 → Model/v3/lgbm_step_033.pkl
+2025-07-24 16:22:19 - INFO - app - ▶ Training step 35/288
+2025-07-24 16:31:44 - INFO - app - ✔ Saved model step 34 → Model/v3/lgbm_step_034.pkl
+2025-07-24 16:31:44 - INFO - app - ▶ Training step 36/288
+2025-07-24 16:41:20 - INFO - app - ✔ Saved model step 35 → Model/v3/lgbm_step_035.pkl
+2025-07-24 16:41:21 - INFO - app - ▶ Training step 37/288
+2025-07-24 16:51:11 - INFO - app - ✔ Saved model step 36 → Model/v3/lgbm_step_036.pkl
+2025-07-24 16:51:12 - INFO - app - ▶ Training step 38/288
+2025-07-24 17:01:11 - INFO - app - ✔ Saved model step 37 → Model/v3/lgbm_step_037.pkl
+2025-07-24 17:01:13 - INFO - app - ▶ Training step 39/288
+2025-07-24 17:10:59 - INFO - app - ✔ Saved model step 38 → Model/v3/lgbm_step_038.pkl
+2025-07-24 17:10:59 - INFO - app - ▶ Training step 40/288
+2025-07-24 17:21:00 - INFO - app - ✔ Saved model step 39 → Model/v3/lgbm_step_039.pkl
+2025-07-24 17:21:01 - INFO - app - ▶ Training step 41/288
+2025-07-24 17:30:51 - INFO - app - ✔ Saved model step 40 → Model/v3/lgbm_step_040.pkl
+2025-07-24 17:30:51 - INFO - app - ▶ Training step 42/288
+2025-07-24 17:40:37 - INFO - app - ✔ Saved model step 41 → Model/v3/lgbm_step_041.pkl
+2025-07-24 17:40:38 - INFO - app - ▶ Training step 43/288
+2025-07-24 17:50:21 - INFO - app - ✔ Saved model step 42 → Model/v3/lgbm_step_042.pkl
+2025-07-24 17:50:21 - INFO - app - ▶ Training step 44/288
+2025-07-24 18:00:07 - INFO - app - ✔ Saved model step 43 → Model/v3/lgbm_step_043.pkl
+2025-07-24 18:00:07 - INFO - app - ▶ Training step 45/288
+2025-07-24 18:10:03 - INFO - app - ✔ Saved model step 44 → Model/v3/lgbm_step_044.pkl
+2025-07-24 18:10:04 - INFO - app - ▶ Training step 46/288
+2025-07-24 18:20:12 - INFO - app - ✔ Saved model step 45 → Model/v3/lgbm_step_045.pkl
+2025-07-24 18:20:14 - INFO - app - ▶ Training step 47/288
+2025-07-24 18:30:12 - INFO - app - ✔ Saved model step 46 → Model/v3/lgbm_step_046.pkl
+2025-07-24 18:30:12 - INFO - app - ▶ Training step 48/288
+2025-07-24 18:39:52 - INFO - app - ✔ Saved model step 47 → Model/v3/lgbm_step_047.pkl
+2025-07-24 18:39:52 - INFO - app - ▶ Training step 49/288
+2025-07-24 18:49:53 - INFO - app - ✔ Saved model step 48 → Model/v3/lgbm_step_048.pkl
+2025-07-24 18:49:53 - INFO - app - ▶ Training step 50/288
+2025-07-24 18:59:45 - INFO - app - ✔ Saved model step 49 → Model/v3/lgbm_step_049.pkl
+2025-07-24 18:59:46 - INFO - app - ▶ Training step 51/288
+2025-07-24 19:09:55 - INFO - app - ✔ Saved model step 50 → Model/v3/lgbm_step_050.pkl
+2025-07-24 19:09:56 - INFO - app - ▶ Training step 52/288
+2025-07-24 19:19:54 - INFO - app - ✔ Saved model step 51 → Model/v3/lgbm_step_051.pkl
+2025-07-24 19:19:55 - INFO - app - ▶ Training step 53/288
+2025-07-24 19:29:55 - INFO - app - ✔ Saved model step 52 → Model/v3/lgbm_step_052.pkl
+2025-07-24 19:29:55 - INFO - app - ▶ Training step 54/288
+2025-07-24 19:39:39 - INFO - app - ✔ Saved model step 53 → Model/v3/lgbm_step_053.pkl
+2025-07-24 19:39:39 - INFO - app - ▶ Training step 55/288
+2025-07-24 19:49:30 - INFO - app - ✔ Saved model step 54 → Model/v3/lgbm_step_054.pkl
+2025-07-24 19:49:30 - INFO - app - ▶ Training step 56/288
+2025-07-24 19:59:07 - INFO - app - ✔ Saved model step 55 → Model/v3/lgbm_step_055.pkl
+2025-07-24 19:59:07 - INFO - app - ▶ Training step 57/288
+2025-07-24 20:08:43 - INFO - app - ✔ Saved model step 56 → Model/v3/lgbm_step_056.pkl
+2025-07-24 20:08:43 - INFO - app - ▶ Training step 58/288
+2025-07-24 20:18:33 - INFO - app - ✔ Saved model step 57 → Model/v3/lgbm_step_057.pkl
+2025-07-24 20:18:33 - INFO - app - ▶ Training step 59/288
+2025-07-24 20:28:18 - INFO - app - ✔ Saved model step 58 → Model/v3/lgbm_step_058.pkl
+2025-07-24 20:28:19 - INFO - app - ▶ Training step 60/288
+2025-07-24 20:38:09 - INFO - app - ✔ Saved model step 59 → Model/v3/lgbm_step_059.pkl
+2025-07-24 20:38:10 - INFO - app - ▶ Training step 61/288
+2025-07-24 20:47:59 - INFO - app - ✔ Saved model step 60 → Model/v3/lgbm_step_060.pkl
+2025-07-24 20:47:59 - INFO - app - ▶ Training step 62/288
+2025-07-24 20:57:45 - INFO - app - ✔ Saved model step 61 → Model/v3/lgbm_step_061.pkl
+2025-07-24 20:57:45 - INFO - app - ▶ Training step 63/288
+2025-07-24 21:07:32 - INFO - app - ✔ Saved model step 62 → Model/v3/lgbm_step_062.pkl
+2025-07-24 21:07:32 - INFO - app - ▶ Training step 64/288
+2025-07-24 21:17:17 - INFO - app - ✔ Saved model step 63 → Model/v3/lgbm_step_063.pkl
+2025-07-24 21:17:17 - INFO - app - ▶ Training step 65/288
+2025-07-24 21:27:05 - INFO - app - ✔ Saved model step 64 → Model/v3/lgbm_step_064.pkl
+2025-07-24 21:27:05 - INFO - app - ▶ Training step 66/288
+2025-07-24 21:36:48 - INFO - app - ✔ Saved model step 65 → Model/v3/lgbm_step_065.pkl
+2025-07-24 21:36:48 - INFO - app - ▶ Training step 67/288
+2025-07-24 21:46:31 - INFO - app - ✔ Saved model step 66 → Model/v3/lgbm_step_066.pkl
+2025-07-24 21:46:32 - INFO - app - ▶ Training step 68/288
+2025-07-24 21:56:00 - INFO - app - ✔ Saved model step 67 → Model/v3/lgbm_step_067.pkl
+2025-07-24 21:56:00 - INFO - app - ▶ Training step 69/288
+2025-07-24 22:05:54 - INFO - app - ✔ Saved model step 68 → Model/v3/lgbm_step_068.pkl
+2025-07-24 22:05:54 - INFO - app - ▶ Training step 70/288
+2025-07-24 22:15:37 - INFO - app - ✔ Saved model step 69 → Model/v3/lgbm_step_069.pkl
+2025-07-24 22:15:37 - INFO - app - ▶ Training step 71/288
+2025-07-24 22:25:08 - INFO - app - ✔ Saved model step 70 → Model/v3/lgbm_step_070.pkl
+2025-07-24 22:25:08 - INFO - app - ▶ Training step 72/288
+2025-07-24 22:34:48 - INFO - app - ✔ Saved model step 71 → Model/v3/lgbm_step_071.pkl
+2025-07-24 22:34:49 - INFO - app - ▶ Training step 73/288
+2025-07-24 22:44:21 - INFO - app - ✔ Saved model step 72 → Model/v3/lgbm_step_072.pkl
+2025-07-24 22:44:22 - INFO - app - ▶ Training step 74/288
+2025-07-24 22:53:47 - INFO - app - ✔ Saved model step 73 → Model/v3/lgbm_step_073.pkl
+2025-07-24 22:53:47 - INFO - app - ▶ Training step 75/288
+2025-07-24 23:03:44 - INFO - app - ✔ Saved model step 74 → Model/v3/lgbm_step_074.pkl
+2025-07-24 23:03:44 - INFO - app - ▶ Training step 76/288
+2025-07-24 23:13:30 - INFO - app - ✔ Saved model step 75 → Model/v3/lgbm_step_075.pkl
+2025-07-24 23:13:30 - INFO - app - ▶ Training step 77/288
+2025-07-24 23:23:12 - INFO - app - ✔ Saved model step 76 → Model/v3/lgbm_step_076.pkl
+2025-07-24 23:23:12 - INFO - app - ▶ Training step 78/288
+2025-07-24 23:32:46 - INFO - app - ✔ Saved model step 77 → Model/v3/lgbm_step_077.pkl
+2025-07-24 23:32:46 - INFO - app - ▶ Training step 79/288
+2025-07-24 23:42:24 - INFO - app - ✔ Saved model step 78 → Model/v3/lgbm_step_078.pkl
+2025-07-24 23:42:24 - INFO - app - ▶ Training step 80/288
+2025-07-24 23:51:50 - INFO - app - ✔ Saved model step 79 → Model/v3/lgbm_step_079.pkl
+2025-07-24 23:51:51 - INFO - app - ▶ Training step 81/288
+2025-07-25 00:01:30 - INFO - app - ✔ Saved model step 80 → Model/v3/lgbm_step_080.pkl
+2025-07-25 00:01:30 - INFO - app - ▶ Training step 82/288
+2025-07-25 00:11:10 - INFO - app - ✔ Saved model step 81 → Model/v3/lgbm_step_081.pkl
+2025-07-25 00:11:10 - INFO - app - ▶ Training step 83/288
+2025-07-25 00:20:56 - INFO - app - ✔ Saved model step 82 → Model/v3/lgbm_step_082.pkl
+2025-07-25 00:20:56 - INFO - app - ▶ Training step 84/288
+2025-07-25 00:30:43 - INFO - app - ✔ Saved model step 83 → Model/v3/lgbm_step_083.pkl
+2025-07-25 00:30:43 - INFO - app - ▶ Training step 85/288
+2025-07-25 00:40:11 - INFO - app - ✔ Saved model step 84 → Model/v3/lgbm_step_084.pkl
+2025-07-25 00:40:11 - INFO - app - ▶ Training step 86/288
+2025-07-25 00:49:54 - INFO - app - ✔ Saved model step 85 → Model/v3/lgbm_step_085.pkl
+2025-07-25 00:49:54 - INFO - app - ▶ Training step 87/288
+2025-07-25 00:59:35 - INFO - app - ✔ Saved model step 86 → Model/v3/lgbm_step_086.pkl
+2025-07-25 00:59:35 - INFO - app - ▶ Training step 88/288
+2025-07-25 01:09:01 - INFO - app - ✔ Saved model step 87 → Model/v3/lgbm_step_087.pkl
+2025-07-25 01:09:01 - INFO - app - ▶ Training step 89/288
+2025-07-25 01:18:43 - INFO - app - ✔ Saved model step 88 → Model/v3/lgbm_step_088.pkl
+2025-07-25 01:18:43 - INFO - app - ▶ Training step 90/288
+2025-07-25 01:28:05 - INFO - app - ✔ Saved model step 89 → Model/v3/lgbm_step_089.pkl
+2025-07-25 01:28:05 - INFO - app - ▶ Training step 91/288
+2025-07-25 01:37:29 - INFO - app - ✔ Saved model step 90 → Model/v3/lgbm_step_090.pkl
+2025-07-25 01:37:29 - INFO - app - ▶ Training step 92/288
+2025-07-25 01:47:03 - INFO - app - ✔ Saved model step 91 → Model/v3/lgbm_step_091.pkl
+2025-07-25 01:47:03 - INFO - app - ▶ Training step 93/288
+2025-07-25 01:56:30 - INFO - app - ✔ Saved model step 92 → Model/v3/lgbm_step_092.pkl
+2025-07-25 01:56:31 - INFO - app - ▶ Training step 94/288
+2025-07-25 02:06:07 - INFO - app - ✔ Saved model step 93 → Model/v3/lgbm_step_093.pkl
+2025-07-25 02:06:08 - INFO - app - ▶ Training step 95/288
+2025-07-25 02:15:50 - INFO - app - ✔ Saved model step 94 → Model/v3/lgbm_step_094.pkl
+2025-07-25 02:15:51 - INFO - app - ▶ Training step 96/288
+2025-07-25 02:25:36 - INFO - app - ✔ Saved model step 95 → Model/v3/lgbm_step_095.pkl
+2025-07-25 02:25:36 - INFO - app - ▶ Training step 97/288
+2025-07-25 02:35:21 - INFO - app - ✔ Saved model step 96 → Model/v3/lgbm_step_096.pkl
+2025-07-25 02:35:23 - INFO - app - ▶ Training step 98/288
+2025-07-25 02:45:00 - INFO - app - ✔ Saved model step 97 → Model/v3/lgbm_step_097.pkl
+2025-07-25 02:45:01 - INFO - app - ▶ Training step 99/288
+2025-07-25 02:54:51 - INFO - app - ✔ Saved model step 98 → Model/v3/lgbm_step_098.pkl
+2025-07-25 02:54:51 - INFO - app - ▶ Training step 100/288
+2025-07-25 03:04:27 - INFO - app - ✔ Saved model step 99 → Model/v3/lgbm_step_099.pkl
+2025-07-25 03:04:28 - INFO - app - ▶ Training step 101/288
+2025-07-25 03:14:10 - INFO - app - ✔ Saved model step 100 → Model/v3/lgbm_step_100.pkl
+2025-07-25 03:14:10 - INFO - app - ▶ Training step 102/288
+2025-07-25 03:23:59 - INFO - app - ✔ Saved model step 101 → Model/v3/lgbm_step_101.pkl
+2025-07-25 03:23:59 - INFO - app - ▶ Training step 103/288
+2025-07-25 03:33:49 - INFO - app - ✔ Saved model step 102 → Model/v3/lgbm_step_102.pkl
+2025-07-25 03:33:50 - INFO - app - ▶ Training step 104/288
+2025-07-25 03:43:33 - INFO - app - ✔ Saved model step 103 → Model/v3/lgbm_step_103.pkl
+2025-07-25 03:43:34 - INFO - app - ▶ Training step 105/288
+2025-07-25 03:53:29 - INFO - app - ✔ Saved model step 104 → Model/v3/lgbm_step_104.pkl
+2025-07-25 03:53:30 - INFO - app - ▶ Training step 106/288
+2025-07-25 04:03:13 - INFO - app - ✔ Saved model step 105 → Model/v3/lgbm_step_105.pkl
+2025-07-25 04:03:14 - INFO - app - ▶ Training step 107/288
+2025-07-25 04:13:02 - INFO - app - ✔ Saved model step 106 → Model/v3/lgbm_step_106.pkl
+2025-07-25 04:13:03 - INFO - app - ▶ Training step 108/288
+2025-07-25 04:22:47 - INFO - app - ✔ Saved model step 107 → Model/v3/lgbm_step_107.pkl
+2025-07-25 04:22:47 - INFO - app - ▶ Training step 109/288
+2025-07-25 04:32:30 - INFO - app - ✔ Saved model step 108 → Model/v3/lgbm_step_108.pkl
+2025-07-25 04:32:30 - INFO - app - ▶ Training step 110/288
+2025-07-25 04:42:16 - INFO - app - ✔ Saved model step 109 → Model/v3/lgbm_step_109.pkl
+2025-07-25 04:42:17 - INFO - app - ▶ Training step 111/288
+2025-07-25 04:52:02 - INFO - app - ✔ Saved model step 110 → Model/v3/lgbm_step_110.pkl
+2025-07-25 04:52:03 - INFO - app - ▶ Training step 112/288
+2025-07-25 05:01:49 - INFO - app - ✔ Saved model step 111 → Model/v3/lgbm_step_111.pkl
+2025-07-25 05:01:50 - INFO - app - ▶ Training step 113/288
+2025-07-25 05:11:29 - INFO - app - ✔ Saved model step 112 → Model/v3/lgbm_step_112.pkl
+2025-07-25 05:11:29 - INFO - app - ▶ Training step 114/288
+2025-07-25 05:21:24 - INFO - app - ✔ Saved model step 113 → Model/v3/lgbm_step_113.pkl
+2025-07-25 05:21:25 - INFO - app - ▶ Training step 115/288
+2025-07-25 05:31:14 - INFO - app - ✔ Saved model step 114 → Model/v3/lgbm_step_114.pkl
+2025-07-25 05:31:15 - INFO - app - ▶ Training step 116/288
+2025-07-25 05:40:53 - INFO - app - ✔ Saved model step 115 → Model/v3/lgbm_step_115.pkl
+2025-07-25 05:40:53 - INFO - app - ▶ Training step 117/288
+2025-07-25 05:50:47 - INFO - app - ✔ Saved model step 116 → Model/v3/lgbm_step_116.pkl
+2025-07-25 05:50:49 - INFO - app - ▶ Training step 118/288
+2025-07-25 06:00:21 - INFO - app - ✔ Saved model step 117 → Model/v3/lgbm_step_117.pkl
+2025-07-25 06:00:22 - INFO - app - ▶ Training step 119/288
+2025-07-25 06:09:52 - INFO - app - ✔ Saved model step 118 → Model/v3/lgbm_step_118.pkl
+2025-07-25 06:09:52 - INFO - app - ▶ Training step 120/288
+2025-07-25 06:19:25 - INFO - app - ✔ Saved model step 119 → Model/v3/lgbm_step_119.pkl
+2025-07-25 06:19:25 - INFO - app - ▶ Training step 121/288
+2025-07-25 06:29:01 - INFO - app - ✔ Saved model step 120 → Model/v3/lgbm_step_120.pkl
+2025-07-25 06:29:01 - INFO - app - ▶ Training step 122/288
+2025-07-25 06:38:50 - INFO - app - ✔ Saved model step 121 → Model/v3/lgbm_step_121.pkl
+2025-07-25 06:38:51 - INFO - app - ▶ Training step 123/288
+2025-07-25 06:48:31 - INFO - app - ✔ Saved model step 122 → Model/v3/lgbm_step_122.pkl
+2025-07-25 06:48:31 - INFO - app - ▶ Training step 124/288
+2025-07-25 06:58:20 - INFO - app - ✔ Saved model step 123 → Model/v3/lgbm_step_123.pkl
+2025-07-25 06:58:20 - INFO - app - ▶ Training step 125/288
+2025-07-25 07:08:11 - INFO - app - ✔ Saved model step 124 → Model/v3/lgbm_step_124.pkl
+2025-07-25 07:08:12 - INFO - app - ▶ Training step 126/288
+2025-07-25 07:18:01 - INFO - app - ✔ Saved model step 125 → Model/v3/lgbm_step_125.pkl
+2025-07-25 07:18:02 - INFO - app - ▶ Training step 127/288
+2025-07-25 07:27:53 - INFO - app - ✔ Saved model step 126 → Model/v3/lgbm_step_126.pkl
+2025-07-25 07:27:54 - INFO - app - ▶ Training step 128/288
+2025-07-25 07:37:37 - INFO - app - ✔ Saved model step 127 → Model/v3/lgbm_step_127.pkl
+2025-07-25 07:37:38 - INFO - app - ▶ Training step 129/288
+2025-07-25 07:47:18 - INFO - app - ✔ Saved model step 128 → Model/v3/lgbm_step_128.pkl
+2025-07-25 07:47:18 - INFO - app - ▶ Training step 130/288
+2025-07-25 07:56:51 - INFO - app - ✔ Saved model step 129 → Model/v3/lgbm_step_129.pkl
+2025-07-25 07:56:51 - INFO - app - ▶ Training step 131/288
+2025-07-25 08:06:42 - INFO - app - ✔ Saved model step 130 → Model/v3/lgbm_step_130.pkl
+2025-07-25 08:06:43 - INFO - app - ▶ Training step 132/288
+2025-07-25 08:16:25 - INFO - app - ✔ Saved model step 131 → Model/v3/lgbm_step_131.pkl
+2025-07-25 08:16:26 - INFO - app - ▶ Training step 133/288
+2025-07-25 08:25:57 - INFO - app - ✔ Saved model step 132 → Model/v3/lgbm_step_132.pkl
+2025-07-25 08:25:58 - INFO - app - ▶ Training step 134/288
+2025-07-25 08:35:41 - INFO - app - ✔ Saved model step 133 → Model/v3/lgbm_step_133.pkl
+2025-07-25 08:35:42 - INFO - app - ▶ Training step 135/288
+2025-07-25 08:45:25 - INFO - app - ✔ Saved model step 134 → Model/v3/lgbm_step_134.pkl
+2025-07-25 08:45:26 - INFO - app - ▶ Training step 136/288
+2025-07-25 08:55:17 - INFO - app - ✔ Saved model step 135 → Model/v3/lgbm_step_135.pkl
+2025-07-25 08:55:19 - INFO - app - ▶ Training step 137/288
+2025-07-25 09:05:21 - INFO - app - ✔ Saved model step 136 → Model/v3/lgbm_step_136.pkl
+2025-07-25 09:05:21 - INFO - app - ▶ Training step 138/288
+2025-07-25 09:15:16 - INFO - app - ✔ Saved model step 137 → Model/v3/lgbm_step_137.pkl
+2025-07-25 09:15:17 - INFO - app - ▶ Training step 139/288
+2025-07-25 09:25:09 - INFO - app - ✔ Saved model step 138 → Model/v3/lgbm_step_138.pkl
+2025-07-25 09:25:09 - INFO - app - ▶ Training step 140/288
+2025-07-25 09:34:48 - INFO - app - ✔ Saved model step 139 → Model/v3/lgbm_step_139.pkl
+2025-07-25 09:34:48 - INFO - app - ▶ Training step 141/288
+2025-07-25 09:44:24 - INFO - app - ✔ Saved model step 140 → Model/v3/lgbm_step_140.pkl
+2025-07-25 09:44:24 - INFO - app - ▶ Training step 142/288
+2025-07-25 09:53:52 - INFO - app - ✔ Saved model step 141 → Model/v3/lgbm_step_141.pkl
+2025-07-25 09:53:53 - INFO - app - ▶ Training step 143/288
+2025-07-25 10:03:23 - INFO - app - ✔ Saved model step 142 → Model/v3/lgbm_step_142.pkl
+2025-07-25 10:03:24 - INFO - app - ▶ Training step 144/288
+2025-07-25 10:13:00 - INFO - app - ✔ Saved model step 143 → Model/v3/lgbm_step_143.pkl
+2025-07-25 10:13:00 - INFO - app - ▶ Training step 145/288
+2025-07-25 10:22:33 - INFO - app - ✔ Saved model step 144 → Model/v3/lgbm_step_144.pkl
+2025-07-25 10:22:34 - INFO - app - ▶ Training step 146/288
+2025-07-25 10:32:21 - INFO - app - ✔ Saved model step 145 → Model/v3/lgbm_step_145.pkl
+2025-07-25 10:32:21 - INFO - app - ▶ Training step 147/288
+2025-07-25 10:42:02 - INFO - app - ✔ Saved model step 146 → Model/v3/lgbm_step_146.pkl
+2025-07-25 10:42:02 - INFO - app - ▶ Training step 148/288
+2025-07-25 10:51:42 - INFO - app - ✔ Saved model step 147 → Model/v3/lgbm_step_147.pkl
+2025-07-25 10:51:42 - INFO - app - ▶ Training step 149/288
+2025-07-25 11:01:18 - INFO - app - ✔ Saved model step 148 → Model/v3/lgbm_step_148.pkl
+2025-07-25 11:01:18 - INFO - app - ▶ Training step 150/288
+2025-07-25 11:11:10 - INFO - app - ✔ Saved model step 149 → Model/v3/lgbm_step_149.pkl
+2025-07-25 11:11:10 - INFO - app - ▶ Training step 151/288
+2025-07-25 11:21:03 - INFO - app - ✔ Saved model step 150 → Model/v3/lgbm_step_150.pkl
+2025-07-25 11:21:04 - INFO - app - ▶ Training step 152/288
+2025-07-25 11:30:52 - INFO - app - ✔ Saved model step 151 → Model/v3/lgbm_step_151.pkl
+2025-07-25 11:30:52 - INFO - app - ▶ Training step 153/288
+2025-07-25 11:40:43 - INFO - app - ✔ Saved model step 152 → Model/v3/lgbm_step_152.pkl
+2025-07-25 11:40:43 - INFO - app - ▶ Training step 154/288
+2025-07-25 11:50:15 - INFO - app - ✔ Saved model step 153 → Model/v3/lgbm_step_153.pkl
+2025-07-25 11:50:15 - INFO - app - ▶ Training step 155/288
+2025-07-25 12:00:06 - INFO - app - ✔ Saved model step 154 → Model/v3/lgbm_step_154.pkl
+2025-07-25 12:00:06 - INFO - app - ▶ Training step 156/288
+2025-07-25 12:09:47 - INFO - app - ✔ Saved model step 155 → Model/v3/lgbm_step_155.pkl
+2025-07-25 12:09:48 - INFO - app - ▶ Training step 157/288
+2025-07-25 12:19:39 - INFO - app - ✔ Saved model step 156 → Model/v3/lgbm_step_156.pkl
+2025-07-25 12:19:40 - INFO - app - ▶ Training step 158/288
+2025-07-25 12:29:30 - INFO - app - ✔ Saved model step 157 → Model/v3/lgbm_step_157.pkl
+2025-07-25 12:29:30 - INFO - app - ▶ Training step 159/288
+2025-07-25 12:39:19 - INFO - app - ✔ Saved model step 158 → Model/v3/lgbm_step_158.pkl
+2025-07-25 12:39:19 - INFO - app - ▶ Training step 160/288
+2025-07-25 12:49:18 - INFO - app - ✔ Saved model step 159 → Model/v3/lgbm_step_159.pkl
+2025-07-25 12:49:18 - INFO - app - ▶ Training step 161/288
+2025-07-25 12:59:29 - INFO - app - ✔ Saved model step 160 → Model/v3/lgbm_step_160.pkl
+2025-07-25 12:59:29 - INFO - app - ▶ Training step 162/288
+2025-07-25 13:09:34 - INFO - app - ✔ Saved model step 161 → Model/v3/lgbm_step_161.pkl
+2025-07-25 13:09:34 - INFO - app - ▶ Training step 163/288
+2025-07-25 13:19:26 - INFO - app - ✔ Saved model step 162 → Model/v3/lgbm_step_162.pkl
+2025-07-25 13:19:26 - INFO - app - ▶ Training step 164/288
+2025-07-25 13:29:08 - INFO - app - ✔ Saved model step 163 → Model/v3/lgbm_step_163.pkl
+2025-07-25 13:29:08 - INFO - app - ▶ Training step 165/288
+2025-07-25 13:38:40 - INFO - app - ✔ Saved model step 164 → Model/v3/lgbm_step_164.pkl
+2025-07-25 13:38:41 - INFO - app - ▶ Training step 166/288
+2025-07-25 13:48:19 - INFO - app - ✔ Saved model step 165 → Model/v3/lgbm_step_165.pkl
+2025-07-25 13:48:19 - INFO - app - ▶ Training step 167/288
+2025-07-25 13:58:10 - INFO - app - ✔ Saved model step 166 → Model/v3/lgbm_step_166.pkl
+2025-07-25 13:58:10 - INFO - app - ▶ Training step 168/288
+2025-07-25 14:07:44 - INFO - app - ✔ Saved model step 167 → Model/v3/lgbm_step_167.pkl
+2025-07-25 14:07:44 - INFO - app - ▶ Training step 169/288
+2025-07-25 14:17:19 - INFO - app - ✔ Saved model step 168 → Model/v3/lgbm_step_168.pkl
+2025-07-25 14:17:19 - INFO - app - ▶ Training step 170/288
+2025-07-25 14:27:10 - INFO - app - ✔ Saved model step 169 → Model/v3/lgbm_step_169.pkl
+2025-07-25 14:27:11 - INFO - app - ▶ Training step 171/288
+2025-07-25 14:37:09 - INFO - app - ✔ Saved model step 170 → Model/v3/lgbm_step_170.pkl
+2025-07-25 14:37:10 - INFO - app - ▶ Training step 172/288
+2025-07-25 14:46:55 - INFO - app - ✔ Saved model step 171 → Model/v3/lgbm_step_171.pkl
+2025-07-25 14:46:55 - INFO - app - ▶ Training step 173/288
+2025-07-25 14:56:56 - INFO - app - ✔ Saved model step 172 → Model/v3/lgbm_step_172.pkl
+2025-07-25 14:56:56 - INFO - app - ▶ Training step 174/288
+2025-07-25 15:06:54 - INFO - app - ✔ Saved model step 173 → Model/v3/lgbm_step_173.pkl
+2025-07-25 15:06:54 - INFO - app - ▶ Training step 175/288
+2025-07-25 15:16:42 - INFO - app - ✔ Saved model step 174 → Model/v3/lgbm_step_174.pkl
+2025-07-25 15:16:42 - INFO - app - ▶ Training step 176/288
+2025-07-25 15:26:39 - INFO - app - ✔ Saved model step 175 → Model/v3/lgbm_step_175.pkl
+2025-07-25 15:26:41 - INFO - app - ▶ Training step 177/288
+2025-07-25 15:36:33 - INFO - app - ✔ Saved model step 176 → Model/v3/lgbm_step_176.pkl
+2025-07-25 15:36:34 - INFO - app - ▶ Training step 178/288
+2025-07-25 15:46:45 - INFO - app - ✔ Saved model step 177 → Model/v3/lgbm_step_177.pkl
+2025-07-25 15:46:46 - INFO - app - ▶ Training step 179/288
+2025-07-25 15:56:32 - INFO - app - ✔ Saved model step 178 → Model/v3/lgbm_step_178.pkl
+2025-07-25 15:56:32 - INFO - app - ▶ Training step 180/288
+2025-07-25 16:06:15 - INFO - app - ✔ Saved model step 179 → Model/v3/lgbm_step_179.pkl
+2025-07-25 16:06:15 - INFO - app - ▶ Training step 181/288
+2025-07-25 16:16:02 - INFO - app - ✔ Saved model step 180 → Model/v3/lgbm_step_180.pkl
+2025-07-25 16:16:03 - INFO - app - ▶ Training step 182/288
+2025-07-25 16:26:01 - INFO - app - ✔ Saved model step 181 → Model/v3/lgbm_step_181.pkl
+2025-07-25 16:26:01 - INFO - app - ▶ Training step 183/288
+2025-07-25 16:36:01 - INFO - app - ✔ Saved model step 182 → Model/v3/lgbm_step_182.pkl
+2025-07-25 16:36:01 - INFO - app - ▶ Training step 184/288
+2025-07-25 16:46:01 - INFO - app - ✔ Saved model step 183 → Model/v3/lgbm_step_183.pkl
+2025-07-25 16:46:02 - INFO - app - ▶ Training step 185/288
+2025-07-25 16:56:07 - INFO - app - ✔ Saved model step 184 → Model/v3/lgbm_step_184.pkl
+2025-07-25 16:56:08 - INFO - app - ▶ Training step 186/288
+2025-07-25 17:06:00 - INFO - app - ✔ Saved model step 185 → Model/v3/lgbm_step_185.pkl
+2025-07-25 17:06:00 - INFO - app - ▶ Training step 187/288
+2025-07-25 17:16:00 - INFO - app - ✔ Saved model step 186 → Model/v3/lgbm_step_186.pkl
+2025-07-25 17:16:00 - INFO - app - ▶ Training step 188/288
+2025-07-25 17:25:42 - INFO - app - ✔ Saved model step 187 → Model/v3/lgbm_step_187.pkl
+2025-07-25 17:25:42 - INFO - app - ▶ Training step 189/288
+2025-07-25 17:35:26 - INFO - app - ✔ Saved model step 188 → Model/v3/lgbm_step_188.pkl
+2025-07-25 17:35:26 - INFO - app - ▶ Training step 190/288
+2025-07-25 17:45:21 - INFO - app - ✔ Saved model step 189 → Model/v3/lgbm_step_189.pkl
+2025-07-25 17:45:22 - INFO - app - ▶ Training step 191/288
+2025-07-25 17:55:24 - INFO - app - ✔ Saved model step 190 → Model/v3/lgbm_step_190.pkl
+2025-07-25 17:55:24 - INFO - app - ▶ Training step 192/288
+2025-07-25 18:05:15 - INFO - app - ✔ Saved model step 191 → Model/v3/lgbm_step_191.pkl
+2025-07-25 18:05:15 - INFO - app - ▶ Training step 193/288
+2025-07-25 18:15:16 - INFO - app - ✔ Saved model step 192 → Model/v3/lgbm_step_192.pkl
+2025-07-25 18:15:16 - INFO - app - ▶ Training step 194/288
+2025-07-25 18:25:08 - INFO - app - ✔ Saved model step 193 → Model/v3/lgbm_step_193.pkl
+2025-07-25 18:25:08 - INFO - app - ▶ Training step 195/288
+2025-07-25 18:34:53 - INFO - app - ✔ Saved model step 194 → Model/v3/lgbm_step_194.pkl
+2025-07-25 18:34:53 - INFO - app - ▶ Training step 196/288
+2025-07-25 18:44:49 - INFO - app - ✔ Saved model step 195 → Model/v3/lgbm_step_195.pkl
+2025-07-25 18:44:50 - INFO - app - ▶ Training step 197/288
+2025-07-25 18:54:39 - INFO - app - ✔ Saved model step 196 → Model/v3/lgbm_step_196.pkl
+2025-07-25 18:54:40 - INFO - app - ▶ Training step 198/288
+2025-07-25 19:04:35 - INFO - app - ✔ Saved model step 197 → Model/v3/lgbm_step_197.pkl
+2025-07-25 19:04:35 - INFO - app - ▶ Training step 199/288
+2025-07-25 19:14:23 - INFO - app - ✔ Saved model step 198 → Model/v3/lgbm_step_198.pkl
+2025-07-25 19:14:23 - INFO - app - ▶ Training step 200/288
+2025-07-25 19:24:08 - INFO - app - ✔ Saved model step 199 → Model/v3/lgbm_step_199.pkl
+2025-07-25 19:24:09 - INFO - app - ▶ Training step 201/288
+2025-07-25 19:33:41 - INFO - app - ✔ Saved model step 200 → Model/v3/lgbm_step_200.pkl
+2025-07-25 19:33:41 - INFO - app - ▶ Training step 202/288
+2025-07-25 19:43:10 - INFO - app - ✔ Saved model step 201 → Model/v3/lgbm_step_201.pkl
+2025-07-25 19:43:10 - INFO - app - ▶ Training step 203/288
+2025-07-25 19:52:43 - INFO - app - ✔ Saved model step 202 → Model/v3/lgbm_step_202.pkl
+2025-07-25 19:52:43 - INFO - app - ▶ Training step 204/288
+2025-07-25 20:02:15 - INFO - app - ✔ Saved model step 203 → Model/v3/lgbm_step_203.pkl
+2025-07-25 20:02:15 - INFO - app - ▶ Training step 205/288
+2025-07-25 20:11:51 - INFO - app - ✔ Saved model step 204 → Model/v3/lgbm_step_204.pkl
+2025-07-25 20:11:51 - INFO - app - ▶ Training step 206/288
+2025-07-25 20:21:20 - INFO - app - ✔ Saved model step 205 → Model/v3/lgbm_step_205.pkl
+2025-07-25 20:21:20 - INFO - app - ▶ Training step 207/288
+2025-07-25 20:30:52 - INFO - app - ✔ Saved model step 206 → Model/v3/lgbm_step_206.pkl
+2025-07-25 20:30:52 - INFO - app - ▶ Training step 208/288
+2025-07-25 20:40:36 - INFO - app - ✔ Saved model step 207 → Model/v3/lgbm_step_207.pkl
+2025-07-25 20:40:37 - INFO - app - ▶ Training step 209/288
+2025-07-25 20:50:00 - INFO - app - ✔ Saved model step 208 → Model/v3/lgbm_step_208.pkl
+2025-07-25 20:50:00 - INFO - app - ▶ Training step 210/288
+2025-07-25 20:59:23 - INFO - app - ✔ Saved model step 209 → Model/v3/lgbm_step_209.pkl
+2025-07-25 20:59:23 - INFO - app - ▶ Training step 211/288
+2025-07-25 21:08:47 - INFO - app - ✔ Saved model step 210 → Model/v3/lgbm_step_210.pkl
+2025-07-25 21:08:47 - INFO - app - ▶ Training step 212/288
+2025-07-25 21:18:26 - INFO - app - ✔ Saved model step 211 → Model/v3/lgbm_step_211.pkl
+2025-07-25 21:18:26 - INFO - app - ▶ Training step 213/288
+2025-07-25 21:27:47 - INFO - app - ✔ Saved model step 212 → Model/v3/lgbm_step_212.pkl
+2025-07-25 21:27:48 - INFO - app - ▶ Training step 214/288
+2025-07-25 21:37:05 - INFO - app - ✔ Saved model step 213 → Model/v3/lgbm_step_213.pkl
+2025-07-25 21:37:05 - INFO - app - ▶ Training step 215/288
+2025-07-25 21:46:27 - INFO - app - ✔ Saved model step 214 → Model/v3/lgbm_step_214.pkl
+2025-07-25 21:46:27 - INFO - app - ▶ Training step 216/288
+2025-07-25 21:55:56 - INFO - app - ✔ Saved model step 215 → Model/v3/lgbm_step_215.pkl
+2025-07-25 21:55:56 - INFO - app - ▶ Training step 217/288
+2025-07-25 22:05:46 - INFO - app - ✔ Saved model step 216 → Model/v3/lgbm_step_216.pkl
+2025-07-25 22:05:47 - INFO - app - ▶ Training step 218/288
+2025-07-25 22:15:11 - INFO - app - ✔ Saved model step 217 → Model/v3/lgbm_step_217.pkl
+2025-07-25 22:15:12 - INFO - app - ▶ Training step 219/288
+2025-07-25 22:24:40 - INFO - app - ✔ Saved model step 218 → Model/v3/lgbm_step_218.pkl
+2025-07-25 22:24:40 - INFO - app - ▶ Training step 220/288
+2025-07-25 22:34:10 - INFO - app - ✔ Saved model step 219 → Model/v3/lgbm_step_219.pkl
+2025-07-25 22:34:10 - INFO - app - ▶ Training step 221/288
+2025-07-25 22:43:46 - INFO - app - ✔ Saved model step 220 → Model/v3/lgbm_step_220.pkl
+2025-07-25 22:43:47 - INFO - app - ▶ Training step 222/288
+2025-07-25 22:53:08 - INFO - app - ✔ Saved model step 221 → Model/v3/lgbm_step_221.pkl
+2025-07-25 22:53:09 - INFO - app - ▶ Training step 223/288
+2025-07-25 23:02:36 - INFO - app - ✔ Saved model step 222 → Model/v3/lgbm_step_222.pkl
+2025-07-25 23:02:36 - INFO - app - ▶ Training step 224/288
+2025-07-25 23:11:58 - INFO - app - ✔ Saved model step 223 → Model/v3/lgbm_step_223.pkl
+2025-07-25 23:11:59 - INFO - app - ▶ Training step 225/288
+2025-07-25 23:21:25 - INFO - app - ✔ Saved model step 224 → Model/v3/lgbm_step_224.pkl
+2025-07-25 23:21:29 - INFO - app - ▶ Training step 226/288
+2025-07-25 23:30:40 - INFO - app - ✔ Saved model step 225 → Model/v3/lgbm_step_225.pkl
+2025-07-25 23:30:40 - INFO - app - ▶ Training step 227/288
+2025-07-25 23:40:03 - INFO - app - ✔ Saved model step 226 → Model/v3/lgbm_step_226.pkl
+2025-07-25 23:40:03 - INFO - app - ▶ Training step 228/288
+2025-07-25 23:49:27 - INFO - app - ✔ Saved model step 227 → Model/v3/lgbm_step_227.pkl
+2025-07-25 23:49:27 - INFO - app - ▶ Training step 229/288
+2025-07-25 23:58:51 - INFO - app - ✔ Saved model step 228 → Model/v3/lgbm_step_228.pkl
+2025-07-25 23:58:51 - INFO - app - ▶ Training step 230/288
+2025-07-26 00:08:12 - INFO - app - ✔ Saved model step 229 → Model/v3/lgbm_step_229.pkl
+2025-07-26 00:08:12 - INFO - app - ▶ Training step 231/288
+2025-07-26 00:17:35 - INFO - app - ✔ Saved model step 230 → Model/v3/lgbm_step_230.pkl
+2025-07-26 00:17:36 - INFO - app - ▶ Training step 232/288
+2025-07-26 00:27:08 - INFO - app - ✔ Saved model step 231 → Model/v3/lgbm_step_231.pkl
+2025-07-26 00:27:08 - INFO - app - ▶ Training step 233/288
+2025-07-26 00:36:43 - INFO - app - ✔ Saved model step 232 → Model/v3/lgbm_step_232.pkl
+2025-07-26 00:36:43 - INFO - app - ▶ Training step 234/288
+2025-07-26 00:46:15 - INFO - app - ✔ Saved model step 233 → Model/v3/lgbm_step_233.pkl
+2025-07-26 00:46:16 - INFO - app - ▶ Training step 235/288
+2025-07-26 00:55:50 - INFO - app - ✔ Saved model step 234 → Model/v3/lgbm_step_234.pkl
+2025-07-26 00:55:50 - INFO - app - ▶ Training step 236/288
+2025-07-26 01:05:15 - INFO - app - ✔ Saved model step 235 → Model/v3/lgbm_step_235.pkl
+2025-07-26 01:05:15 - INFO - app - ▶ Training step 237/288
+2025-07-26 01:14:40 - INFO - app - ✔ Saved model step 236 → Model/v3/lgbm_step_236.pkl
+2025-07-26 01:14:40 - INFO - app - ▶ Training step 238/288
+2025-07-26 01:24:09 - INFO - app - ✔ Saved model step 237 → Model/v3/lgbm_step_237.pkl
+2025-07-26 01:24:09 - INFO - app - ▶ Training step 239/288
+2025-07-26 01:33:38 - INFO - app - ✔ Saved model step 238 → Model/v3/lgbm_step_238.pkl
+2025-07-26 01:33:38 - INFO - app - ▶ Training step 240/288
+2025-07-26 01:43:07 - INFO - app - ✔ Saved model step 239 → Model/v3/lgbm_step_239.pkl
+2025-07-26 01:43:07 - INFO - app - ▶ Training step 241/288
+2025-07-26 01:52:44 - INFO - app - ✔ Saved model step 240 → Model/v3/lgbm_step_240.pkl
+2025-07-26 01:52:44 - INFO - app - ▶ Training step 242/288
+2025-07-26 02:02:24 - INFO - app - ✔ Saved model step 241 → Model/v3/lgbm_step_241.pkl
+2025-07-26 02:02:24 - INFO - app - ▶ Training step 243/288
+2025-07-26 02:11:58 - INFO - app - ✔ Saved model step 242 → Model/v3/lgbm_step_242.pkl
+2025-07-26 02:11:58 - INFO - app - ▶ Training step 244/288
+2025-07-26 02:21:18 - INFO - app - ✔ Saved model step 243 → Model/v3/lgbm_step_243.pkl
+2025-07-26 02:21:18 - INFO - app - ▶ Training step 245/288
+2025-07-26 02:30:43 - INFO - app - ✔ Saved model step 244 → Model/v3/lgbm_step_244.pkl
+2025-07-26 02:30:43 - INFO - app - ▶ Training step 246/288
+2025-07-26 02:40:05 - INFO - app - ✔ Saved model step 245 → Model/v3/lgbm_step_245.pkl
+2025-07-26 02:40:05 - INFO - app - ▶ Training step 247/288
+2025-07-26 02:49:30 - INFO - app - ✔ Saved model step 246 → Model/v3/lgbm_step_246.pkl
+2025-07-26 02:49:30 - INFO - app - ▶ Training step 248/288
+2025-07-26 02:58:55 - INFO - app - ✔ Saved model step 247 → Model/v3/lgbm_step_247.pkl
+2025-07-26 02:58:55 - INFO - app - ▶ Training step 249/288
+2025-07-26 03:08:23 - INFO - app - ✔ Saved model step 248 → Model/v3/lgbm_step_248.pkl
+2025-07-26 03:08:23 - INFO - app - ▶ Training step 250/288
+2025-07-26 03:17:58 - INFO - app - ✔ Saved model step 249 → Model/v3/lgbm_step_249.pkl
+2025-07-26 03:17:58 - INFO - app - ▶ Training step 251/288
+2025-07-26 03:27:24 - INFO - app - ✔ Saved model step 250 → Model/v3/lgbm_step_250.pkl
+2025-07-26 03:27:27 - INFO - app - ▶ Training step 252/288
+2025-07-26 03:37:00 - INFO - app - ✔ Saved model step 251 → Model/v3/lgbm_step_251.pkl
+2025-07-26 03:37:00 - INFO - app - ▶ Training step 253/288
+2025-07-26 03:46:26 - INFO - app - ✔ Saved model step 252 → Model/v3/lgbm_step_252.pkl
+2025-07-26 03:46:26 - INFO - app - ▶ Training step 254/288
+2025-07-26 03:55:42 - INFO - app - ✔ Saved model step 253 → Model/v3/lgbm_step_253.pkl
+2025-07-26 03:55:42 - INFO - app - ▶ Training step 255/288
+2025-07-26 04:05:12 - INFO - app - ✔ Saved model step 254 → Model/v3/lgbm_step_254.pkl
+2025-07-26 04:05:13 - INFO - app - ▶ Training step 256/288
+2025-07-26 04:14:43 - INFO - app - ✔ Saved model step 255 → Model/v3/lgbm_step_255.pkl
+2025-07-26 04:14:43 - INFO - app - ▶ Training step 257/288
+2025-07-26 04:24:03 - INFO - app - ✔ Saved model step 256 → Model/v3/lgbm_step_256.pkl
+2025-07-26 04:24:03 - INFO - app - ▶ Training step 258/288
+2025-07-26 04:33:30 - INFO - app - ✔ Saved model step 257 → Model/v3/lgbm_step_257.pkl
+2025-07-26 04:33:30 - INFO - app - ▶ Training step 259/288
+2025-07-26 04:42:47 - INFO - app - ✔ Saved model step 258 → Model/v3/lgbm_step_258.pkl
+2025-07-26 04:42:47 - INFO - app - ▶ Training step 260/288
+2025-07-26 04:52:03 - INFO - app - ✔ Saved model step 259 → Model/v3/lgbm_step_259.pkl
+2025-07-26 04:52:03 - INFO - app - ▶ Training step 261/288
+2025-07-26 05:01:16 - INFO - app - ✔ Saved model step 260 → Model/v3/lgbm_step_260.pkl
+2025-07-26 05:01:16 - INFO - app - ▶ Training step 262/288
+2025-07-26 05:10:33 - INFO - app - ✔ Saved model step 261 → Model/v3/lgbm_step_261.pkl
+2025-07-26 05:10:33 - INFO - app - ▶ Training step 263/288
+2025-07-26 05:19:38 - INFO - app - ✔ Saved model step 262 → Model/v3/lgbm_step_262.pkl
+2025-07-26 05:19:38 - INFO - app - ▶ Training step 264/288
+2025-07-26 05:28:57 - INFO - app - ✔ Saved model step 263 → Model/v3/lgbm_step_263.pkl
+2025-07-26 05:28:57 - INFO - app - ▶ Training step 265/288
+2025-07-26 05:38:22 - INFO - app - ✔ Saved model step 264 → Model/v3/lgbm_step_264.pkl
+2025-07-26 05:38:22 - INFO - app - ▶ Training step 266/288
+2025-07-26 05:47:37 - INFO - app - ✔ Saved model step 265 → Model/v3/lgbm_step_265.pkl
+2025-07-26 05:47:37 - INFO - app - ▶ Training step 267/288
+2025-07-26 05:57:01 - INFO - app - ✔ Saved model step 266 → Model/v3/lgbm_step_266.pkl
+2025-07-26 05:57:01 - INFO - app - ▶ Training step 268/288
+2025-07-26 06:06:32 - INFO - app - ✔ Saved model step 267 → Model/v3/lgbm_step_267.pkl
+2025-07-26 06:06:32 - INFO - app - ▶ Training step 269/288
+2025-07-26 06:15:59 - INFO - app - ✔ Saved model step 268 → Model/v3/lgbm_step_268.pkl
+2025-07-26 06:15:59 - INFO - app - ▶ Training step 270/288
+2025-07-26 06:25:23 - INFO - app - ✔ Saved model step 269 → Model/v3/lgbm_step_269.pkl
+2025-07-26 06:25:23 - INFO - app - ▶ Training step 271/288
+2025-07-26 06:34:58 - INFO - app - ✔ Saved model step 270 → Model/v3/lgbm_step_270.pkl
+2025-07-26 06:34:58 - INFO - app - ▶ Training step 272/288
+2025-07-26 06:44:33 - INFO - app - ✔ Saved model step 271 → Model/v3/lgbm_step_271.pkl
+2025-07-26 06:44:33 - INFO - app - ▶ Training step 273/288
+2025-07-26 06:54:07 - INFO - app - ✔ Saved model step 272 → Model/v3/lgbm_step_272.pkl
+2025-07-26 06:54:07 - INFO - app - ▶ Training step 274/288
+2025-07-26 07:03:42 - INFO - app - ✔ Saved model step 273 → Model/v3/lgbm_step_273.pkl
+2025-07-26 07:03:43 - INFO - app - ▶ Training step 275/288
+2025-07-26 07:13:16 - INFO - app - ✔ Saved model step 274 → Model/v3/lgbm_step_274.pkl
+2025-07-26 07:13:17 - INFO - app - ▶ Training step 276/288
+2025-07-26 07:22:42 - INFO - app - ✔ Saved model step 275 → Model/v3/lgbm_step_275.pkl
+2025-07-26 07:22:43 - INFO - app - ▶ Training step 277/288
+2025-07-26 07:32:20 - INFO - app - ✔ Saved model step 276 → Model/v3/lgbm_step_276.pkl
+2025-07-26 07:32:20 - INFO - app - ▶ Training step 278/288
+2025-07-26 07:41:43 - INFO - app - ✔ Saved model step 277 → Model/v3/lgbm_step_277.pkl
+2025-07-26 07:41:43 - INFO - app - ▶ Training step 279/288
+2025-07-26 07:51:23 - INFO - app - ✔ Saved model step 278 → Model/v3/lgbm_step_278.pkl
+2025-07-26 07:51:23 - INFO - app - ▶ Training step 280/288
+2025-07-26 08:00:59 - INFO - app - ✔ Saved model step 279 → Model/v3/lgbm_step_279.pkl
+2025-07-26 08:00:59 - INFO - app - ▶ Training step 281/288
+2025-07-26 08:10:33 - INFO - app - ✔ Saved model step 280 → Model/v3/lgbm_step_280.pkl
+2025-07-26 08:10:33 - INFO - app - ▶ Training step 282/288
+2025-07-26 08:19:59 - INFO - app - ✔ Saved model step 281 → Model/v3/lgbm_step_281.pkl
+2025-07-26 08:19:59 - INFO - app - ▶ Training step 283/288
+2025-07-26 08:29:28 - INFO - app - ✔ Saved model step 282 → Model/v3/lgbm_step_282.pkl
+2025-07-26 08:29:28 - INFO - app - ▶ Training step 284/288
+2025-07-26 08:38:50 - INFO - app - ✔ Saved model step 283 → Model/v3/lgbm_step_283.pkl
+2025-07-26 08:38:50 - INFO - app - ▶ Training step 285/288
+2025-07-26 08:48:17 - INFO - app - ✔ Saved model step 284 → Model/v3/lgbm_step_284.pkl
+2025-07-26 08:48:18 - INFO - app - ▶ Training step 286/288
+2025-07-26 08:57:50 - INFO - app - ✔ Saved model step 285 → Model/v3/lgbm_step_285.pkl
+2025-07-26 08:57:50 - INFO - app - ▶ Training step 287/288
+2025-07-26 09:07:23 - INFO - app - ✔ Saved model step 286 → Model/v3/lgbm_step_286.pkl
+2025-07-26 09:07:23 - INFO - app - ▶ Training step 288/288
+2025-07-26 09:16:54 - INFO - app - ✔ Saved model step 287 → Model/v3/lgbm_step_287.pkl
+2025-07-26 09:16:54 - INFO - app - ✅ Training complete: 270 models saved
+2025-07-26 09:18:47 - INFO - app - Step 000 → RMSE=181.383, MAE=93.899, MAPE=0.1150, R2=0.870
+2025-07-26 09:20:21 - INFO - app - Step 001 → RMSE=182.814, MAE=96.511, MAPE=0.1198, R2=0.868
+2025-07-26 09:21:51 - INFO - app - Step 002 → RMSE=187.971, MAE=105.109, MAPE=0.1355, R2=0.861
+2025-07-26 09:23:25 - INFO - app - Step 003 → RMSE=173.703, MAE=86.494, MAPE=0.1037, R2=0.881
+2025-07-26 09:24:58 - INFO - app - Step 004 → RMSE=174.618, MAE=85.872, MAPE=0.1032, R2=0.881
+2025-07-26 09:26:29 - INFO - app - Step 005 → RMSE=172.958, MAE=82.549, MAPE=0.0965, R2=0.883
+2025-07-26 09:28:01 - INFO - app - Step 006 → RMSE=161.494, MAE=90.569, MAPE=0.1164, R2=0.898
+2025-07-26 09:29:34 - INFO - app - Step 007 → RMSE=180.942, MAE=104.591, MAPE=0.1369, R2=0.872
+2025-07-26 09:31:04 - INFO - app - Step 008 → RMSE=97.352, MAE=63.849, MAPE=0.0920, R2=0.963
+2025-07-26 09:32:38 - INFO - app - Step 009 → RMSE=109.277, MAE=66.506, MAPE=0.0962, R2=0.954
+2025-07-26 09:34:08 - INFO - app - Step 010 → RMSE=108.716, MAE=73.092, MAPE=0.1081, R2=0.954
+2025-07-26 09:35:43 - INFO - app - Step 011 → RMSE=177.987, MAE=86.041, MAPE=0.1018, R2=0.876
+2025-07-26 09:37:17 - INFO - app - Step 012 → RMSE=99.535, MAE=60.543, MAPE=0.0858, R2=0.962
+2025-07-26 09:38:49 - INFO - app - Step 013 → RMSE=115.230, MAE=75.726, MAPE=0.1111, R2=0.949
+2025-07-26 09:40:25 - INFO - app - Step 014 → RMSE=160.300, MAE=110.620, MAPE=0.1698, R2=0.901
+2025-07-26 09:42:00 - INFO - app - Step 015 → RMSE=132.925, MAE=80.305, MAPE=0.1198, R2=0.932
+2025-07-26 09:43:31 - INFO - app - Step 016 → RMSE=123.724, MAE=83.909, MAPE=0.1262, R2=0.941
+2025-07-26 09:45:06 - INFO - app - Step 017 → RMSE=170.764, MAE=98.097, MAPE=0.1282, R2=0.887
+2025-07-26 09:46:42 - INFO - app - Step 018 → RMSE=100.123, MAE=69.975, MAPE=0.1056, R2=0.961
+2025-07-26 09:48:15 - INFO - app - Step 019 → RMSE=101.175, MAE=70.939, MAPE=0.1066, R2=0.961
+2025-07-26 09:49:50 - INFO - app - Step 020 → RMSE=108.003, MAE=73.465, MAPE=0.1140, R2=0.955
+2025-07-26 09:51:27 - INFO - app - Step 021 → RMSE=100.040, MAE=69.057, MAPE=0.1046, R2=0.961
+2025-07-26 09:53:03 - INFO - app - Step 022 → RMSE=118.788, MAE=84.296, MAPE=0.1310, R2=0.946
+2025-07-26 09:54:35 - INFO - app - Step 023 → RMSE=102.316, MAE=66.551, MAPE=0.0984, R2=0.960
+2025-07-26 09:56:11 - INFO - app - Step 024 → RMSE=107.594, MAE=71.076, MAPE=0.1073, R2=0.955
+2025-07-26 09:57:46 - INFO - app - Step 025 → RMSE=180.076, MAE=100.487, MAPE=0.1319, R2=0.873
+2025-07-26 09:59:17 - INFO - app - Step 026 → RMSE=118.338, MAE=84.899, MAPE=0.1311, R2=0.946
+2025-07-26 10:00:52 - INFO - app - Step 027 → RMSE=89.331, MAE=59.651, MAPE=0.0874, R2=0.969
+2025-07-26 10:02:27 - INFO - app - Step 028 → RMSE=80.087, MAE=48.426, MAPE=0.0671, R2=0.975
+2025-07-26 10:03:59 - INFO - app - Step 029 → RMSE=100.423, MAE=66.625, MAPE=0.0994, R2=0.961
+2025-07-26 10:05:34 - INFO - app - Step 030 → RMSE=79.714, MAE=48.006, MAPE=0.0664, R2=0.975
+2025-07-26 10:07:09 - INFO - app - Step 031 → RMSE=81.046, MAE=49.368, MAPE=0.0686, R2=0.974
+2025-07-26 10:08:41 - INFO - app - Step 032 → RMSE=91.645, MAE=61.514, MAPE=0.0892, R2=0.967
+2025-07-26 10:10:16 - INFO - app - Step 033 → RMSE=110.818, MAE=72.847, MAPE=0.1084, R2=0.952
+2025-07-26 10:11:52 - INFO - app - Step 034 → RMSE=111.424, MAE=73.688, MAPE=0.1094, R2=0.951
+2025-07-26 10:13:23 - INFO - app - Step 035 → RMSE=111.047, MAE=73.204, MAPE=0.1083, R2=0.952
+2025-07-26 10:14:58 - INFO - app - Step 036 → RMSE=105.367, MAE=70.613, MAPE=0.1037, R2=0.956
+2025-07-26 10:16:33 - INFO - app - Step 037 → RMSE=130.100, MAE=83.239, MAPE=0.1243, R2=0.934
+2025-07-26 10:18:05 - INFO - app - Step 038 → RMSE=120.908, MAE=77.478, MAPE=0.1149, R2=0.943
+2025-07-26 10:19:40 - INFO - app - Step 039 → RMSE=96.398, MAE=64.244, MAPE=0.0930, R2=0.964
+2025-07-26 10:21:15 - INFO - app - Step 040 → RMSE=96.141, MAE=66.697, MAPE=0.0971, R2=0.964
+2025-07-26 10:22:47 - INFO - app - Step 041 → RMSE=95.837, MAE=63.744, MAPE=0.0920, R2=0.964
+2025-07-26 10:24:22 - INFO - app - Step 042 → RMSE=100.128, MAE=66.651, MAPE=0.0969, R2=0.961
+2025-07-26 10:25:58 - INFO - app - Step 043 → RMSE=100.242, MAE=66.757, MAPE=0.0968, R2=0.961
+2025-07-26 10:27:29 - INFO - app - Step 044 → RMSE=110.926, MAE=77.868, MAPE=0.1159, R2=0.952
+2025-07-26 10:29:04 - INFO - app - Step 045 → RMSE=121.446, MAE=77.752, MAPE=0.1149, R2=0.942
+2025-07-26 10:30:40 - INFO - app - Step 046 → RMSE=122.039, MAE=78.531, MAPE=0.1160, R2=0.942
+2025-07-26 10:32:15 - INFO - app - Step 047 → RMSE=123.153, MAE=79.681, MAPE=0.1176, R2=0.940
+2025-07-26 10:33:50 - INFO - app - Step 048 → RMSE=123.490, MAE=80.008, MAPE=0.1182, R2=0.940
+2025-07-26 10:35:26 - INFO - app - Step 049 → RMSE=101.883, MAE=68.477, MAPE=0.0983, R2=0.959
+2025-07-26 10:37:03 - INFO - app - Step 050 → RMSE=109.729, MAE=76.557, MAPE=0.1126, R2=0.953
+2025-07-26 10:38:36 - INFO - app - Step 051 → RMSE=102.194, MAE=68.626, MAPE=0.0987, R2=0.959
+2025-07-26 10:40:11 - INFO - app - Step 052 → RMSE=102.330, MAE=68.774, MAPE=0.0986, R2=0.959
+2025-07-26 10:41:47 - INFO - app - Step 053 → RMSE=106.053, MAE=70.144, MAPE=0.1008, R2=0.956
+2025-07-26 10:43:18 - INFO - app - Step 054 → RMSE=90.403, MAE=60.194, MAPE=0.0836, R2=0.968
+2025-07-26 10:44:53 - INFO - app - Step 055 → RMSE=94.629, MAE=60.420, MAPE=0.0829, R2=0.965
+2025-07-26 10:46:28 - INFO - app - Step 056 → RMSE=98.255, MAE=67.503, MAPE=0.0963, R2=0.962
+2025-07-26 10:48:02 - INFO - app - Step 057 → RMSE=98.282, MAE=67.689, MAPE=0.0963, R2=0.962
+2025-07-26 10:49:40 - INFO - app - Step 058 → RMSE=115.184, MAE=78.977, MAPE=0.1166, R2=0.948
+2025-07-26 10:51:15 - INFO - app - Step 059 → RMSE=130.966, MAE=79.420, MAPE=0.1199, R2=0.933
+2025-07-26 10:52:48 - INFO - app - Step 060 → RMSE=100.301, MAE=65.280, MAPE=0.0925, R2=0.961
+2025-07-26 10:54:24 - INFO - app - Step 061 → RMSE=104.010, MAE=68.651, MAPE=0.0988, R2=0.958
+2025-07-26 10:56:00 - INFO - app - Step 062 → RMSE=106.476, MAE=69.134, MAPE=0.0987, R2=0.956
+2025-07-26 10:57:33 - INFO - app - Step 063 → RMSE=141.251, MAE=77.849, MAPE=0.0938, R2=0.921
+2025-07-26 10:59:09 - INFO - app - Step 064 → RMSE=90.553, MAE=57.838, MAPE=0.0823, R2=0.968
+2025-07-26 11:00:46 - INFO - app - Step 065 → RMSE=166.711, MAE=85.360, MAPE=0.1030, R2=0.891
+2025-07-26 11:02:22 - INFO - app - Step 066 → RMSE=82.437, MAE=47.595, MAPE=0.0637, R2=0.974
+2025-07-26 11:03:54 - INFO - app - Step 067 → RMSE=86.224, MAE=53.550, MAPE=0.0735, R2=0.971
+2025-07-26 11:05:30 - INFO - app - Step 068 → RMSE=156.512, MAE=79.346, MAPE=0.0954, R2=0.904
+2025-07-26 11:07:06 - INFO - app - Step 069 → RMSE=179.318, MAE=87.599, MAPE=0.1316, R2=0.875
+2025-07-26 11:08:39 - INFO - app - Step 070 → RMSE=89.746, MAE=56.858, MAPE=0.0803, R2=0.969
+2025-07-26 11:10:18 - INFO - app - Step 071 → RMSE=108.294, MAE=65.955, MAPE=0.0962, R2=0.955
+2025-07-26 11:11:55 - INFO - app - Step 072 → RMSE=153.817, MAE=80.765, MAPE=0.1024, R2=0.908
+2025-07-26 11:13:28 - INFO - app - Step 073 → RMSE=150.074, MAE=80.684, MAPE=0.1027, R2=0.912
+2025-07-26 11:15:03 - INFO - app - Step 074 → RMSE=153.769, MAE=83.248, MAPE=0.1076, R2=0.908
+2025-07-26 11:16:40 - INFO - app - Step 075 → RMSE=149.978, MAE=77.559, MAPE=0.0978, R2=0.912
+2025-07-26 11:18:16 - INFO - app - Step 076 → RMSE=148.865, MAE=75.163, MAPE=0.0941, R2=0.914
+2025-07-26 11:19:49 - INFO - app - Step 077 → RMSE=155.618, MAE=70.434, MAPE=0.0838, R2=0.906
+2025-07-26 11:21:27 - INFO - app - Step 078 → RMSE=156.128, MAE=69.885, MAPE=0.0826, R2=0.905
+2025-07-26 11:23:05 - INFO - app - Step 079 → RMSE=151.135, MAE=68.944, MAPE=0.0816, R2=0.911
+2025-07-26 11:24:35 - INFO - app - Step 080 → RMSE=223.804, MAE=112.265, MAPE=0.1243, R2=0.802
+2025-07-26 11:26:07 - INFO - app - Step 081 → RMSE=221.513, MAE=115.983, MAPE=0.1325, R2=0.806
+2025-07-26 11:27:40 - INFO - app - Step 082 → RMSE=280.184, MAE=147.301, MAPE=0.1789, R2=0.689
+2025-07-26 11:29:11 - INFO - app - Step 083 → RMSE=275.762, MAE=139.891, MAPE=0.1670, R2=0.698
+2025-07-26 11:30:45 - INFO - app - Step 084 → RMSE=224.192, MAE=105.378, MAPE=0.1111, R2=0.800
+2025-07-26 11:32:15 - INFO - app - Step 085 → RMSE=224.349, MAE=106.108, MAPE=0.1121, R2=0.800
+2025-07-26 11:33:47 - INFO - app - Step 086 → RMSE=222.688, MAE=106.008, MAPE=0.1127, R2=0.802
+2025-07-26 11:35:20 - INFO - app - Step 087 → RMSE=226.172, MAE=102.430, MAPE=0.1048, R2=0.796
+2025-07-26 11:36:49 - INFO - app - Step 088 → RMSE=227.425, MAE=104.175, MAPE=0.1071, R2=0.793
+2025-07-26 11:38:22 - INFO - app - Step 089 → RMSE=227.515, MAE=106.810, MAPE=0.1121, R2=0.793
+2025-07-26 11:39:50 - INFO - app - Step 090 → RMSE=226.656, MAE=104.802, MAPE=0.1087, R2=0.795
+2025-07-26 11:41:24 - INFO - app - Step 091 → RMSE=219.658, MAE=111.231, MAPE=0.1234, R2=0.807
+2025-07-26 11:42:54 - INFO - app - Step 092 → RMSE=223.318, MAE=108.355, MAPE=0.1163, R2=0.800
+2025-07-26 11:44:28 - INFO - app - Step 093 → RMSE=150.190, MAE=75.406, MAPE=0.0919, R2=0.911
+2025-07-26 11:45:59 - INFO - app - Step 094 → RMSE=156.439, MAE=74.285, MAPE=0.0877, R2=0.903
+2025-07-26 11:47:30 - INFO - app - Step 095 → RMSE=150.126, MAE=75.773, MAPE=0.0920, R2=0.911
+2025-07-26 11:49:02 - INFO - app - Step 096 → RMSE=154.573, MAE=73.528, MAPE=0.0864, R2=0.905
+2025-07-26 11:50:31 - INFO - app - Step 097 → RMSE=158.940, MAE=69.155, MAPE=0.0776, R2=0.900
+2025-07-26 11:52:03 - INFO - app - Step 098 → RMSE=159.039, MAE=69.675, MAPE=0.0780, R2=0.900
+2025-07-26 11:53:32 - INFO - app - Step 099 → RMSE=192.793, MAE=98.631, MAPE=0.1262, R2=0.853
+2025-07-26 11:55:04 - INFO - app - Step 100 → RMSE=195.556, MAE=100.766, MAPE=0.1149, R2=0.846
+2025-07-26 11:56:37 - INFO - app - Step 101 → RMSE=192.480, MAE=99.632, MAPE=0.1276, R2=0.853
+2025-07-26 11:58:06 - INFO - app - Step 102 → RMSE=157.035, MAE=68.652, MAPE=0.0770, R2=0.902
+2025-07-26 11:59:38 - INFO - app - Step 103 → RMSE=157.145, MAE=68.853, MAPE=0.0770, R2=0.902
+2025-07-26 12:01:06 - INFO - app - Step 104 → RMSE=158.034, MAE=70.129, MAPE=0.0784, R2=0.901
+2025-07-26 12:02:39 - INFO - app - Step 105 → RMSE=151.370, MAE=71.560, MAPE=0.0836, R2=0.909
+2025-07-26 12:04:07 - INFO - app - Step 106 → RMSE=153.196, MAE=73.580, MAPE=0.0861, R2=0.907
+2025-07-26 12:05:40 - INFO - app - Step 107 → RMSE=155.712, MAE=74.390, MAPE=0.0868, R2=0.904
+2025-07-26 12:07:09 - INFO - app - Step 108 → RMSE=157.999, MAE=83.695, MAPE=0.1046, R2=0.901
+2025-07-26 12:08:41 - INFO - app - Step 109 → RMSE=157.435, MAE=67.812, MAPE=0.0747, R2=0.902
+2025-07-26 12:10:13 - INFO - app - Step 110 → RMSE=157.498, MAE=67.707, MAPE=0.0746, R2=0.902
+2025-07-26 12:11:42 - INFO - app - Step 111 → RMSE=157.844, MAE=68.087, MAPE=0.0750, R2=0.901
+2025-07-26 12:13:14 - INFO - app - Step 112 → RMSE=150.610, MAE=71.107, MAPE=0.0826, R2=0.910
+2025-07-26 12:14:42 - INFO - app - Step 113 → RMSE=157.761, MAE=70.441, MAPE=0.0791, R2=0.901
+2025-07-26 12:16:14 - INFO - app - Step 114 → RMSE=159.322, MAE=71.725, MAPE=0.0806, R2=0.899
+2025-07-26 12:17:43 - INFO - app - Step 115 → RMSE=152.396, MAE=81.062, MAPE=0.0997, R2=0.908
+2025-07-26 12:19:15 - INFO - app - Step 116 → RMSE=152.961, MAE=83.771, MAPE=0.1060, R2=0.908
+2025-07-26 12:20:46 - INFO - app - Step 117 → RMSE=152.944, MAE=81.670, MAPE=0.1011, R2=0.908
+2025-07-26 12:22:20 - INFO - app - Step 118 → RMSE=154.358, MAE=82.686, MAPE=0.1035, R2=0.907
+2025-07-26 12:23:53 - INFO - app - Step 119 → RMSE=221.990, MAE=121.014, MAPE=0.1644, R2=0.807
+2025-07-26 12:25:23 - INFO - app - Step 120 → RMSE=219.824, MAE=118.850, MAPE=0.1625, R2=0.812
+2025-07-26 12:26:54 - INFO - app - Step 121 → RMSE=217.178, MAE=110.644, MAPE=0.1468, R2=0.816
+2025-07-26 12:28:24 - INFO - app - Step 122 → RMSE=219.410, MAE=123.414, MAPE=0.1724, R2=0.813
+2025-07-26 12:29:57 - INFO - app - Step 123 → RMSE=225.861, MAE=111.056, MAPE=0.1461, R2=0.802
+2025-07-26 12:31:28 - INFO - app - Step 124 → RMSE=224.263, MAE=111.503, MAPE=0.1457, R2=0.805
+2025-07-26 12:32:57 - INFO - app - Step 125 → RMSE=173.727, MAE=88.124, MAPE=0.1060, R2=0.883
+2025-07-26 12:34:29 - INFO - app - Step 126 → RMSE=182.359, MAE=90.275, MAPE=0.1186, R2=0.871
+2025-07-26 12:35:59 - INFO - app - Step 127 → RMSE=206.849, MAE=111.118, MAPE=0.1502, R2=0.834
+2025-07-26 12:37:30 - INFO - app - Step 128 → RMSE=165.349, MAE=81.109, MAPE=0.1005, R2=0.894
+2025-07-26 12:38:58 - INFO - app - Step 129 → RMSE=199.129, MAE=92.897, MAPE=0.1224, R2=0.847
+2025-07-26 12:40:30 - INFO - app - Step 130 → RMSE=194.853, MAE=92.166, MAPE=0.0980, R2=0.850
+2025-07-26 12:41:58 - INFO - app - Step 131 → RMSE=185.877, MAE=83.582, MAPE=0.0952, R2=0.865
+2025-07-26 12:43:32 - INFO - app - Step 132 → RMSE=177.543, MAE=85.215, MAPE=0.1022, R2=0.878
+2025-07-26 12:45:03 - INFO - app - Step 133 → RMSE=197.788, MAE=95.519, MAPE=0.1015, R2=0.846
+2025-07-26 12:46:31 - INFO - app - Step 134 → RMSE=182.715, MAE=80.774, MAPE=0.0908, R2=0.871
+2025-07-26 12:48:02 - INFO - app - Step 135 → RMSE=178.202, MAE=78.474, MAPE=0.0887, R2=0.877
+2025-07-26 12:49:29 - INFO - app - Step 136 → RMSE=179.355, MAE=77.944, MAPE=0.0887, R2=0.876
+2025-07-26 12:51:00 - INFO - app - Step 137 → RMSE=231.255, MAE=107.175, MAPE=0.1093, R2=0.789
+2025-07-26 12:52:29 - INFO - app - Step 138 → RMSE=167.916, MAE=90.136, MAPE=0.1152, R2=0.891
+2025-07-26 12:54:02 - INFO - app - Step 139 → RMSE=177.447, MAE=76.187, MAPE=0.0850, R2=0.878
+2025-07-26 12:55:30 - INFO - app - Step 140 → RMSE=225.005, MAE=112.772, MAPE=0.1216, R2=0.800
+2025-07-26 12:57:02 - INFO - app - Step 141 → RMSE=172.401, MAE=82.277, MAPE=0.0963, R2=0.884
+2025-07-26 12:58:31 - INFO - app - Step 142 → RMSE=171.828, MAE=81.589, MAPE=0.0949, R2=0.885
+2025-07-26 13:00:04 - INFO - app - Step 143 → RMSE=172.770, MAE=83.215, MAPE=0.0982, R2=0.883
+2025-07-26 13:01:33 - INFO - app - Step 144 → RMSE=174.073, MAE=83.501, MAPE=0.0973, R2=0.881
+2025-07-26 13:03:04 - INFO - app - Step 145 → RMSE=172.532, MAE=83.821, MAPE=0.0988, R2=0.883
+2025-07-26 13:04:37 - INFO - app - Step 146 → RMSE=171.789, MAE=82.535, MAPE=0.0968, R2=0.884
+2025-07-26 13:06:07 - INFO - app - Step 147 → RMSE=169.944, MAE=82.377, MAPE=0.0973, R2=0.887
+2025-07-26 13:07:39 - INFO - app - Step 148 → RMSE=169.906, MAE=81.721, MAPE=0.0961, R2=0.886
+2025-07-26 13:09:08 - INFO - app - Step 149 → RMSE=170.737, MAE=82.556, MAPE=0.0973, R2=0.885
+2025-07-26 13:10:41 - INFO - app - Step 150 → RMSE=169.468, MAE=80.883, MAPE=0.0946, R2=0.887
+2025-07-26 13:12:11 - INFO - app - Step 151 → RMSE=173.322, MAE=92.405, MAPE=0.1154, R2=0.882
+2025-07-26 13:13:42 - INFO - app - Step 152 → RMSE=170.303, MAE=81.886, MAPE=0.0958, R2=0.886
+2025-07-26 13:15:10 - INFO - app - Step 153 → RMSE=169.490, MAE=82.850, MAPE=0.0979, R2=0.887
+2025-07-26 13:16:42 - INFO - app - Step 154 → RMSE=176.290, MAE=90.324, MAPE=0.1102, R2=0.877
+2025-07-26 13:18:14 - INFO - app - Step 155 → RMSE=170.550, MAE=81.563, MAPE=0.0949, R2=0.885
+2025-07-26 13:19:42 - INFO - app - Step 156 → RMSE=170.785, MAE=80.499, MAPE=0.0930, R2=0.885
+2025-07-26 13:21:14 - INFO - app - Step 157 → RMSE=175.268, MAE=88.015, MAPE=0.1057, R2=0.879
+2025-07-26 13:22:44 - INFO - app - Step 158 → RMSE=175.525, MAE=89.652, MAPE=0.1086, R2=0.878
+2025-07-26 13:24:15 - INFO - app - Step 159 → RMSE=165.502, MAE=89.617, MAPE=0.1104, R2=0.892
+2025-07-26 13:25:44 - INFO - app - Step 160 → RMSE=171.372, MAE=98.756, MAPE=0.1263, R2=0.884
+2025-07-26 13:27:17 - INFO - app - Step 161 → RMSE=171.234, MAE=99.927, MAPE=0.1284, R2=0.884
+2025-07-26 13:28:46 - INFO - app - Step 162 → RMSE=169.589, MAE=96.938, MAPE=0.1233, R2=0.886
+2025-07-26 13:30:19 - INFO - app - Step 163 → RMSE=171.030, MAE=100.387, MAPE=0.1283, R2=0.884
+2025-07-26 13:31:52 - INFO - app - Step 164 → RMSE=173.391, MAE=100.730, MAPE=0.1268, R2=0.881
+2025-07-26 13:33:21 - INFO - app - Step 165 → RMSE=173.406, MAE=88.747, MAPE=0.1065, R2=0.881
+2025-07-26 13:34:53 - INFO - app - Step 166 → RMSE=168.570, MAE=81.323, MAPE=0.0937, R2=0.888
+2025-07-26 13:36:22 - INFO - app - Step 167 → RMSE=169.694, MAE=82.234, MAPE=0.0951, R2=0.886
+2025-07-26 13:37:54 - INFO - app - Step 168 → RMSE=169.690, MAE=82.147, MAPE=0.0949, R2=0.886
+2025-07-26 13:39:23 - INFO - app - Step 169 → RMSE=169.866, MAE=84.193, MAPE=0.0979, R2=0.886
+2025-07-26 13:40:55 - INFO - app - Step 170 → RMSE=169.264, MAE=82.796, MAPE=0.0954, R2=0.887
+2025-07-26 13:42:24 - INFO - app - Step 171 → RMSE=167.482, MAE=82.342, MAPE=0.0954, R2=0.889
+2025-07-26 13:43:56 - INFO - app - Step 172 → RMSE=165.053, MAE=91.599, MAPE=0.1137, R2=0.892
+2025-07-26 13:45:28 - INFO - app - Step 173 → RMSE=166.478, MAE=96.183, MAPE=0.1215, R2=0.890
+2025-07-26 13:46:57 - INFO - app - Step 174 → RMSE=167.007, MAE=82.161, MAPE=0.0959, R2=0.890
+2025-07-26 13:48:29 - INFO - app - Step 175 → RMSE=166.487, MAE=83.276, MAPE=0.0981, R2=0.891
+2025-07-26 13:49:57 - INFO - app - Step 176 → RMSE=166.302, MAE=75.163, MAPE=0.0834, R2=0.892
+2025-07-26 13:51:29 - INFO - app - Step 177 → RMSE=167.160, MAE=80.796, MAPE=0.0936, R2=0.891
+2025-07-26 13:52:58 - INFO - app - Step 178 → RMSE=166.016, MAE=81.022, MAPE=0.0937, R2=0.892
+2025-07-26 13:54:31 - INFO - app - Step 179 → RMSE=168.690, MAE=83.145, MAPE=0.0970, R2=0.889
+2025-07-26 13:56:00 - INFO - app - Step 180 → RMSE=167.878, MAE=82.024, MAPE=0.0956, R2=0.890
+2025-07-26 13:57:32 - INFO - app - Step 181 → RMSE=183.480, MAE=96.405, MAPE=0.1189, R2=0.868
+2025-07-26 13:59:04 - INFO - app - Step 182 → RMSE=166.944, MAE=83.102, MAPE=0.0984, R2=0.891
+2025-07-26 14:00:32 - INFO - app - Step 183 → RMSE=164.623, MAE=73.740, MAPE=0.0816, R2=0.894
+2025-07-26 14:02:02 - INFO - app - Step 184 → RMSE=167.706, MAE=77.809, MAPE=0.0885, R2=0.891
+2025-07-26 14:03:31 - INFO - app - Step 185 → RMSE=230.270, MAE=108.504, MAPE=0.1116, R2=0.790
+2025-07-26 14:05:03 - INFO - app - Step 186 → RMSE=233.997, MAE=111.309, MAPE=0.1160, R2=0.784
+2025-07-26 14:06:32 - INFO - app - Step 187 → RMSE=230.507, MAE=110.608, MAPE=0.1151, R2=0.790
+2025-07-26 14:08:03 - INFO - app - Step 188 → RMSE=88.176, MAE=51.710, MAPE=0.0729, R2=0.970
+2025-07-26 14:09:31 - INFO - app - Step 189 → RMSE=78.237, MAE=44.849, MAPE=0.0606, R2=0.976
+2025-07-26 14:11:04 - INFO - app - Step 190 → RMSE=79.100, MAE=46.040, MAPE=0.0636, R2=0.976
+2025-07-26 14:12:33 - INFO - app - Step 191 → RMSE=140.289, MAE=68.486, MAPE=0.0985, R2=0.924
+2025-07-26 14:14:06 - INFO - app - Step 192 → RMSE=75.754, MAE=43.442, MAPE=0.0588, R2=0.978
+2025-07-26 14:15:40 - INFO - app - Step 193 → RMSE=104.780, MAE=70.599, MAPE=0.1068, R2=0.958
+2025-07-26 14:17:10 - INFO - app - Step 194 → RMSE=110.066, MAE=63.215, MAPE=0.0938, R2=0.953
+2025-07-26 14:18:44 - INFO - app - Step 195 → RMSE=116.500, MAE=66.744, MAPE=0.0997, R2=0.948
+2025-07-26 14:20:14 - INFO - app - Step 196 → RMSE=142.169, MAE=85.058, MAPE=0.1306, R2=0.922
+2025-07-26 14:21:47 - INFO - app - Step 197 → RMSE=105.704, MAE=59.527, MAPE=0.0856, R2=0.957
+2025-07-26 14:23:17 - INFO - app - Step 198 → RMSE=82.970, MAE=52.145, MAPE=0.0736, R2=0.973
+2025-07-26 14:24:50 - INFO - app - Step 199 → RMSE=130.588, MAE=68.853, MAPE=0.1006, R2=0.934
+2025-07-26 14:26:23 - INFO - app - Step 200 → RMSE=81.378, MAE=51.042, MAPE=0.0709, R2=0.974
+2025-07-26 14:27:53 - INFO - app - Step 201 → RMSE=83.056, MAE=52.140, MAPE=0.0727, R2=0.973
+2025-07-26 14:29:26 - INFO - app - Step 202 → RMSE=180.153, MAE=86.891, MAPE=0.1283, R2=0.873
+2025-07-26 14:30:56 - INFO - app - Step 203 → RMSE=179.861, MAE=87.962, MAPE=0.1303, R2=0.873
+2025-07-26 14:32:30 - INFO - app - Step 204 → RMSE=189.240, MAE=104.284, MAPE=0.1578, R2=0.860
+2025-07-26 14:34:04 - INFO - app - Step 205 → RMSE=186.398, MAE=100.122, MAPE=0.1503, R2=0.864
+2025-07-26 14:35:34 - INFO - app - Step 206 → RMSE=199.522, MAE=117.630, MAPE=0.1802, R2=0.844
+2025-07-26 14:37:08 - INFO - app - Step 207 → RMSE=207.245, MAE=110.105, MAPE=0.1658, R2=0.831
+2025-07-26 14:38:38 - INFO - app - Step 208 → RMSE=194.573, MAE=107.057, MAPE=0.1595, R2=0.851
+2025-07-26 14:40:11 - INFO - app - Step 209 → RMSE=97.834, MAE=60.091, MAPE=0.0850, R2=0.962
+2025-07-26 14:41:41 - INFO - app - Step 210 → RMSE=110.385, MAE=70.612, MAPE=0.1024, R2=0.952
+2025-07-26 14:43:15 - INFO - app - Step 211 → RMSE=90.068, MAE=56.719, MAPE=0.0798, R2=0.968
+2025-07-26 14:44:48 - INFO - app - Step 212 → RMSE=94.973, MAE=60.505, MAPE=0.0860, R2=0.965
+2025-07-26 14:46:18 - INFO - app - Step 213 → RMSE=97.537, MAE=65.386, MAPE=0.0952, R2=0.963
+2025-07-26 14:47:50 - INFO - app - Step 214 → RMSE=102.729, MAE=65.054, MAPE=0.0943, R2=0.958
+2025-07-26 14:49:20 - INFO - app - Step 215 → RMSE=89.224, MAE=57.399, MAPE=0.0814, R2=0.969
+2025-07-26 14:50:53 - INFO - app - Step 216 → RMSE=99.886, MAE=66.708, MAPE=0.0963, R2=0.961
+2025-07-26 14:52:27 - INFO - app - Step 217 → RMSE=90.008, MAE=58.727, MAPE=0.0831, R2=0.968
+2025-07-26 14:53:58 - INFO - app - Step 218 → RMSE=100.968, MAE=68.142, MAPE=0.0983, R2=0.960
+2025-07-26 14:55:32 - INFO - app - Step 219 → RMSE=89.041, MAE=57.277, MAPE=0.0805, R2=0.969
+2025-07-26 14:57:03 - INFO - app - Step 220 → RMSE=103.714, MAE=69.058, MAPE=0.1004, R2=0.958
+2025-07-26 14:58:36 - INFO - app - Step 221 → RMSE=90.331, MAE=58.477, MAPE=0.0821, R2=0.968
+2025-07-26 15:00:07 - INFO - app - Step 222 → RMSE=102.061, MAE=67.881, MAPE=0.0979, R2=0.959
+2025-07-26 15:01:42 - INFO - app - Step 223 → RMSE=84.723, MAE=51.110, MAPE=0.0691, R2=0.972
+2025-07-26 15:03:17 - INFO - app - Step 224 → RMSE=86.590, MAE=52.580, MAPE=0.0715, R2=0.971
+2025-07-26 15:04:47 - INFO - app - Step 225 → RMSE=83.225, MAE=50.081, MAPE=0.0668, R2=0.973
+2025-07-26 15:06:21 - INFO - app - Step 226 → RMSE=83.160, MAE=49.923, MAPE=0.0664, R2=0.973
+2025-07-26 15:07:51 - INFO - app - Step 227 → RMSE=84.097, MAE=50.841, MAPE=0.0679, R2=0.972
+2025-07-26 15:09:25 - INFO - app - Step 228 → RMSE=93.702, MAE=59.052, MAPE=0.0812, R2=0.965
+2025-07-26 15:11:00 - INFO - app - Step 229 → RMSE=90.879, MAE=59.280, MAPE=0.0814, R2=0.968
+2025-07-26 15:12:32 - INFO - app - Step 230 → RMSE=100.164, MAE=67.040, MAPE=0.0949, R2=0.961
+2025-07-26 15:14:07 - INFO - app - Step 231 → RMSE=85.522, MAE=51.484, MAPE=0.0684, R2=0.971
+2025-07-26 15:15:41 - INFO - app - Step 232 → RMSE=94.902, MAE=58.890, MAPE=0.0812, R2=0.965
+2025-07-26 15:17:12 - INFO - app - Step 233 → RMSE=85.611, MAE=51.398, MAPE=0.0688, R2=0.971
+2025-07-26 15:18:46 - INFO - app - Step 234 → RMSE=173.002, MAE=96.940, MAPE=0.1451, R2=0.883
+2025-07-26 15:20:17 - INFO - app - Step 235 → RMSE=82.359, MAE=47.233, MAPE=0.0624, R2=0.974
+2025-07-26 15:21:51 - INFO - app - Step 236 → RMSE=88.570, MAE=56.147, MAPE=0.0797, R2=0.970
+2025-07-26 15:23:26 - INFO - app - Step 237 → RMSE=109.943, MAE=66.752, MAPE=0.0936, R2=0.953
+2025-07-26 15:24:56 - INFO - app - Step 238 → RMSE=166.496, MAE=85.103, MAPE=0.1022, R2=0.891
+2025-07-26 15:26:30 - INFO - app - Step 239 → RMSE=178.698, MAE=97.079, MAPE=0.1193, R2=0.874
+2025-07-26 15:28:01 - INFO - app - Step 240 → RMSE=179.437, MAE=102.109, MAPE=0.1316, R2=0.874
+2025-07-26 15:29:35 - INFO - app - Step 241 → RMSE=167.298, MAE=89.897, MAPE=0.1103, R2=0.890
+2025-07-26 15:31:09 - INFO - app - Step 242 → RMSE=189.662, MAE=110.746, MAPE=0.1452, R2=0.860
+2025-07-26 15:32:40 - INFO - app - Step 243 → RMSE=83.634, MAE=51.495, MAPE=0.0701, R2=0.973
+2025-07-26 15:34:14 - INFO - app - Step 244 → RMSE=187.480, MAE=97.301, MAPE=0.1200, R2=0.863
+2025-07-26 15:35:45 - INFO - app - Step 245 → RMSE=171.486, MAE=93.365, MAPE=0.1169, R2=0.885
+2025-07-26 15:37:19 - INFO - app - Step 246 → RMSE=180.148, MAE=101.548, MAPE=0.1315, R2=0.874
+2025-07-26 15:38:53 - INFO - app - Step 247 → RMSE=183.593, MAE=89.086, MAPE=0.1060, R2=0.869
+2025-07-26 15:40:25 - INFO - app - Step 248 → RMSE=183.969, MAE=89.801, MAPE=0.1084, R2=0.869
+2025-07-26 15:42:00 - INFO - app - Step 249 → RMSE=182.912, MAE=89.738, MAPE=0.1080, R2=0.870
+2025-07-26 15:43:31 - INFO - app - Step 250 → RMSE=183.126, MAE=90.225, MAPE=0.1096, R2=0.870
+2025-07-26 15:45:06 - INFO - app - Step 251 → RMSE=185.012, MAE=93.378, MAPE=0.1148, R2=0.867
+2025-07-26 15:46:40 - INFO - app - Step 252 → RMSE=222.276, MAE=109.810, MAPE=0.1430, R2=0.809
+2025-07-26 15:48:11 - INFO - app - Step 253 → RMSE=202.407, MAE=106.307, MAPE=0.1362, R2=0.841
+2025-07-26 15:49:45 - INFO - app - Step 254 → RMSE=169.818, MAE=89.233, MAPE=0.1118, R2=0.888
+2025-07-26 15:51:15 - INFO - app - Step 255 → RMSE=179.037, MAE=98.365, MAPE=0.1260, R2=0.875
+2025-07-26 15:52:49 - INFO - app - Step 256 → RMSE=179.900, MAE=82.775, MAPE=0.0957, R2=0.874
+2025-07-26 15:54:23 - INFO - app - Step 257 → RMSE=174.929, MAE=94.176, MAPE=0.1171, R2=0.880
+2025-07-26 15:55:53 - INFO - app - Step 258 → RMSE=187.094, MAE=93.197, MAPE=0.1131, R2=0.863
+2025-07-26 15:57:26 - INFO - app - Step 259 → RMSE=179.918, MAE=84.725, MAPE=0.0988, R2=0.873
+2025-07-26 15:58:57 - INFO - app - Step 260 → RMSE=171.906, MAE=88.832, MAPE=0.1093, R2=0.884
+2025-07-26 16:00:32 - INFO - app - Step 261 → RMSE=167.795, MAE=88.278, MAPE=0.1089, R2=0.889
+2025-07-26 16:02:06 - INFO - app - Step 262 → RMSE=188.107, MAE=99.119, MAPE=0.1225, R2=0.861
+2025-07-26 16:03:38 - INFO - app - Step 263 → RMSE=170.326, MAE=96.199, MAPE=0.1218, R2=0.886
+2025-07-26 16:05:12 - INFO - app - Step 264 → RMSE=170.045, MAE=97.300, MAPE=0.1242, R2=0.886
+2025-07-26 16:06:43 - INFO - app - Step 265 → RMSE=252.814, MAE=137.627, MAPE=0.1841, R2=0.748
+2025-07-26 16:08:18 - INFO - app - Step 266 → RMSE=173.279, MAE=101.202, MAPE=0.1307, R2=0.881
+2025-07-26 16:09:52 - INFO - app - Step 267 → RMSE=180.808, MAE=91.112, MAPE=0.1097, R2=0.871
+2025-07-26 16:11:22 - INFO - app - Step 268 → RMSE=190.349, MAE=103.226, MAPE=0.1291, R2=0.857
+2025-07-26 16:12:57 - INFO - app - Step 269 → RMSE=188.087, MAE=96.424, MAPE=0.1185, R2=0.860

@@ -1,0 +1,230 @@
+2025-08-06 08:39:32 - INFO - app - 📆 date_range 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-06 08:39:32 - INFO - app - 📊 확장된 범위: 2025-03-24 ~ 2025-05-26 (총 64개 파일)
+2025-08-06 08:39:32 - INFO - app - 🔍 최대 lookback: 8일 (10135분)
+2025-08-06 08:39:32 - INFO - app - ✅ Data load skip: 총 64개 파일 저장됨
+2025-08-06 08:39:32 - INFO - app - ✅ 데이터 전처리 skip: Model/v0에 저장됨
+2025-08-06 08:39:32 - INFO - app - ✅ 데이터 전처리(y) skip: Model/v0에 저장됨
+2025-08-06 08:39:32 - INFO - app - ✅ map 형성 skip
+2025-08-06 08:39:32 - INFO - app - Model/v0/0/valid_link_id.npy
+2025-08-06 08:39:32 - INFO - app - [get_device] GPUSet from config = RTX
+2025-08-06 08:39:32 - INFO - app - [get_device] → using GPU, device=cuda:0, ddpSet=False
+2025-08-06 08:39:32 - INFO - app - ▶️ 클러스터 0 처리 중... 링크 수: 232
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/train_data.h5
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/train_data.h5
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/val_data.h5
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/val_data.h5
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/test_data.h5
+2025-08-06 08:39:32 - INFO - app - 📂 Loading .h5 file: Model/v0/0/test_data.h5
+2025-08-06 08:39:32 - INFO - app - 📊 Dataset shapes:
+   • train: x=(9504, 1, 232, 36), y=(9504, 1, 232, 12)
+   • val:   x=(3168, 1, 232, 36), y=(3168, 1, 232, 12)
+   • test:  x=(3168, 1, 232, 36), y=(3168, 1, 232, 12)
+2025-08-06 08:39:32 - INFO - app - [GPU 체크] model parameter device = cuda:0
+2025-08-06 08:39:54 - INFO - app - Epoch: 001, Inference Time: 1.8283 secs
+2025-08-06 08:39:54 - INFO - app - Epoch: 001, Train Loss: 16.2201, Train MAPE: 0.4083, Train RMSE: 21.9003 
+ Valid Loss: 6.9921, Valid MAPE: 0.1710, Valid RMSE: 9.5431, Training Time: 18.3844/epoch
+2025-08-06 08:40:15 - INFO - app - Epoch: 002, Inference Time: 1.7791 secs
+2025-08-06 08:40:15 - INFO - app - Epoch: 002, Train Loss: 5.3549, Train MAPE: 0.1404, Train RMSE: 8.0379 
+ Valid Loss: 6.1132, Valid MAPE: 0.1503, Valid RMSE: 8.8174, Training Time: 18.9442/epoch
+2025-08-06 08:40:36 - INFO - app - Epoch: 003, Inference Time: 3.6926 secs
+2025-08-06 08:40:36 - INFO - app - Epoch: 003, Train Loss: 4.9628, Train MAPE: 0.1298, Train RMSE: 7.6213 
+ Valid Loss: 7.2980, Valid MAPE: 0.1602, Valid RMSE: 9.7619, Training Time: 17.2582/epoch
+2025-08-06 08:40:55 - INFO - app - Epoch: 004, Inference Time: 1.7884 secs
+2025-08-06 08:40:55 - INFO - app - Epoch: 004, Train Loss: 4.7221, Train MAPE: 0.1235, Train RMSE: 7.3672 
+ Valid Loss: 5.6989, Valid MAPE: 0.1363, Valid RMSE: 8.2700, Training Time: 17.1675/epoch
+2025-08-06 08:41:15 - INFO - app - Epoch: 005, Inference Time: 1.7822 secs
+2025-08-06 08:41:15 - INFO - app - Epoch: 005, Train Loss: 4.5185, Train MAPE: 0.1189, Train RMSE: 7.1553 
+ Valid Loss: 6.8329, Valid MAPE: 0.1513, Valid RMSE: 9.0787, Training Time: 18.9729/epoch
+2025-08-06 08:41:35 - INFO - app - Epoch: 006, Inference Time: 1.8963 secs
+2025-08-06 08:41:35 - INFO - app - Epoch: 006, Train Loss: 4.3450, Train MAPE: 0.1150, Train RMSE: 7.0025 
+ Valid Loss: 5.0132, Valid MAPE: 0.1226, Valid RMSE: 7.4708, Training Time: 17.2935/epoch
+2025-08-06 08:41:55 - INFO - app - Epoch: 007, Inference Time: 1.7897 secs
+2025-08-06 08:41:55 - INFO - app - Epoch: 007, Train Loss: 4.2314, Train MAPE: 0.1123, Train RMSE: 6.9108 
+ Valid Loss: 6.3500, Valid MAPE: 0.1432, Valid RMSE: 8.5360, Training Time: 18.8916/epoch
+2025-08-06 08:42:15 - INFO - app - Epoch: 008, Inference Time: 1.9469 secs
+2025-08-06 08:42:15 - INFO - app - Epoch: 008, Train Loss: 4.1537, Train MAPE: 0.1099, Train RMSE: 6.8537 
+ Valid Loss: 4.5612, Valid MAPE: 0.1134, Valid RMSE: 7.1834, Training Time: 17.2148/epoch
+2025-08-06 08:42:35 - INFO - app - Epoch: 009, Inference Time: 1.8253 secs
+2025-08-06 08:42:35 - INFO - app - Epoch: 009, Train Loss: 4.0804, Train MAPE: 0.1080, Train RMSE: 6.7951 
+ Valid Loss: 5.8673, Valid MAPE: 0.1345, Valid RMSE: 8.1263, Training Time: 18.9828/epoch
+2025-08-06 08:42:56 - INFO - app - Epoch: 010, Inference Time: 1.8322 secs
+2025-08-06 08:42:56 - INFO - app - Epoch: 010, Train Loss: 4.0269, Train MAPE: 0.1063, Train RMSE: 6.7516 
+ Valid Loss: 4.5115, Valid MAPE: 0.1133, Valid RMSE: 7.1193, Training Time: 19.0724/epoch
+2025-08-06 08:43:16 - INFO - app - Epoch: 011, Inference Time: 1.9315 secs
+2025-08-06 08:43:16 - INFO - app - Epoch: 011, Train Loss: 3.9833, Train MAPE: 0.1051, Train RMSE: 6.7223 
+ Valid Loss: 5.8419, Valid MAPE: 0.1327, Valid RMSE: 8.1194, Training Time: 17.6298/epoch
+2025-08-06 08:43:37 - INFO - app - Epoch: 012, Inference Time: 1.8177 secs
+2025-08-06 08:43:37 - INFO - app - Epoch: 012, Train Loss: 3.9377, Train MAPE: 0.1036, Train RMSE: 6.6808 
+ Valid Loss: 4.5673, Valid MAPE: 0.1116, Valid RMSE: 7.1427, Training Time: 19.3112/epoch
+2025-08-06 08:43:56 - INFO - app - Epoch: 013, Inference Time: 1.9887 secs
+2025-08-06 08:43:56 - INFO - app - Epoch: 013, Train Loss: 3.9183, Train MAPE: 0.1030, Train RMSE: 6.6686 
+ Valid Loss: 5.6497, Valid MAPE: 0.1305, Valid RMSE: 7.9430, Training Time: 17.3054/epoch
+2025-08-06 08:44:17 - INFO - app - Epoch: 014, Inference Time: 1.8375 secs
+2025-08-06 08:44:17 - INFO - app - Epoch: 014, Train Loss: 3.8556, Train MAPE: 0.1014, Train RMSE: 6.6308 
+ Valid Loss: 4.5883, Valid MAPE: 0.1120, Valid RMSE: 7.1540, Training Time: 19.1915/epoch
+2025-08-06 08:44:38 - INFO - app - Epoch: 015, Inference Time: 1.9443 secs
+2025-08-06 08:44:38 - INFO - app - Epoch: 015, Train Loss: 3.7469, Train MAPE: 0.0985, Train RMSE: 6.5539 
+ Valid Loss: 4.5712, Valid MAPE: 0.1123, Valid RMSE: 7.1313, Training Time: 19.1239/epoch
+2025-08-06 08:44:57 - INFO - app - Epoch: 016, Inference Time: 1.9016 secs
+2025-08-06 08:44:57 - INFO - app - Epoch: 016, Train Loss: 3.8758, Train MAPE: 0.1014, Train RMSE: 6.6162 
+ Valid Loss: 5.3266, Valid MAPE: 0.1250, Valid RMSE: 7.6315, Training Time: 17.1617/epoch
+2025-08-06 08:45:19 - INFO - app - Epoch: 017, Inference Time: 1.8162 secs
+2025-08-06 08:45:19 - INFO - app - Epoch: 017, Train Loss: 3.8175, Train MAPE: 0.0994, Train RMSE: 6.5659 
+ Valid Loss: 4.1281, Valid MAPE: 0.1047, Valid RMSE: 6.8069, Training Time: 19.5176/epoch
+2025-08-06 08:45:38 - INFO - app - Epoch: 018, Inference Time: 1.8560 secs
+2025-08-06 08:45:38 - INFO - app - Epoch: 018, Train Loss: 3.7754, Train MAPE: 0.0984, Train RMSE: 6.5400 
+ Valid Loss: 5.3182, Valid MAPE: 0.1221, Valid RMSE: 7.6515, Training Time: 16.9528/epoch
+2025-08-06 08:45:59 - INFO - app - Epoch: 019, Inference Time: 1.7778 secs
+2025-08-06 08:45:59 - INFO - app - Epoch: 019, Train Loss: 3.7664, Train MAPE: 0.0984, Train RMSE: 6.5332 
+ Valid Loss: 4.3693, Valid MAPE: 0.1082, Valid RMSE: 6.9510, Training Time: 19.2851/epoch
+2025-08-06 08:46:20 - INFO - app - Epoch: 020, Inference Time: 1.9690 secs
+2025-08-06 08:46:20 - INFO - app - Epoch: 020, Train Loss: 3.7202, Train MAPE: 0.0971, Train RMSE: 6.4944 
+ Valid Loss: 5.4296, Valid MAPE: 0.1243, Valid RMSE: 7.7686, Training Time: 19.8095/epoch
+2025-08-06 08:46:39 - INFO - app - Epoch: 021, Inference Time: 1.8113 secs
+2025-08-06 08:46:39 - INFO - app - Epoch: 021, Train Loss: 3.7058, Train MAPE: 0.0965, Train RMSE: 6.4780 
+ Valid Loss: 4.2768, Valid MAPE: 0.1085, Valid RMSE: 6.8642, Training Time: 16.7021/epoch
+2025-08-06 08:47:01 - INFO - app - Epoch: 022, Inference Time: 1.7940 secs
+2025-08-06 08:47:01 - INFO - app - Epoch: 022, Train Loss: 3.6892, Train MAPE: 0.0964, Train RMSE: 6.4686 
+ Valid Loss: 5.1695, Valid MAPE: 0.1198, Valid RMSE: 7.5433, Training Time: 19.8348/epoch
+2025-08-06 08:47:20 - INFO - app - Epoch: 023, Inference Time: 1.9787 secs
+2025-08-06 08:47:20 - INFO - app - Epoch: 023, Train Loss: 3.6603, Train MAPE: 0.0956, Train RMSE: 6.4407 
+ Valid Loss: 4.1794, Valid MAPE: 0.1042, Valid RMSE: 6.8151, Training Time: 17.1274/epoch
+2025-08-06 08:47:43 - INFO - app - Epoch: 024, Inference Time: 2.1587 secs
+2025-08-06 08:47:43 - INFO - app - Epoch: 024, Train Loss: 3.6478, Train MAPE: 0.0954, Train RMSE: 6.4362 
+ Valid Loss: 5.0192, Valid MAPE: 0.1169, Valid RMSE: 7.4283, Training Time: 20.8423/epoch
+2025-08-06 08:48:03 - INFO - app - Epoch: 025, Inference Time: 1.8767 secs
+2025-08-06 08:48:03 - INFO - app - Epoch: 025, Train Loss: 3.6278, Train MAPE: 0.0947, Train RMSE: 6.4161 
+ Valid Loss: 4.1936, Valid MAPE: 0.1053, Valid RMSE: 6.8577, Training Time: 18.1741/epoch
+2025-08-06 08:48:23 - INFO - app - Epoch: 026, Inference Time: 1.8841 secs
+2025-08-06 08:48:23 - INFO - app - Epoch: 026, Train Loss: 3.6118, Train MAPE: 0.0944, Train RMSE: 6.3948 
+ Valid Loss: 5.0017, Valid MAPE: 0.1171, Valid RMSE: 7.4190, Training Time: 18.8605/epoch
+2025-08-06 08:48:44 - INFO - app - Epoch: 027, Inference Time: 2.0053 secs
+2025-08-06 08:48:44 - INFO - app - Epoch: 027, Train Loss: 3.6003, Train MAPE: 0.0941, Train RMSE: 6.3962 
+ Valid Loss: 4.0237, Valid MAPE: 0.1017, Valid RMSE: 6.7240, Training Time: 18.0337/epoch
+2025-08-06 08:49:05 - INFO - app - Epoch: 028, Inference Time: 1.8924 secs
+2025-08-06 08:49:05 - INFO - app - Epoch: 028, Train Loss: 3.5834, Train MAPE: 0.0937, Train RMSE: 6.3791 
+ Valid Loss: 4.8169, Valid MAPE: 0.1143, Valid RMSE: 7.2731, Training Time: 19.6873/epoch
+2025-08-06 08:49:27 - INFO - app - Epoch: 029, Inference Time: 2.0157 secs
+2025-08-06 08:49:27 - INFO - app - Epoch: 029, Train Loss: 3.5585, Train MAPE: 0.0928, Train RMSE: 6.3568 
+ Valid Loss: 3.9698, Valid MAPE: 0.1014, Valid RMSE: 6.7017, Training Time: 19.7854/epoch
+2025-08-06 08:49:46 - INFO - app - Epoch: 030, Inference Time: 2.0053 secs
+2025-08-06 08:49:46 - INFO - app - Epoch: 030, Train Loss: 3.5719, Train MAPE: 0.0934, Train RMSE: 6.3691 
+ Valid Loss: 3.9598, Valid MAPE: 0.1058, Valid RMSE: 6.6442, Training Time: 17.3653/epoch
+2025-08-06 08:50:07 - INFO - app - Epoch: 031, Inference Time: 2.1387 secs
+2025-08-06 08:50:07 - INFO - app - Epoch: 031, Train Loss: 3.5459, Train MAPE: 0.0926, Train RMSE: 6.3513 
+ Valid Loss: 4.8744, Valid MAPE: 0.1145, Valid RMSE: 7.3338, Training Time: 18.6405/epoch
+2025-08-06 08:50:28 - INFO - app - Epoch: 032, Inference Time: 1.8153 secs
+2025-08-06 08:50:28 - INFO - app - Epoch: 032, Train Loss: 3.5478, Train MAPE: 0.0928, Train RMSE: 6.3525 
+ Valid Loss: 4.0450, Valid MAPE: 0.1021, Valid RMSE: 6.7701, Training Time: 19.0828/epoch
+2025-08-06 08:50:48 - INFO - app - Epoch: 033, Inference Time: 1.9681 secs
+2025-08-06 08:50:48 - INFO - app - Epoch: 033, Train Loss: 3.5246, Train MAPE: 0.0920, Train RMSE: 6.3360 
+ Valid Loss: 4.6986, Valid MAPE: 0.1114, Valid RMSE: 7.2061, Training Time: 17.7729/epoch
+2025-08-06 08:51:10 - INFO - app - Epoch: 034, Inference Time: 1.7907 secs
+2025-08-06 08:51:10 - INFO - app - Epoch: 034, Train Loss: 3.5047, Train MAPE: 0.0913, Train RMSE: 6.3181 
+ Valid Loss: 4.0603, Valid MAPE: 0.1026, Valid RMSE: 6.7703, Training Time: 19.9895/epoch
+2025-08-06 08:51:28 - INFO - app - Epoch: 035, Inference Time: 1.9007 secs
+2025-08-06 08:51:28 - INFO - app - Epoch: 035, Train Loss: 3.4883, Train MAPE: 0.0914, Train RMSE: 6.3149 
+ Valid Loss: 4.5218, Valid MAPE: 0.1089, Valid RMSE: 7.0838, Training Time: 16.9242/epoch
+2025-08-06 08:51:50 - INFO - app - Epoch: 036, Inference Time: 1.8321 secs
+2025-08-06 08:51:50 - INFO - app - Epoch: 036, Train Loss: 3.5158, Train MAPE: 0.0927, Train RMSE: 6.3257 
+ Valid Loss: 3.9283, Valid MAPE: 0.0999, Valid RMSE: 6.6659, Training Time: 19.4341/epoch
+2025-08-06 08:52:11 - INFO - app - Epoch: 037, Inference Time: 1.9639 secs
+2025-08-06 08:52:11 - INFO - app - Epoch: 037, Train Loss: 3.4865, Train MAPE: 0.0908, Train RMSE: 6.2992 
+ Valid Loss: 4.9278, Valid MAPE: 0.1167, Valid RMSE: 7.3485, Training Time: 19.2458/epoch
+2025-08-06 08:52:30 - INFO - app - Epoch: 038, Inference Time: 1.8168 secs
+2025-08-06 08:52:30 - INFO - app - Epoch: 038, Train Loss: 3.4703, Train MAPE: 0.0903, Train RMSE: 6.2900 
+ Valid Loss: 4.0306, Valid MAPE: 0.1024, Valid RMSE: 6.7618, Training Time: 17.1518/epoch
+2025-08-06 08:52:51 - INFO - app - Epoch: 039, Inference Time: 1.8304 secs
+2025-08-06 08:52:51 - INFO - app - Epoch: 039, Train Loss: 3.4879, Train MAPE: 0.0909, Train RMSE: 6.2942 
+ Valid Loss: 4.9360, Valid MAPE: 0.1158, Valid RMSE: 7.3920, Training Time: 19.7877/epoch
+2025-08-06 08:53:10 - INFO - app - Epoch: 040, Inference Time: 1.9339 secs
+2025-08-06 08:53:10 - INFO - app - Epoch: 040, Train Loss: 3.4512, Train MAPE: 0.0899, Train RMSE: 6.2774 
+ Valid Loss: 3.9532, Valid MAPE: 0.1004, Valid RMSE: 6.6938, Training Time: 16.9629/epoch
+2025-08-06 08:53:32 - INFO - app - Epoch: 041, Inference Time: 1.8497 secs
+2025-08-06 08:53:32 - INFO - app - Epoch: 041, Train Loss: 3.4415, Train MAPE: 0.0895, Train RMSE: 6.2706 
+ Valid Loss: 4.8367, Valid MAPE: 0.1158, Valid RMSE: 7.3140, Training Time: 19.7857/epoch
+2025-08-06 08:53:53 - INFO - app - Epoch: 042, Inference Time: 2.0551 secs
+2025-08-06 08:53:53 - INFO - app - Epoch: 042, Train Loss: 3.4208, Train MAPE: 0.0888, Train RMSE: 6.2445 
+ Valid Loss: 3.9514, Valid MAPE: 0.1005, Valid RMSE: 6.6712, Training Time: 19.2863/epoch
+2025-08-06 08:54:12 - INFO - app - Epoch: 043, Inference Time: 1.8223 secs
+2025-08-06 08:54:12 - INFO - app - Epoch: 043, Train Loss: 3.4206, Train MAPE: 0.0893, Train RMSE: 6.2508 
+ Valid Loss: 4.7196, Valid MAPE: 0.1134, Valid RMSE: 7.1817, Training Time: 17.3777/epoch
+2025-08-06 08:54:34 - INFO - app - Epoch: 044, Inference Time: 1.8408 secs
+2025-08-06 08:54:34 - INFO - app - Epoch: 044, Train Loss: 3.4349, Train MAPE: 0.0893, Train RMSE: 6.2857 
+ Valid Loss: 4.1951, Valid MAPE: 0.1066, Valid RMSE: 6.8088, Training Time: 19.7520/epoch
+2025-08-06 08:54:53 - INFO - app - Epoch: 045, Inference Time: 1.9248 secs
+2025-08-06 08:54:53 - INFO - app - Epoch: 045, Train Loss: 3.4214, Train MAPE: 0.0890, Train RMSE: 6.2769 
+ Valid Loss: 4.7386, Valid MAPE: 0.1112, Valid RMSE: 7.2278, Training Time: 16.8626/epoch
+2025-08-06 08:55:14 - INFO - app - Epoch: 046, Inference Time: 1.8248 secs
+2025-08-06 08:55:14 - INFO - app - Epoch: 046, Train Loss: 3.4824, Train MAPE: 0.0916, Train RMSE: 6.3122 
+ Valid Loss: 4.7898, Valid MAPE: 0.1136, Valid RMSE: 7.2262, Training Time: 19.6464/epoch
+2025-08-06 08:55:36 - INFO - app - Epoch: 047, Inference Time: 1.9918 secs
+2025-08-06 08:55:36 - INFO - app - Epoch: 047, Train Loss: 3.3903, Train MAPE: 0.0881, Train RMSE: 6.2518 
+ Valid Loss: 4.0615, Valid MAPE: 0.1032, Valid RMSE: 6.7533, Training Time: 19.2073/epoch
+2025-08-06 08:55:55 - INFO - app - Epoch: 048, Inference Time: 1.8328 secs
+2025-08-06 08:55:55 - INFO - app - Epoch: 048, Train Loss: 3.4003, Train MAPE: 0.0887, Train RMSE: 6.2659 
+ Valid Loss: 4.3776, Valid MAPE: 0.1068, Valid RMSE: 6.9307, Training Time: 17.1681/epoch
+2025-08-06 08:56:17 - INFO - app - Epoch: 049, Inference Time: 2.0547 secs
+2025-08-06 08:56:17 - INFO - app - Epoch: 049, Train Loss: 3.4116, Train MAPE: 0.0893, Train RMSE: 6.2780 
+ Valid Loss: 4.8126, Valid MAPE: 0.1123, Valid RMSE: 7.3092, Training Time: 20.4413/epoch
+2025-08-06 08:56:38 - INFO - app - Epoch: 050, Inference Time: 1.9869 secs
+2025-08-06 08:56:38 - INFO - app - Epoch: 050, Train Loss: 3.3865, Train MAPE: 0.0879, Train RMSE: 6.2528 
+ Valid Loss: 4.1021, Valid MAPE: 0.1030, Valid RMSE: 6.8155, Training Time: 18.9730/epoch
+2025-08-06 08:56:59 - INFO - app - Epoch: 051, Inference Time: 2.0515 secs
+2025-08-06 08:56:59 - INFO - app - Epoch: 051, Train Loss: 3.3659, Train MAPE: 0.0873, Train RMSE: 6.2428 
+ Valid Loss: 4.6334, Valid MAPE: 0.1108, Valid RMSE: 7.1509, Training Time: 18.8595/epoch
+2025-08-06 08:57:19 - INFO - app - Epoch: 052, Inference Time: 1.8928 secs
+2025-08-06 08:57:19 - INFO - app - Epoch: 052, Train Loss: 3.4077, Train MAPE: 0.0894, Train RMSE: 6.2505 
+ Valid Loss: 3.9533, Valid MAPE: 0.0996, Valid RMSE: 6.6886, Training Time: 18.3416/epoch
+2025-08-06 08:57:39 - INFO - app - Epoch: 053, Inference Time: 1.9304 secs
+2025-08-06 08:57:39 - INFO - app - Epoch: 053, Train Loss: 3.3679, Train MAPE: 0.0879, Train RMSE: 6.2326 
+ Valid Loss: 4.7786, Valid MAPE: 0.1124, Valid RMSE: 7.3056, Training Time: 17.4468/epoch
+2025-08-06 08:58:00 - INFO - app - Epoch: 054, Inference Time: 1.8924 secs
+2025-08-06 08:58:00 - INFO - app - Epoch: 054, Train Loss: 3.3603, Train MAPE: 0.0875, Train RMSE: 6.2263 
+ Valid Loss: 4.2101, Valid MAPE: 0.1057, Valid RMSE: 6.8944, Training Time: 19.5275/epoch
+2025-08-06 08:58:21 - INFO - app - Epoch: 055, Inference Time: 1.9290 secs
+2025-08-06 08:58:21 - INFO - app - Epoch: 055, Train Loss: 3.3261, Train MAPE: 0.0866, Train RMSE: 6.1999 
+ Valid Loss: 4.6973, Valid MAPE: 0.1099, Valid RMSE: 7.2517, Training Time: 18.6555/epoch
+2025-08-06 08:58:40 - INFO - app - Epoch: 056, Inference Time: 1.7956 secs
+2025-08-06 08:58:40 - INFO - app - Epoch: 056, Train Loss: 3.3292, Train MAPE: 0.0864, Train RMSE: 6.2085 
+ Valid Loss: 3.9532, Valid MAPE: 0.0998, Valid RMSE: 6.6602, Training Time: 17.3643/epoch
+2025-08-06 08:58:40 - INFO - app - ✅ 클러스터 0 모델 저장 완료: Model/v0/0_best.pth
+2025-08-06 08:58:40 - INFO - app - The valid loss on best model is 3.9283
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 1는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 2는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 3는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 4는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 5는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 6는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 7는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 8는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 9는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 10는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 11는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 12는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 13는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 14는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 15는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 16는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 17는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 18는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 19는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 20는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 21는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 22는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 23는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 24는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 25는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 26는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 27는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 28는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 29는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 30는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 31는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 32는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 33는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 34는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 35는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 36는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 37는 이미 학습 완료됨. Skipping...
+2025-08-06 08:58:40 - INFO - app - ⏭️ 클러스터 38는 이미 학습 완료됨. Skipping...

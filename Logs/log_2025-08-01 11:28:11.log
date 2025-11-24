@@ -1,0 +1,5 @@
+2025-08-01 11:28:11 - INFO - app - 📆 far_time_process 모드: 총 1일 간 데이터 조회 예정 → [datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-01 11:28:11 - INFO - app - ✅ Data load skip: 총 1개 파일 저장됨
+2025-08-01 11:28:19 - INFO - app - ✅ HDF5 생성 완료: Model/v3/predict_tensors.h5
+2025-08-01 11:28:19 - INFO - app - ✅ 데이터 전처리(x) 완료: Model/v3에 저장됨
+2025-08-01 11:34:16 - INFO - app - Predicting complete, returning predictions

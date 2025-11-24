@@ -1,0 +1,390 @@
+2025-07-20 20:19:56 - INFO - app - 📆 date_range 모드: 총 81일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 11, 0, 0), datetime.datetime(2025, 3, 12, 0, 0), datetime.datetime(2025, 3, 13, 0, 0), datetime.datetime(2025, 3, 14, 0, 0), datetime.datetime(2025, 3, 15, 0, 0), datetime.datetime(2025, 3, 16, 0, 0), datetime.datetime(2025, 3, 17, 0, 0), datetime.datetime(2025, 3, 18, 0, 0), datetime.datetime(2025, 3, 19, 0, 0), datetime.datetime(2025, 3, 20, 0, 0), datetime.datetime(2025, 3, 21, 0, 0), datetime.datetime(2025, 3, 22, 0, 0), datetime.datetime(2025, 3, 23, 0, 0), datetime.datetime(2025, 3, 24, 0, 0), datetime.datetime(2025, 3, 25, 0, 0), datetime.datetime(2025, 3, 26, 0, 0), datetime.datetime(2025, 3, 27, 0, 0), datetime.datetime(2025, 3, 28, 0, 0), datetime.datetime(2025, 3, 29, 0, 0), datetime.datetime(2025, 3, 30, 0, 0), datetime.datetime(2025, 3, 31, 0, 0), datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0), datetime.datetime(2025, 5, 27, 0, 0), datetime.datetime(2025, 5, 28, 0, 0), datetime.datetime(2025, 5, 29, 0, 0), datetime.datetime(2025, 5, 30, 0, 0)]
+2025-07-20 20:19:56 - INFO - app - 🚀 시작 – Postgres DB → Parquet 스트리밍
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-11 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-12 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-13 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-14 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-15 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-16 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-17 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-18 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-19 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-20 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-21 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-22 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-23 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-24 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-25 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-26 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-27 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-28 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-29 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-30 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-03-31 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-01 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-02 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-03 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-04 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-05 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-06 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-07 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-08 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-09 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-10 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-11 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-12 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-13 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-14 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-15 00:00:00] 컬렉션 already done
+2025-07-20 20:19:56 - INFO - app - 📡 [2025-04-16 00:00:00] 컬렉션 already done
+2025-07-20 20:22:16 - INFO - app - [2025-04-17] chunk 0-25000: write_table
+2025-07-20 20:24:39 - INFO - app - [2025-04-17] chunk 25000-50000: write_table
+2025-07-20 20:27:06 - INFO - app - [2025-04-17] chunk 50000-75000: write_table
+2025-07-20 20:29:31 - INFO - app - [2025-04-17] chunk 75000-100000: write_table
+2025-07-20 20:31:56 - INFO - app - [2025-04-17] chunk 100000-125000: write_table
+2025-07-20 20:34:21 - INFO - app - [2025-04-17] chunk 125000-150000: write_table
+2025-07-20 20:36:56 - INFO - app - [2025-04-17] chunk 150000-175000: write_table
+2025-07-20 20:39:20 - INFO - app - [2025-04-17] chunk 175000-200000: write_table
+2025-07-20 20:41:48 - INFO - app - [2025-04-17] chunk 200000-225000: write_table
+2025-07-20 20:44:13 - INFO - app - [2025-04-17] chunk 225000-250000: write_table
+2025-07-20 20:46:45 - INFO - app - [2025-04-17] chunk 250000-275000: write_table
+2025-07-20 20:49:08 - INFO - app - [2025-04-17] chunk 275000-300000: write_table
+2025-07-20 20:51:31 - INFO - app - [2025-04-17] chunk 300000-325000: write_table
+2025-07-20 20:53:55 - INFO - app - [2025-04-17] chunk 325000-350000: write_table
+2025-07-20 20:56:32 - INFO - app - [2025-04-17] chunk 350000-375000: write_table
+2025-07-20 20:58:58 - INFO - app - [2025-04-17] chunk 375000-400000: write_table
+2025-07-20 21:01:21 - INFO - app - [2025-04-17] chunk 400000-425000: write_table
+2025-07-20 21:03:45 - INFO - app - [2025-04-17] chunk 425000-450000: write_table
+2025-07-20 21:06:10 - INFO - app - [2025-04-17] chunk 450000-475000: write_table
+2025-07-20 21:08:53 - INFO - app - [2025-04-17] chunk 475000-500000: write_table
+2025-07-20 21:11:35 - INFO - app - [2025-04-17] chunk 500000-525000: write_table
+2025-07-20 21:14:04 - INFO - app - [2025-04-17] chunk 525000-550000: write_table
+2025-07-20 21:14:04 - INFO - app - [2025-04-17] parquet file completed: Data/Raw/20250417.parquet
+2025-07-20 21:16:26 - INFO - app - [2025-04-18] chunk 0-25000: write_table
+2025-07-20 21:18:45 - INFO - app - [2025-04-18] chunk 25000-50000: write_table
+2025-07-20 21:21:05 - INFO - app - [2025-04-18] chunk 50000-75000: write_table
+2025-07-20 21:23:25 - INFO - app - [2025-04-18] chunk 75000-100000: write_table
+2025-07-20 21:25:42 - INFO - app - [2025-04-18] chunk 100000-125000: write_table
+2025-07-20 21:28:13 - INFO - app - [2025-04-18] chunk 125000-150000: write_table
+2025-07-20 21:30:33 - INFO - app - [2025-04-18] chunk 150000-175000: write_table
+2025-07-20 21:32:53 - INFO - app - [2025-04-18] chunk 175000-200000: write_table
+2025-07-20 21:35:11 - INFO - app - [2025-04-18] chunk 200000-225000: write_table
+2025-07-20 21:37:37 - INFO - app - [2025-04-18] chunk 225000-250000: write_table
+2025-07-20 21:39:58 - INFO - app - [2025-04-18] chunk 250000-275000: write_table
+2025-07-20 21:42:20 - INFO - app - [2025-04-18] chunk 275000-300000: write_table
+2025-07-20 21:44:39 - INFO - app - [2025-04-18] chunk 300000-325000: write_table
+2025-07-20 21:47:08 - INFO - app - [2025-04-18] chunk 325000-350000: write_table
+2025-07-20 21:49:24 - INFO - app - [2025-04-18] chunk 350000-375000: write_table
+2025-07-20 21:51:46 - INFO - app - [2025-04-18] chunk 375000-400000: write_table
+2025-07-20 21:54:02 - INFO - app - [2025-04-18] chunk 400000-425000: write_table
+2025-07-20 21:56:21 - INFO - app - [2025-04-18] chunk 425000-450000: write_table
+2025-07-20 21:58:44 - INFO - app - [2025-04-18] chunk 450000-475000: write_table
+2025-07-20 22:01:07 - INFO - app - [2025-04-18] chunk 475000-500000: write_table
+2025-07-20 22:03:28 - INFO - app - [2025-04-18] chunk 500000-525000: write_table
+2025-07-20 22:05:41 - INFO - app - [2025-04-18] chunk 525000-550000: write_table
+2025-07-20 22:05:41 - INFO - app - [2025-04-18] parquet file completed: Data/Raw/20250418.parquet
+2025-07-20 22:08:02 - INFO - app - [2025-04-19] chunk 0-25000: write_table
+2025-07-20 22:10:20 - INFO - app - [2025-04-19] chunk 25000-50000: write_table
+2025-07-20 22:12:41 - INFO - app - [2025-04-19] chunk 50000-75000: write_table
+2025-07-20 22:15:00 - INFO - app - [2025-04-19] chunk 75000-100000: write_table
+2025-07-20 22:17:25 - INFO - app - [2025-04-19] chunk 100000-125000: write_table
+2025-07-20 22:19:40 - INFO - app - [2025-04-19] chunk 125000-150000: write_table
+2025-07-20 22:22:02 - INFO - app - [2025-04-19] chunk 150000-175000: write_table
+2025-07-20 22:24:23 - INFO - app - [2025-04-19] chunk 175000-200000: write_table
+2025-07-20 22:26:39 - INFO - app - [2025-04-19] chunk 200000-225000: write_table
+2025-07-20 22:28:58 - INFO - app - [2025-04-19] chunk 225000-250000: write_table
+2025-07-20 22:31:17 - INFO - app - [2025-04-19] chunk 250000-275000: write_table
+2025-07-20 22:33:34 - INFO - app - [2025-04-19] chunk 275000-300000: write_table
+2025-07-20 22:35:53 - INFO - app - [2025-04-19] chunk 300000-325000: write_table
+2025-07-20 22:38:19 - INFO - app - [2025-04-19] chunk 325000-350000: write_table
+2025-07-20 22:40:32 - INFO - app - [2025-04-19] chunk 350000-375000: write_table
+2025-07-20 22:42:52 - INFO - app - [2025-04-19] chunk 375000-400000: write_table
+2025-07-20 22:45:05 - INFO - app - [2025-04-19] chunk 400000-425000: write_table
+2025-07-20 22:47:31 - INFO - app - [2025-04-19] chunk 425000-450000: write_table
+2025-07-20 22:49:47 - INFO - app - [2025-04-19] chunk 450000-475000: write_table
+2025-07-20 22:52:04 - INFO - app - [2025-04-19] chunk 475000-500000: write_table
+2025-07-20 22:54:18 - INFO - app - [2025-04-19] chunk 500000-525000: write_table
+2025-07-20 22:56:28 - INFO - app - [2025-04-19] chunk 525000-550000: write_table
+2025-07-20 22:56:28 - INFO - app - [2025-04-19] parquet file completed: Data/Raw/20250419.parquet
+2025-07-20 22:58:50 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:51 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:51 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:52 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:52 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:53 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:54 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:54 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:55 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:56 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:56 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:57 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:57 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:58 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:59 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:58:59 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:00 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:00 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:01 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:02 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:02 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:03 - WARNING - app - ⚠️ [2025-04-20 00:00:00] 전체 데이터 없음, 다음 날짜로
+2025-07-20 22:59:03 - WARNING - app - [2025-04-20] 전체 데이터 없음, parquet 파일 미생성
+2025-07-20 23:00:28 - INFO - app - [2025-04-21] chunk 0-25000: write_table
+2025-07-20 23:01:55 - INFO - app - [2025-04-21] chunk 25000-50000: write_table
+2025-07-20 23:03:24 - INFO - app - [2025-04-21] chunk 50000-75000: write_table
+2025-07-20 23:04:49 - INFO - app - [2025-04-21] chunk 75000-100000: write_table
+2025-07-20 23:06:19 - INFO - app - [2025-04-21] chunk 100000-125000: write_table
+2025-07-20 23:07:54 - INFO - app - [2025-04-21] chunk 125000-150000: write_table
+2025-07-20 23:09:18 - INFO - app - [2025-04-21] chunk 150000-175000: write_table
+2025-07-20 23:10:48 - INFO - app - [2025-04-21] chunk 175000-200000: write_table
+2025-07-20 23:12:13 - INFO - app - [2025-04-21] chunk 200000-225000: write_table
+2025-07-20 23:13:37 - INFO - app - [2025-04-21] chunk 225000-250000: write_table
+2025-07-20 23:15:03 - INFO - app - [2025-04-21] chunk 250000-275000: write_table
+2025-07-20 23:16:30 - INFO - app - [2025-04-21] chunk 275000-300000: write_table
+2025-07-20 23:18:02 - INFO - app - [2025-04-21] chunk 300000-325000: write_table
+2025-07-20 23:19:30 - INFO - app - [2025-04-21] chunk 325000-350000: write_table
+2025-07-20 23:20:57 - INFO - app - [2025-04-21] chunk 350000-375000: write_table
+2025-07-20 23:22:26 - INFO - app - [2025-04-21] chunk 375000-400000: write_table
+2025-07-20 23:23:48 - INFO - app - [2025-04-21] chunk 400000-425000: write_table
+2025-07-20 23:25:14 - INFO - app - [2025-04-21] chunk 425000-450000: write_table
+2025-07-20 23:26:44 - INFO - app - [2025-04-21] chunk 450000-475000: write_table
+2025-07-20 23:28:09 - INFO - app - [2025-04-21] chunk 475000-500000: write_table
+2025-07-20 23:29:36 - INFO - app - [2025-04-21] chunk 500000-525000: write_table
+2025-07-20 23:30:58 - INFO - app - [2025-04-21] chunk 525000-550000: write_table
+2025-07-20 23:30:59 - INFO - app - [2025-04-21] parquet file completed: Data/Raw/20250421.parquet
+2025-07-20 23:33:09 - INFO - app - [2025-04-22] chunk 0-25000: write_table
+2025-07-20 23:35:26 - INFO - app - [2025-04-22] chunk 25000-50000: write_table
+2025-07-20 23:37:50 - INFO - app - [2025-04-22] chunk 50000-75000: write_table
+2025-07-20 23:40:07 - INFO - app - [2025-04-22] chunk 75000-100000: write_table
+2025-07-20 23:42:25 - INFO - app - [2025-04-22] chunk 100000-125000: write_table
+2025-07-20 23:44:46 - INFO - app - [2025-04-22] chunk 125000-150000: write_table
+2025-07-20 23:47:02 - INFO - app - [2025-04-22] chunk 150000-175000: write_table
+2025-07-20 23:49:18 - INFO - app - [2025-04-22] chunk 175000-200000: write_table
+2025-07-20 23:51:35 - INFO - app - [2025-04-22] chunk 200000-225000: write_table
+2025-07-20 23:53:53 - INFO - app - [2025-04-22] chunk 225000-250000: write_table
+2025-07-20 23:56:10 - INFO - app - [2025-04-22] chunk 250000-275000: write_table
+2025-07-20 23:58:34 - INFO - app - [2025-04-22] chunk 275000-300000: write_table
+2025-07-21 00:00:51 - INFO - app - [2025-04-22] chunk 300000-325000: write_table
+2025-07-21 00:03:07 - INFO - app - [2025-04-22] chunk 325000-350000: write_table
+2025-07-21 00:05:24 - INFO - app - [2025-04-22] chunk 350000-375000: write_table
+2025-07-21 00:07:46 - INFO - app - [2025-04-22] chunk 375000-400000: write_table
+2025-07-21 00:09:55 - INFO - app - [2025-04-22] chunk 400000-425000: write_table
+2025-07-21 00:12:15 - INFO - app - [2025-04-22] chunk 425000-450000: write_table
+2025-07-21 00:14:30 - INFO - app - [2025-04-22] chunk 450000-475000: write_table
+2025-07-21 00:16:48 - INFO - app - [2025-04-22] chunk 475000-500000: write_table
+2025-07-21 00:19:10 - INFO - app - [2025-04-22] chunk 500000-525000: write_table
+2025-07-21 00:21:23 - INFO - app - [2025-04-22] chunk 525000-550000: write_table
+2025-07-21 00:21:24 - INFO - app - [2025-04-22] parquet file completed: Data/Raw/20250422.parquet
+2025-07-21 00:23:22 - INFO - app - [2025-04-23] chunk 0-25000: write_table
+2025-07-21 00:25:27 - INFO - app - [2025-04-23] chunk 25000-50000: write_table
+2025-07-21 00:27:38 - INFO - app - [2025-04-23] chunk 50000-75000: write_table
+2025-07-21 00:29:43 - INFO - app - [2025-04-23] chunk 75000-100000: write_table
+2025-07-21 00:31:49 - INFO - app - [2025-04-23] chunk 100000-125000: write_table
+2025-07-21 00:33:52 - INFO - app - [2025-04-23] chunk 125000-150000: write_table
+2025-07-21 00:35:56 - INFO - app - [2025-04-23] chunk 150000-175000: write_table
+2025-07-21 00:38:08 - INFO - app - [2025-04-23] chunk 175000-200000: write_table
+2025-07-21 00:40:09 - INFO - app - [2025-04-23] chunk 200000-225000: write_table
+2025-07-21 00:42:17 - INFO - app - [2025-04-23] chunk 225000-250000: write_table
+2025-07-21 00:44:22 - INFO - app - [2025-04-23] chunk 250000-275000: write_table
+2025-07-21 00:46:27 - INFO - app - [2025-04-23] chunk 275000-300000: write_table
+2025-07-21 00:48:43 - INFO - app - [2025-04-23] chunk 300000-325000: write_table
+2025-07-21 00:50:49 - INFO - app - [2025-04-23] chunk 325000-350000: write_table
+2025-07-21 00:52:54 - INFO - app - [2025-04-23] chunk 350000-375000: write_table
+2025-07-21 00:54:59 - INFO - app - [2025-04-23] chunk 375000-400000: write_table
+2025-07-21 00:57:00 - INFO - app - [2025-04-23] chunk 400000-425000: write_table
+2025-07-21 00:59:10 - INFO - app - [2025-04-23] chunk 425000-450000: write_table
+2025-07-21 01:01:18 - INFO - app - [2025-04-23] chunk 450000-475000: write_table
+2025-07-21 01:03:21 - INFO - app - [2025-04-23] chunk 475000-500000: write_table
+2025-07-21 01:05:27 - INFO - app - [2025-04-23] chunk 500000-525000: write_table
+2025-07-21 01:07:24 - INFO - app - [2025-04-23] chunk 525000-550000: write_table
+2025-07-21 01:07:24 - INFO - app - [2025-04-23] parquet file completed: Data/Raw/20250423.parquet
+2025-07-21 01:09:35 - INFO - app - [2025-04-24] chunk 0-25000: write_table
+2025-07-21 01:11:50 - INFO - app - [2025-04-24] chunk 25000-50000: write_table
+2025-07-21 01:14:04 - INFO - app - [2025-04-24] chunk 50000-75000: write_table
+2025-07-21 01:16:20 - INFO - app - [2025-04-24] chunk 75000-100000: write_table
+2025-07-21 01:18:39 - INFO - app - [2025-04-24] chunk 100000-125000: write_table
+2025-07-21 01:20:56 - INFO - app - [2025-04-24] chunk 125000-150000: write_table
+2025-07-21 01:23:11 - INFO - app - [2025-04-24] chunk 150000-175000: write_table
+2025-07-21 01:25:25 - INFO - app - [2025-04-24] chunk 175000-200000: write_table
+2025-07-21 01:27:36 - INFO - app - [2025-04-24] chunk 200000-225000: write_table
+2025-07-21 01:29:49 - INFO - app - [2025-04-24] chunk 225000-250000: write_table
+2025-07-21 01:32:03 - INFO - app - [2025-04-24] chunk 250000-275000: write_table
+2025-07-21 01:34:17 - INFO - app - [2025-04-24] chunk 275000-300000: write_table
+2025-07-21 01:36:33 - INFO - app - [2025-04-24] chunk 300000-325000: write_table
+2025-07-21 01:38:46 - INFO - app - [2025-04-24] chunk 325000-350000: write_table
+2025-07-21 01:41:05 - INFO - app - [2025-04-24] chunk 350000-375000: write_table
+2025-07-21 01:43:20 - INFO - app - [2025-04-24] chunk 375000-400000: write_table
+2025-07-21 01:45:31 - INFO - app - [2025-04-24] chunk 400000-425000: write_table
+2025-07-21 01:47:43 - INFO - app - [2025-04-24] chunk 425000-450000: write_table
+2025-07-21 01:49:56 - INFO - app - [2025-04-24] chunk 450000-475000: write_table
+2025-07-21 01:52:15 - INFO - app - [2025-04-24] chunk 475000-500000: write_table
+2025-07-21 01:54:30 - INFO - app - [2025-04-24] chunk 500000-525000: write_table
+2025-07-21 01:56:39 - INFO - app - [2025-04-24] chunk 525000-550000: write_table
+2025-07-21 01:56:39 - INFO - app - [2025-04-24] parquet file completed: Data/Raw/20250424.parquet
+2025-07-21 01:58:40 - INFO - app - [2025-04-25] chunk 0-25000: write_table
+2025-07-21 02:00:38 - INFO - app - [2025-04-25] chunk 25000-50000: write_table
+2025-07-21 02:02:37 - INFO - app - [2025-04-25] chunk 50000-75000: write_table
+2025-07-21 02:04:35 - INFO - app - [2025-04-25] chunk 75000-100000: write_table
+2025-07-21 02:06:44 - INFO - app - [2025-04-25] chunk 100000-125000: write_table
+2025-07-21 02:08:51 - INFO - app - [2025-04-25] chunk 125000-150000: write_table
+2025-07-21 02:10:58 - INFO - app - [2025-04-25] chunk 150000-175000: write_table
+2025-07-21 02:13:12 - INFO - app - [2025-04-25] chunk 175000-200000: write_table
+2025-07-21 02:15:21 - INFO - app - [2025-04-25] chunk 200000-225000: write_table
+2025-07-21 02:17:39 - INFO - app - [2025-04-25] chunk 225000-250000: write_table
+2025-07-21 02:20:03 - INFO - app - [2025-04-25] chunk 250000-275000: write_table
+2025-07-21 02:22:27 - INFO - app - [2025-04-25] chunk 275000-300000: write_table
+2025-07-21 02:24:46 - INFO - app - [2025-04-25] chunk 300000-325000: write_table
+2025-07-21 02:27:07 - INFO - app - [2025-04-25] chunk 325000-350000: write_table
+2025-07-21 02:29:32 - INFO - app - [2025-04-25] chunk 350000-375000: write_table
+2025-07-21 02:31:52 - INFO - app - [2025-04-25] chunk 375000-400000: write_table
+2025-07-21 02:34:04 - INFO - app - [2025-04-25] chunk 400000-425000: write_table
+2025-07-21 02:36:22 - INFO - app - [2025-04-25] chunk 425000-450000: write_table
+2025-07-21 02:38:43 - INFO - app - [2025-04-25] chunk 450000-475000: write_table
+2025-07-21 02:40:58 - INFO - app - [2025-04-25] chunk 475000-500000: write_table
+2025-07-21 02:43:21 - INFO - app - [2025-04-25] chunk 500000-525000: write_table
+2025-07-21 02:45:37 - INFO - app - [2025-04-25] chunk 525000-550000: write_table
+2025-07-21 02:45:37 - INFO - app - [2025-04-25] parquet file completed: Data/Raw/20250425.parquet
+2025-07-21 02:48:08 - INFO - app - [2025-04-26] chunk 0-25000: write_table
+2025-07-21 02:50:43 - INFO - app - [2025-04-26] chunk 25000-50000: write_table
+2025-07-21 02:53:21 - INFO - app - [2025-04-26] chunk 50000-75000: write_table
+2025-07-21 02:55:54 - INFO - app - [2025-04-26] chunk 75000-100000: write_table
+2025-07-21 02:58:39 - INFO - app - [2025-04-26] chunk 100000-125000: write_table
+2025-07-21 03:01:25 - INFO - app - [2025-04-26] chunk 125000-150000: write_table
+2025-07-21 03:04:01 - INFO - app - [2025-04-26] chunk 150000-175000: write_table
+2025-07-21 03:06:42 - INFO - app - [2025-04-26] chunk 175000-200000: write_table
+2025-07-21 03:09:26 - INFO - app - [2025-04-26] chunk 200000-225000: write_table
+2025-07-21 03:12:05 - INFO - app - [2025-04-26] chunk 225000-250000: write_table
+2025-07-21 03:14:40 - INFO - app - [2025-04-26] chunk 250000-275000: write_table
+2025-07-21 03:17:18 - INFO - app - [2025-04-26] chunk 275000-300000: write_table
+2025-07-21 03:20:03 - INFO - app - [2025-04-26] chunk 300000-325000: write_table
+2025-07-21 03:22:41 - INFO - app - [2025-04-26] chunk 325000-350000: write_table
+2025-07-21 03:25:15 - INFO - app - [2025-04-26] chunk 350000-375000: write_table
+2025-07-21 03:27:51 - INFO - app - [2025-04-26] chunk 375000-400000: write_table
+2025-07-21 03:30:24 - INFO - app - [2025-04-26] chunk 400000-425000: write_table
+2025-07-21 03:33:01 - INFO - app - [2025-04-26] chunk 425000-450000: write_table
+2025-07-21 03:35:38 - INFO - app - [2025-04-26] chunk 450000-475000: write_table
+2025-07-21 03:38:13 - INFO - app - [2025-04-26] chunk 475000-500000: write_table
+2025-07-21 03:40:58 - INFO - app - [2025-04-26] chunk 500000-525000: write_table
+2025-07-21 03:43:27 - INFO - app - [2025-04-26] chunk 525000-550000: write_table
+2025-07-21 03:43:27 - INFO - app - [2025-04-26] parquet file completed: Data/Raw/20250426.parquet
+2025-07-21 03:45:37 - INFO - app - [2025-04-27] chunk 0-25000: write_table
+2025-07-21 03:47:50 - INFO - app - [2025-04-27] chunk 25000-50000: write_table
+2025-07-21 03:50:11 - INFO - app - [2025-04-27] chunk 50000-75000: write_table
+2025-07-21 03:52:29 - INFO - app - [2025-04-27] chunk 75000-100000: write_table
+2025-07-21 03:54:42 - INFO - app - [2025-04-27] chunk 100000-125000: write_table
+2025-07-21 03:56:59 - INFO - app - [2025-04-27] chunk 125000-150000: write_table
+2025-07-21 03:59:23 - INFO - app - [2025-04-27] chunk 150000-175000: write_table
+2025-07-21 04:01:41 - INFO - app - [2025-04-27] chunk 175000-200000: write_table
+2025-07-21 04:03:55 - INFO - app - [2025-04-27] chunk 200000-225000: write_table
+2025-07-21 04:06:17 - INFO - app - [2025-04-27] chunk 225000-250000: write_table
+2025-07-21 04:08:30 - INFO - app - [2025-04-27] chunk 250000-275000: write_table
+2025-07-21 04:10:44 - INFO - app - [2025-04-27] chunk 275000-300000: write_table
+2025-07-21 04:12:55 - INFO - app - [2025-04-27] chunk 300000-325000: write_table
+2025-07-21 04:15:08 - INFO - app - [2025-04-27] chunk 325000-350000: write_table
+2025-07-21 04:17:23 - INFO - app - [2025-04-27] chunk 350000-375000: write_table
+2025-07-21 04:19:30 - INFO - app - [2025-04-27] chunk 375000-400000: write_table
+2025-07-21 04:21:22 - INFO - app - [2025-04-27] chunk 400000-425000: write_table
+2025-07-21 04:23:16 - INFO - app - [2025-04-27] chunk 425000-450000: write_table
+2025-07-21 04:25:10 - INFO - app - [2025-04-27] chunk 450000-475000: write_table
+2025-07-21 04:27:08 - INFO - app - [2025-04-27] chunk 475000-500000: write_table
+2025-07-21 04:29:06 - INFO - app - [2025-04-27] chunk 500000-525000: write_table
+2025-07-21 04:31:00 - INFO - app - [2025-04-27] chunk 525000-550000: write_table
+2025-07-21 04:31:01 - INFO - app - [2025-04-27] parquet file completed: Data/Raw/20250427.parquet
+2025-07-21 04:33:09 - INFO - app - [2025-04-28] chunk 0-25000: write_table
+2025-07-21 04:35:24 - INFO - app - [2025-04-28] chunk 25000-50000: write_table
+2025-07-21 04:37:40 - INFO - app - [2025-04-28] chunk 50000-75000: write_table
+2025-07-21 04:39:56 - INFO - app - [2025-04-28] chunk 75000-100000: write_table
+2025-07-21 04:42:16 - INFO - app - [2025-04-28] chunk 100000-125000: write_table
+2025-07-21 04:44:31 - INFO - app - [2025-04-28] chunk 125000-150000: write_table
+2025-07-21 04:46:47 - INFO - app - [2025-04-28] chunk 150000-175000: write_table
+2025-07-21 04:49:01 - INFO - app - [2025-04-28] chunk 175000-200000: write_table
+2025-07-21 04:51:21 - INFO - app - [2025-04-28] chunk 200000-225000: write_table
+2025-07-21 04:53:33 - INFO - app - [2025-04-28] chunk 225000-250000: write_table
+2025-07-21 04:55:44 - INFO - app - [2025-04-28] chunk 250000-275000: write_table
+2025-07-21 04:57:56 - INFO - app - [2025-04-28] chunk 275000-300000: write_table
+2025-07-21 05:00:17 - INFO - app - [2025-04-28] chunk 300000-325000: write_table
+2025-07-21 05:02:34 - INFO - app - [2025-04-28] chunk 325000-350000: write_table
+2025-07-21 05:04:50 - INFO - app - [2025-04-28] chunk 350000-375000: write_table
+2025-07-21 05:07:07 - INFO - app - [2025-04-28] chunk 375000-400000: write_table
+2025-07-21 05:09:19 - INFO - app - [2025-04-28] chunk 400000-425000: write_table
+2025-07-21 05:11:36 - INFO - app - [2025-04-28] chunk 425000-450000: write_table
+2025-07-21 05:13:51 - INFO - app - [2025-04-28] chunk 450000-475000: write_table
+2025-07-21 05:16:10 - INFO - app - [2025-04-28] chunk 475000-500000: write_table
+2025-07-21 05:18:29 - INFO - app - [2025-04-28] chunk 500000-525000: write_table
+2025-07-21 05:20:42 - INFO - app - [2025-04-28] chunk 525000-550000: write_table
+2025-07-21 05:20:42 - INFO - app - [2025-04-28] parquet file completed: Data/Raw/20250428.parquet
+2025-07-21 05:22:36 - INFO - app - [2025-04-29] chunk 0-25000: write_table
+2025-07-21 05:24:36 - INFO - app - [2025-04-29] chunk 25000-50000: write_table
+2025-07-21 05:26:37 - INFO - app - [2025-04-29] chunk 50000-75000: write_table
+2025-07-21 05:28:34 - INFO - app - [2025-04-29] chunk 75000-100000: write_table
+2025-07-21 05:30:38 - INFO - app - [2025-04-29] chunk 100000-125000: write_table
+2025-07-21 05:32:36 - INFO - app - [2025-04-29] chunk 125000-150000: write_table
+2025-07-21 05:34:33 - INFO - app - [2025-04-29] chunk 150000-175000: write_table
+2025-07-21 05:36:32 - INFO - app - [2025-04-29] chunk 175000-200000: write_table
+2025-07-21 05:38:28 - INFO - app - [2025-04-29] chunk 200000-225000: write_table
+2025-07-21 05:40:29 - INFO - app - [2025-04-29] chunk 225000-250000: write_table
+2025-07-21 05:42:26 - INFO - app - [2025-04-29] chunk 250000-275000: write_table
+2025-07-21 05:44:24 - INFO - app - [2025-04-29] chunk 275000-300000: write_table
+2025-07-21 05:46:24 - INFO - app - [2025-04-29] chunk 300000-325000: write_table
+2025-07-21 05:48:19 - INFO - app - [2025-04-29] chunk 325000-350000: write_table
+2025-07-21 05:50:21 - INFO - app - [2025-04-29] chunk 350000-375000: write_table
+2025-07-21 05:52:19 - INFO - app - [2025-04-29] chunk 375000-400000: write_table
+2025-07-21 05:54:14 - INFO - app - [2025-04-29] chunk 400000-425000: write_table
+2025-07-21 05:56:12 - INFO - app - [2025-04-29] chunk 425000-450000: write_table
+2025-07-21 05:58:08 - INFO - app - [2025-04-29] chunk 450000-475000: write_table
+2025-07-21 06:00:12 - INFO - app - [2025-04-29] chunk 475000-500000: write_table
+2025-07-21 06:02:13 - INFO - app - [2025-04-29] chunk 500000-525000: write_table
+2025-07-21 06:04:10 - INFO - app - [2025-04-29] chunk 525000-550000: write_table
+2025-07-21 06:04:10 - INFO - app - [2025-04-29] parquet file completed: Data/Raw/20250429.parquet
+2025-07-21 06:06:19 - INFO - app - [2025-04-30] chunk 0-25000: write_table
+2025-07-21 06:08:34 - INFO - app - [2025-04-30] chunk 25000-50000: write_table
+2025-07-21 06:10:57 - INFO - app - [2025-04-30] chunk 50000-75000: write_table
+2025-07-21 06:13:12 - INFO - app - [2025-04-30] chunk 75000-100000: write_table
+2025-07-21 06:15:29 - INFO - app - [2025-04-30] chunk 100000-125000: write_table
+2025-07-21 06:17:42 - INFO - app - [2025-04-30] chunk 125000-150000: write_table
+2025-07-21 06:20:02 - INFO - app - [2025-04-30] chunk 150000-175000: write_table
+2025-07-21 06:22:22 - INFO - app - [2025-04-30] chunk 175000-200000: write_table
+2025-07-21 06:24:37 - INFO - app - [2025-04-30] chunk 200000-225000: write_table
+2025-07-21 06:26:52 - INFO - app - [2025-04-30] chunk 225000-250000: write_table
+2025-07-21 06:29:06 - INFO - app - [2025-04-30] chunk 250000-275000: write_table
+2025-07-21 06:31:27 - INFO - app - [2025-04-30] chunk 275000-300000: write_table
+2025-07-21 06:33:44 - INFO - app - [2025-04-30] chunk 300000-325000: write_table
+2025-07-21 06:36:01 - INFO - app - [2025-04-30] chunk 325000-350000: write_table
+2025-07-21 06:38:15 - INFO - app - [2025-04-30] chunk 350000-375000: write_table
+2025-07-21 06:40:35 - INFO - app - [2025-04-30] chunk 375000-400000: write_table
+2025-07-21 06:42:44 - INFO - app - [2025-04-30] chunk 400000-425000: write_table
+2025-07-21 06:44:58 - INFO - app - [2025-04-30] chunk 425000-450000: write_table
+2025-07-21 06:47:14 - INFO - app - [2025-04-30] chunk 450000-475000: write_table
+2025-07-21 06:49:28 - INFO - app - [2025-04-30] chunk 475000-500000: write_table
+2025-07-21 06:51:43 - INFO - app - [2025-04-30] chunk 500000-525000: write_table
+2025-07-21 06:53:50 - INFO - app - [2025-04-30] chunk 525000-550000: write_table
+2025-07-21 06:53:51 - INFO - app - [2025-04-30] parquet file completed: Data/Raw/20250430.parquet
+2025-07-21 06:56:02 - INFO - app - [2025-05-01] chunk 0-25000: write_table
+2025-07-21 06:58:05 - INFO - app - [2025-05-01] chunk 25000-50000: write_table
+2025-07-21 07:00:04 - INFO - app - [2025-05-01] chunk 50000-75000: write_table
+2025-07-21 07:02:04 - INFO - app - [2025-05-01] chunk 75000-100000: write_table
+2025-07-21 07:04:05 - INFO - app - [2025-05-01] chunk 100000-125000: write_table
+2025-07-21 07:06:00 - INFO - app - [2025-05-01] chunk 125000-150000: write_table
+2025-07-21 07:07:51 - INFO - app - [2025-05-01] chunk 150000-175000: write_table
+2025-07-21 07:09:47 - INFO - app - [2025-05-01] chunk 175000-200000: write_table
+2025-07-21 07:11:43 - INFO - app - [2025-05-01] chunk 200000-225000: write_table
+2025-07-21 07:13:38 - INFO - app - [2025-05-01] chunk 225000-250000: write_table
+2025-07-21 07:15:31 - INFO - app - [2025-05-01] chunk 250000-275000: write_table
+2025-07-21 07:17:27 - INFO - app - [2025-05-01] chunk 275000-300000: write_table
+2025-07-21 07:19:20 - INFO - app - [2025-05-01] chunk 300000-325000: write_table
+2025-07-21 07:21:22 - INFO - app - [2025-05-01] chunk 325000-350000: write_table
+2025-07-21 07:23:17 - INFO - app - [2025-05-01] chunk 350000-375000: write_table
+2025-07-21 07:25:11 - INFO - app - [2025-05-01] chunk 375000-400000: write_table
+2025-07-21 07:27:04 - INFO - app - [2025-05-01] chunk 400000-425000: write_table
+2025-07-21 07:29:05 - INFO - app - [2025-05-01] chunk 425000-450000: write_table
+2025-07-21 07:31:06 - INFO - app - [2025-05-01] chunk 450000-475000: write_table
+2025-07-21 07:33:01 - INFO - app - [2025-05-01] chunk 475000-500000: write_table
+2025-07-21 07:34:54 - INFO - app - [2025-05-01] chunk 500000-525000: write_table
+2025-07-21 07:36:44 - INFO - app - [2025-05-01] chunk 525000-550000: write_table
+2025-07-21 07:36:44 - INFO - app - [2025-05-01] parquet file completed: Data/Raw/20250501.parquet
+2025-07-21 07:38:51 - INFO - app - [2025-05-02] chunk 0-25000: write_table
+2025-07-21 07:41:12 - INFO - app - [2025-05-02] chunk 25000-50000: write_table
+2025-07-21 07:43:27 - INFO - app - [2025-05-02] chunk 50000-75000: write_table
+2025-07-21 07:45:40 - INFO - app - [2025-05-02] chunk 75000-100000: write_table
+2025-07-21 07:47:53 - INFO - app - [2025-05-02] chunk 100000-125000: write_table
+2025-07-21 07:49:39 - WARNING - app - [2025-05-02] SSL EOF, reconnecting and retrying (attempt 1/5)

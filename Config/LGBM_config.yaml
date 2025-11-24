@@ -1,0 +1,27 @@
+# 공통 설정
+mode: time_reference  # 또는 time_points
+target: Korea  # 또는 Livinglab
+projection :
+    {"link_id": 1,
+    "speed": 1,
+    "insert_time": 1,
+    "_id": 0}  # ID 필요 없음.
+# Model data interesting points 설정
+interval: 5 # 시간 간격 (분 단위)
+interest : [-12, -288, -2016]
+
+# train, val, test 설정
+train_ratio: [0.6, 0.2, 0.2]  # train, val, test 비율
+
+
+# [mode = date_range]의 경우
+date_range:
+  start: "2025-04-01"
+  end: "2025-05-30"
+
+# [mode = time_points]의 경우 # input으로 받을 예정
+time_reference:
+  - date: "2025-06-24"
+    time: "23:00"
+
+

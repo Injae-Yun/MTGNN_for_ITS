@@ -1,0 +1,44 @@
+2025-08-06 10:38:50 - INFO - app - 📆 date_range 모드: 총 56일 간 데이터 조회 예정 → [datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-08-06 10:38:50 - INFO - app - 📊 확장된 범위: 2025-03-24 ~ 2025-05-26 (총 64개 파일)
+2025-08-06 10:38:50 - INFO - app - 🔍 최대 lookback: 8일 (10135분)
+2025-08-06 10:38:50 - INFO - app - ✅ Data load skip: 총 64개 파일 저장됨
+2025-08-06 10:38:50 - INFO - app - ✅ 데이터 전처리 skip: Model/v0에 저장됨
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 0 loaded from cache: 0.7121
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 1 loaded from cache: 1.0681
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 2 loaded from cache: 0.6558
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 3 loaded from cache: 0.9429
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 4 loaded from cache: 1.7714
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 5 loaded from cache: 0.9228
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 6 loaded from cache: 1.6704
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 7 loaded from cache: 1.4667
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 8 loaded from cache: 1.6052
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 9 loaded from cache: 1.1808
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 10 loaded from cache: 0.5309
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 11 loaded from cache: 0.4816
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 12 loaded from cache: 1.3120
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 13 loaded from cache: 1.8047
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 14 loaded from cache: 0.6054
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 15 loaded from cache: 0.7699
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 16 loaded from cache: 0.7006
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 17 loaded from cache: 0.9475
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 18 loaded from cache: 0.6358
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 19 loaded from cache: 1.3909
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 20 loaded from cache: 1.2220
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 21 loaded from cache: 1.8080
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 22 loaded from cache: 1.9341
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 23 loaded from cache: 2.0139
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 24 loaded from cache: 0.6468
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 25 loaded from cache: 0.8674
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 26 loaded from cache: 0.8458
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 27 loaded from cache: 1.6600
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 28 loaded from cache: 0.6137
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 29 loaded from cache: 1.1250
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 30 loaded from cache: 0.9226
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 31 loaded from cache: 1.5151
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 32 loaded from cache: 1.3315
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 33 loaded from cache: 1.6054
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 34 loaded from cache: 1.7512
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 35 loaded from cache: 2.4587
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 36 loaded from cache: 1.2075
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 37 loaded from cache: 1.1759
+2025-08-06 10:38:53 - INFO - app - ✅ MAPE for model 38 loaded from cache: 0.9674

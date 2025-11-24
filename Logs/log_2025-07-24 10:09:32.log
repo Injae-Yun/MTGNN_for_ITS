@@ -1,0 +1,10 @@
+2025-07-24 10:09:32 - INFO - app - 📌 기준 시점: 2024-05-08 23:00:00
+2025-07-24 10:09:32 - INFO - app - 📆 총 3개 날짜, 36개 시점 생성 완료
+2025-07-24 10:09:32 - INFO - app - 🚀 시작 – MongoDB → Parquet 스트리밍
+2025-07-24 10:09:32 - INFO - app - 📡 [20240508] 컬렉션 연결
+2025-07-24 10:11:03 - INFO - app - ✅ [20240508 00:00-23:59] 51395건 조회
+2025-07-24 10:11:03 - INFO - app - 📡 [20240507] 컬렉션 연결
+2025-07-24 10:13:05 - INFO - app - ✅ [20240507 00:00-23:59] 51395건 조회
+2025-07-24 10:13:05 - INFO - app - 📡 [20240501] 컬렉션 연결
+2025-07-24 10:15:40 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: connection closed (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 1/12
+2025-07-24 10:16:47 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 60.0s, Topology Description: <TopologyDescription id: 688187cc13bd9937c3ab8ea0, topology_type: Single, servers: [<ServerDescription ('192.168.0.25', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>. 재시도 2/12

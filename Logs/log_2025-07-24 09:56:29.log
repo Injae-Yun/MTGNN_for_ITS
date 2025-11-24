@@ -1,0 +1,41 @@
+2025-07-24 09:56:29 - INFO - app - 📆 date_range 모드: 총 77일 간 데이터 조회 예정 → [datetime.datetime(2025, 3, 11, 0, 0), datetime.datetime(2025, 3, 12, 0, 0), datetime.datetime(2025, 3, 13, 0, 0), datetime.datetime(2025, 3, 14, 0, 0), datetime.datetime(2025, 3, 15, 0, 0), datetime.datetime(2025, 3, 16, 0, 0), datetime.datetime(2025, 3, 17, 0, 0), datetime.datetime(2025, 3, 18, 0, 0), datetime.datetime(2025, 3, 19, 0, 0), datetime.datetime(2025, 3, 20, 0, 0), datetime.datetime(2025, 3, 21, 0, 0), datetime.datetime(2025, 3, 22, 0, 0), datetime.datetime(2025, 3, 23, 0, 0), datetime.datetime(2025, 3, 24, 0, 0), datetime.datetime(2025, 3, 25, 0, 0), datetime.datetime(2025, 3, 26, 0, 0), datetime.datetime(2025, 3, 27, 0, 0), datetime.datetime(2025, 3, 28, 0, 0), datetime.datetime(2025, 3, 29, 0, 0), datetime.datetime(2025, 3, 30, 0, 0), datetime.datetime(2025, 3, 31, 0, 0), datetime.datetime(2025, 4, 1, 0, 0), datetime.datetime(2025, 4, 2, 0, 0), datetime.datetime(2025, 4, 3, 0, 0), datetime.datetime(2025, 4, 4, 0, 0), datetime.datetime(2025, 4, 5, 0, 0), datetime.datetime(2025, 4, 6, 0, 0), datetime.datetime(2025, 4, 7, 0, 0), datetime.datetime(2025, 4, 8, 0, 0), datetime.datetime(2025, 4, 9, 0, 0), datetime.datetime(2025, 4, 10, 0, 0), datetime.datetime(2025, 4, 11, 0, 0), datetime.datetime(2025, 4, 12, 0, 0), datetime.datetime(2025, 4, 13, 0, 0), datetime.datetime(2025, 4, 14, 0, 0), datetime.datetime(2025, 4, 15, 0, 0), datetime.datetime(2025, 4, 16, 0, 0), datetime.datetime(2025, 4, 17, 0, 0), datetime.datetime(2025, 4, 18, 0, 0), datetime.datetime(2025, 4, 19, 0, 0), datetime.datetime(2025, 4, 20, 0, 0), datetime.datetime(2025, 4, 21, 0, 0), datetime.datetime(2025, 4, 22, 0, 0), datetime.datetime(2025, 4, 23, 0, 0), datetime.datetime(2025, 4, 24, 0, 0), datetime.datetime(2025, 4, 25, 0, 0), datetime.datetime(2025, 4, 26, 0, 0), datetime.datetime(2025, 4, 27, 0, 0), datetime.datetime(2025, 4, 28, 0, 0), datetime.datetime(2025, 4, 29, 0, 0), datetime.datetime(2025, 4, 30, 0, 0), datetime.datetime(2025, 5, 1, 0, 0), datetime.datetime(2025, 5, 2, 0, 0), datetime.datetime(2025, 5, 3, 0, 0), datetime.datetime(2025, 5, 4, 0, 0), datetime.datetime(2025, 5, 5, 0, 0), datetime.datetime(2025, 5, 6, 0, 0), datetime.datetime(2025, 5, 7, 0, 0), datetime.datetime(2025, 5, 8, 0, 0), datetime.datetime(2025, 5, 9, 0, 0), datetime.datetime(2025, 5, 10, 0, 0), datetime.datetime(2025, 5, 11, 0, 0), datetime.datetime(2025, 5, 12, 0, 0), datetime.datetime(2025, 5, 13, 0, 0), datetime.datetime(2025, 5, 14, 0, 0), datetime.datetime(2025, 5, 15, 0, 0), datetime.datetime(2025, 5, 16, 0, 0), datetime.datetime(2025, 5, 17, 0, 0), datetime.datetime(2025, 5, 18, 0, 0), datetime.datetime(2025, 5, 19, 0, 0), datetime.datetime(2025, 5, 20, 0, 0), datetime.datetime(2025, 5, 21, 0, 0), datetime.datetime(2025, 5, 22, 0, 0), datetime.datetime(2025, 5, 23, 0, 0), datetime.datetime(2025, 5, 24, 0, 0), datetime.datetime(2025, 5, 25, 0, 0), datetime.datetime(2025, 5, 26, 0, 0)]
+2025-07-24 09:56:29 - INFO - app - ✅ Data load skip: 총 77개 파일 저장됨
+2025-07-24 09:56:29 - INFO - app - ✅ 데이터 전처리(x) skip: Model/v3에 저장됨
+2025-07-24 09:56:29 - INFO - app - ✅ 데이터 전처리(y) skip: Model/v3에 저장됨
+2025-07-24 09:56:29 - INFO - app - ▶ Training step 1/288
+2025-07-24 10:06:20 - INFO - app - ✔ Saved model step 0 → Model/v3/lgbm_step_000.pkl
+2025-07-24 10:06:20 - INFO - app - ▶ Training step 2/288
+2025-07-24 10:16:14 - INFO - app - ✔ Saved model step 1 → Model/v3/lgbm_step_001.pkl
+2025-07-24 10:16:14 - INFO - app - ▶ Training step 3/288
+2025-07-24 10:26:03 - INFO - app - ✔ Saved model step 2 → Model/v3/lgbm_step_002.pkl
+2025-07-24 10:26:03 - INFO - app - ▶ Training step 4/288
+2025-07-24 10:35:58 - INFO - app - ✔ Saved model step 3 → Model/v3/lgbm_step_003.pkl
+2025-07-24 10:35:58 - INFO - app - ▶ Training step 5/288
+2025-07-24 10:46:06 - INFO - app - ✔ Saved model step 4 → Model/v3/lgbm_step_004.pkl
+2025-07-24 10:46:06 - INFO - app - ▶ Training step 6/288
+2025-07-24 10:56:19 - INFO - app - ✔ Saved model step 5 → Model/v3/lgbm_step_005.pkl
+2025-07-24 10:56:19 - INFO - app - ▶ Training step 7/288
+2025-07-24 11:06:13 - INFO - app - ✔ Saved model step 6 → Model/v3/lgbm_step_006.pkl
+2025-07-24 11:06:13 - INFO - app - ▶ Training step 8/288
+2025-07-24 11:16:07 - INFO - app - ✔ Saved model step 7 → Model/v3/lgbm_step_007.pkl
+2025-07-24 11:16:07 - INFO - app - ▶ Training step 9/288
+2025-07-24 11:26:00 - INFO - app - ✔ Saved model step 8 → Model/v3/lgbm_step_008.pkl
+2025-07-24 11:26:00 - INFO - app - ▶ Training step 10/288
+2025-07-24 11:35:59 - INFO - app - ✔ Saved model step 9 → Model/v3/lgbm_step_009.pkl
+2025-07-24 11:35:59 - INFO - app - ▶ Training step 11/288
+2025-07-24 11:46:04 - INFO - app - ✔ Saved model step 10 → Model/v3/lgbm_step_010.pkl
+2025-07-24 11:46:04 - INFO - app - ▶ Training step 12/288
+2025-07-24 11:56:05 - INFO - app - ✔ Saved model step 11 → Model/v3/lgbm_step_011.pkl
+2025-07-24 11:56:08 - INFO - app - ▶ Training step 13/288
+2025-07-24 12:06:07 - INFO - app - ✔ Saved model step 12 → Model/v3/lgbm_step_012.pkl
+2025-07-24 12:06:07 - INFO - app - ▶ Training step 14/288
+2025-07-24 12:16:05 - INFO - app - ✔ Saved model step 13 → Model/v3/lgbm_step_013.pkl
+2025-07-24 12:16:06 - INFO - app - ▶ Training step 15/288
+2025-07-24 12:26:06 - INFO - app - ✔ Saved model step 14 → Model/v3/lgbm_step_014.pkl
+2025-07-24 12:26:06 - INFO - app - ▶ Training step 16/288
+2025-07-24 12:35:59 - INFO - app - ✔ Saved model step 15 → Model/v3/lgbm_step_015.pkl
+2025-07-24 12:36:02 - INFO - app - ▶ Training step 17/288
+2025-07-24 12:45:55 - INFO - app - ✔ Saved model step 16 → Model/v3/lgbm_step_016.pkl
+2025-07-24 12:45:56 - INFO - app - ▶ Training step 18/288
+2025-07-24 12:55:52 - INFO - app - ✔ Saved model step 17 → Model/v3/lgbm_step_017.pkl
+2025-07-24 12:55:53 - INFO - app - ▶ Training step 19/288

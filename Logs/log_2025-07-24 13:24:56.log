@@ -1,0 +1,66 @@
+2025-07-24 13:24:56 - INFO - app - 📌 기준 시점: 2024-05-08 23:00:00
+2025-07-24 13:24:56 - INFO - app - 📆 총 3개 날짜, 36개 시점 생성 완료
+2025-07-24 13:24:56 - INFO - app - 🚀 시작 – MongoDB → Parquet 스트리밍
+2025-07-24 13:24:56 - INFO - app - 📡 [20240508] 컬렉션 연결
+2025-07-24 13:26:35 - INFO - app - ✅ [20240508 00:00-23:59] 51395건 조회
+2025-07-24 13:26:35 - INFO - app - 📡 [20240507] 컬렉션 연결
+2025-07-24 13:28:47 - WARNING - app - ⚠️ AutoReconnect: operation cancelled. 재시도 1/12
+2025-07-24 13:29:54 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 60.0s, Topology Description: <TopologyDescription id: 6881b598fa176db8a6a5158d, topology_type: Single, servers: [<ServerDescription ('192.168.0.25', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('192.168.0.25:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>. 재시도 2/12
+2025-07-24 13:34:12 - WARNING - app - ⚠️ AutoReconnect: 192.168.0.25:27017: timed out (configured timeouts: socketTimeoutMS: 120000.0ms, connectTimeoutMS: 20000.0ms). 재시도 3/12
+2025-07-24 13:36:26 - INFO - app - ✅ [20240507 00:00-23:59] 51395건 조회
+2025-07-24 13:36:26 - INFO - app - 📡 [20240501] 컬렉션 연결
+2025-07-24 13:38:33 - INFO - app - ✅ [20240501 00:00-23:59] 51396건 조회
+2025-07-24 13:38:33 - INFO - app - 📦 모든 날짜 Parquet 변환 완료
+2025-07-24 13:38:33 - INFO - app - ✅ Data load 완료: 총 3개 파일 저장됨
+2025-07-24 13:38:33 - INFO - app - 🔹 날짜 20240508 데이터 전처리 시작
+2025-07-24 13:38:40 - INFO - app - ✅ 날짜 20240508: 정상 변환되었습니다..
+2025-07-24 13:38:40 - INFO - app - 🔹 날짜 20240507 데이터 전처리 시작
+2025-07-24 13:38:58 - INFO - app - ✅ 날짜 20240507: 정상 변환되었습니다..
+2025-07-24 13:38:58 - INFO - app - 🔹 날짜 20240501 데이터 전처리 시작
+2025-07-24 13:39:14 - INFO - app - ✅ 날짜 20240501: 정상 변환되었습니다..
+2025-07-24 13:39:28 - INFO - app - ✅ predict_data 저장 완료: Model/v0/0/predict_data.npy | shape=(1, 1, 36, 232)
+2025-07-24 13:39:34 - INFO - app - ✅ predict_data 저장 완료: Model/v0/1/predict_data.npy | shape=(1, 1, 36, 242)
+2025-07-24 13:39:41 - INFO - app - ✅ predict_data 저장 완료: Model/v0/2/predict_data.npy | shape=(1, 1, 36, 193)
+2025-07-24 13:39:46 - INFO - app - ✅ predict_data 저장 완료: Model/v0/3/predict_data.npy | shape=(1, 1, 36, 227)
+2025-07-24 13:39:48 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2333031800.parquet
+2025-07-24 13:39:53 - INFO - app - ✅ predict_data 저장 완료: Model/v0/4/predict_data.npy | shape=(1, 1, 36, 225)
+2025-07-24 13:39:55 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2333031800.parquet
+2025-07-24 13:39:58 - INFO - app - ✅ predict_data 저장 완료: Model/v0/5/predict_data.npy | shape=(1, 1, 36, 234)
+2025-07-24 13:40:01 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2334316201.parquet
+2025-07-24 13:40:04 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2334316001.parquet
+2025-07-24 13:40:05 - WARNING - app - 파일 없음, NaN tensor로 대체: Data/Processed/2334315801.parquet
+2025-07-24 13:40:05 - INFO - app - ✅ predict_data 저장 완료: Model/v0/6/predict_data.npy | shape=(1, 1, 36, 258)
+2025-07-24 13:40:11 - INFO - app - ✅ predict_data 저장 완료: Model/v0/7/predict_data.npy | shape=(1, 1, 36, 255)
+2025-07-24 13:40:17 - INFO - app - ✅ predict_data 저장 완료: Model/v0/8/predict_data.npy | shape=(1, 1, 36, 218)
+2025-07-24 13:40:24 - INFO - app - ✅ predict_data 저장 완료: Model/v0/9/predict_data.npy | shape=(1, 1, 36, 199)
+2025-07-24 13:40:34 - INFO - app - ✅ predict_data 저장 완료: Model/v0/10/predict_data.npy | shape=(1, 1, 36, 200)
+2025-07-24 13:40:40 - INFO - app - ✅ predict_data 저장 완료: Model/v0/11/predict_data.npy | shape=(1, 1, 36, 226)
+2025-07-24 13:40:45 - INFO - app - ✅ predict_data 저장 완료: Model/v0/12/predict_data.npy | shape=(1, 1, 36, 247)
+2025-07-24 13:40:51 - INFO - app - ✅ predict_data 저장 완료: Model/v0/13/predict_data.npy | shape=(1, 1, 36, 238)
+2025-07-24 13:40:56 - INFO - app - ✅ predict_data 저장 완료: Model/v0/14/predict_data.npy | shape=(1, 1, 36, 226)
+2025-07-24 13:41:03 - INFO - app - ✅ predict_data 저장 완료: Model/v0/15/predict_data.npy | shape=(1, 1, 36, 260)
+2025-07-24 13:41:09 - INFO - app - ✅ predict_data 저장 완료: Model/v0/16/predict_data.npy | shape=(1, 1, 36, 263)
+2025-07-24 13:41:15 - INFO - app - ✅ predict_data 저장 완료: Model/v0/17/predict_data.npy | shape=(1, 1, 36, 221)
+2025-07-24 13:41:19 - INFO - app - ✅ predict_data 저장 완료: Model/v0/18/predict_data.npy | shape=(1, 1, 36, 223)
+2025-07-24 13:41:25 - INFO - app - ✅ predict_data 저장 완료: Model/v0/19/predict_data.npy | shape=(1, 1, 36, 221)
+2025-07-24 13:41:36 - INFO - app - ✅ predict_data 저장 완료: Model/v0/20/predict_data.npy | shape=(1, 1, 36, 263)
+2025-07-24 13:41:41 - INFO - app - ✅ predict_data 저장 완료: Model/v0/21/predict_data.npy | shape=(1, 1, 36, 219)
+2025-07-24 13:41:47 - INFO - app - ✅ predict_data 저장 완료: Model/v0/22/predict_data.npy | shape=(1, 1, 36, 246)
+2025-07-24 13:41:52 - INFO - app - ✅ predict_data 저장 완료: Model/v0/23/predict_data.npy | shape=(1, 1, 36, 227)
+2025-07-24 13:41:59 - INFO - app - ✅ predict_data 저장 완료: Model/v0/24/predict_data.npy | shape=(1, 1, 36, 184)
+2025-07-24 13:42:07 - INFO - app - ✅ predict_data 저장 완료: Model/v0/25/predict_data.npy | shape=(1, 1, 36, 249)
+2025-07-24 13:42:13 - INFO - app - ✅ predict_data 저장 완료: Model/v0/26/predict_data.npy | shape=(1, 1, 36, 230)
+2025-07-24 13:42:17 - INFO - app - ✅ predict_data 저장 완료: Model/v0/27/predict_data.npy | shape=(1, 1, 36, 221)
+2025-07-24 13:42:23 - INFO - app - ✅ predict_data 저장 완료: Model/v0/28/predict_data.npy | shape=(1, 1, 36, 236)
+2025-07-24 13:42:28 - INFO - app - ✅ predict_data 저장 완료: Model/v0/29/predict_data.npy | shape=(1, 1, 36, 214)
+2025-07-24 13:42:33 - INFO - app - ✅ predict_data 저장 완료: Model/v0/30/predict_data.npy | shape=(1, 1, 36, 226)
+2025-07-24 13:42:41 - INFO - app - ✅ predict_data 저장 완료: Model/v0/31/predict_data.npy | shape=(1, 1, 36, 255)
+2025-07-24 13:42:46 - INFO - app - ✅ predict_data 저장 완료: Model/v0/32/predict_data.npy | shape=(1, 1, 36, 237)
+2025-07-24 13:42:51 - INFO - app - ✅ predict_data 저장 완료: Model/v0/33/predict_data.npy | shape=(1, 1, 36, 221)
+2025-07-24 13:42:56 - INFO - app - ✅ predict_data 저장 완료: Model/v0/34/predict_data.npy | shape=(1, 1, 36, 222)
+2025-07-24 13:43:03 - INFO - app - ✅ predict_data 저장 완료: Model/v0/35/predict_data.npy | shape=(1, 1, 36, 266)
+2025-07-24 13:43:08 - INFO - app - ✅ predict_data 저장 완료: Model/v0/36/predict_data.npy | shape=(1, 1, 36, 229)
+2025-07-24 13:43:15 - INFO - app - ✅ predict_data 저장 완료: Model/v0/37/predict_data.npy | shape=(1, 1, 36, 218)
+2025-07-24 13:43:20 - INFO - app - ✅ predict_data 저장 완료: Model/v0/38/predict_data.npy | shape=(1, 1, 36, 235)
+2025-07-24 13:43:20 - INFO - app - ✅ 데이터 전처리(x) 완료: Model/v0에 저장됨
+2025-07-24 13:43:23 - INFO - app - Done: predict individual cluster results
